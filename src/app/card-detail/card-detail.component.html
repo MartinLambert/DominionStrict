@@ -1,0 +1,68 @@
+<div *ngIf="card" [ngClass]="front ? 'front' : 'back'">
+	<section (click)="front = !front">
+		<aside><img src="assets/cards/{{ card.cardType.includes('Permanent') ? 'permanents' : card.set.replace(' ', '_') }}/{{ card.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg"></aside>
+		<article>
+			<h2>{{ card.name }}</h2>
+			<p class="text" [innerHTML]="card.text"></p>
+			<p class="help" *ngIf="card.help" [innerHTML]="card.help"></p>
+			<p class="setup">
+				<span *ngIf="card.cost.potion">Potions</span>
+				<span *ngIf="card.setup.VP">Victory tokens/mats</span>
+				<span *ngIf="card.setup.debt">Debt tokens</span>
+				<span *ngIf="card.setup.spoils">Spoils</span>
+				<span *ngIf="card.setup.ruins">Ruins</span>
+				<span *ngIf="card.setup.coins">Coins</span>
+				<span *ngIf="card.setup.tavernMats">Tavern Mats</span>
+				<span *ngIf="card.setup.exile">Exile Mats</span>
+				<span *ngIf="card.setup.horse">Horses</span>
+				<span *ngIf="card.setup.coffers">Coffers</span>
+				<span *ngIf="card.setup.villagers">Villagers</span>
+				<span *ngIf="card.setup.journey">Journey tokens</span>
+				<span *ngIf="card.setup.plusAction">+1 Action tokens</span>
+				<span *ngIf="card.setup.plusCard">+1 Card tokens</span>
+				<span *ngIf="card.setup.plusBuy">+1 Buy tokens</span>
+				<span *ngIf="card.setup.plusOne">+<img src="assets/Coin1.png"> tokens</span>
+				<span *ngIf="card.setup.minusOne">−<img src="assets/Coin1.png"> tokens</span>
+				<span *ngIf="card.setup.minusDraw">−1 Card tokens</span>
+				<span *ngIf="card.id === 305">Embargo tokens</span>
+				<span *ngIf="card.id === 310">Island mats</span>
+				<span *ngIf="card.id === 314">Native Village mats</span>
+				<span *ngIf="card.id === 318">Pirate Ship mats</span>
+				<span *ngIf="card.id === 521">Trade Route mat</span>
+				<span *ngIf="card.id === 612">Prizes</span>
+				<span *ngIf="card.id === 613">Bane card</span>
+				<span *ngIf="card.id === 815">Madman</span>
+				<span *ngIf="card.id === 833">Mercenary</span>
+				<span *ngIf="card.id === 1018">Page upgrades</span>
+				<span *ngIf="card.id === 1019">Peasant upgrades</span>
+				<span *ngIf="card.id === 1036">−<img src="assets/Coin2.png"> tokens</span>
+				<span *ngIf="card.id === 1037">Estate tokens</span>
+				<span *ngIf="card.id === 1042">Trashing tokens</span>
+				<span *ngIf="card.id === 1151">Obelisk selection</span>
+				<span *ngIf="card.id === 1042">Trashing tokens</span>
+				<span *ngIf="card.id === 1203">Haunted Mirror</span>
+				<span *ngIf="card.id === 1214">Lucky Coin</span>
+				<span *ngIf="card.id === 1214">Lost in the Woods</span>
+				<span *ngIf="card.id === 1222">Goat</span>
+				<span *ngIf="card.id === 1223">Cursed Gold</span>
+				<span *ngIf="card.id === 1226">Magic Lamp</span>
+				<span *ngIf="card.id === 1227">Pasture</span>
+				<span *ngIf="card.id === 1230">Pouch</span>
+				<span *ngIf="card.id === 1220">Zombies</span>
+				<span *ngIf="card.id === 1232">Bats</span>
+				<span *ngIf="card.cardType.includes('Fate')">Boons</span>
+				<span *ngIf="card.cardType.includes('Doom')">Hexes</span>
+				<span *ngIf="card.cardType.includes('Fate') || card.id === 1212">Will o' Wisps</span>
+				<span *ngIf="card.cardType.includes('Project')">Wooden cubes</span>
+				<span *ngIf="card.id === 1229 || card.id === 1212">Imps</span>
+				<span *ngIf="card.id === 1203 || card.id === 1212">Ghosts</span>
+				<span *ngIf="card.id === 1226 || card.id === 1218">Wishes</span>
+				<span *ngIf="card.id === 1302">Lantern</span>
+				<span *ngIf="card.id === 1302">Horn</span>
+				<span *ngIf="card.id === 1306">Flag</span>
+				<span *ngIf="card.id === 1323">Treasure Chest</span>
+				<span *ngIf="card.id === 1324">Key</span>
+			</p>
+		</article>
+	</section>
+</div>

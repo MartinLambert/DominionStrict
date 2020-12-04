@@ -1,0 +1,21 @@
+<footer [ngClass]="{'open': panelOpen}">
+	<h3 (click)="panelOpen = !panelOpen">Options</h3>
+	<div>
+		<h4>Sets</h4>
+		<ul>
+			<li *ngFor="let setName of allSets">
+				<label><input type="checkbox" [checked]="selectedSets.includes(setName)" (change)="changeSet(setName)"> {{ setName }}</label>
+			</li>
+		</ul>
+		<ul *ngIf="selectedSets.includes('Promo')" class="promoCards">
+			<li *ngFor="let cardName of allPromos">
+				<label><input type="checkbox" [checked]="selectedPromos.includes(cardName)" (change)="changePromo(cardName)"> {{ cardName }}</label>
+			</li>
+		</ul>
+		<h4>Sorting</h4>
+		<ul>
+			<li><label><input type="radio" name="sorting" value="no"  [checked]="sortBySet === 'no'"  (change)="changeSorting('no')"> By Name</label></li>
+			<li><label><input type="radio" name="sorting" value="yes" [checked]="sortBySet === 'yes'" (change)="changeSorting('yes')"> By Set</label></li>
+		</ul>
+	</div>
+</footer>

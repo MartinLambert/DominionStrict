@@ -1,0 +1,74 @@
+<p class="setup">
+	<span *ngIf="setup.platCol"><img src="assets/platCol.png">Platinums/Colonies</span>
+	<span *ngIf="setup.shelters"><img src="assets/shelters.png">Shelters</span>
+	<span *ngIf="setup.potions"><img src="assets/cards/Alchemy/Potion.jpg">Potions</span>
+	<span *ngIf="setup.mirror"><img src="assets/cards/Nocturne/Haunted_Mirror.jpg">Haunted Mirror</span>
+	<span *ngIf="setup.lamp"><img src="assets/cards/Nocturne/Magic_Lamp.jpg">Magic Lamp</span>
+	<span *ngIf="setup.goat"><img src="assets/cards/Nocturne/Goat.jpg">Goat</span>
+	<span *ngIf="setup.pasture"><img src="assets/cards/Nocturne/Pasture.jpg">Pasture</span>
+	<span *ngIf="setup.pouch"><img src="assets/cards/Nocturne/Pouch.jpg">Pouch</span>
+	<span *ngIf="setup.cursedGold"><img src="assets/cards/Nocturne/Cursed_Gold.jpg">Cursed Gold</span>
+	<span *ngIf="setup.luckyCoin"><img src="assets/cards/Nocturne/Lucky_Coin.jpg">Lucky Coin</span>
+</p>
+
+<ul class="cards">
+	<li *ngFor="let card of kingdom.cards" (click)="onSelect(card)" [class.selected]="card === selectedCard"><img src="assets/cards/{{ card.set.replace(' ', '_') }}/{{ card.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg"><br>{{ card.set }}</li>
+</ul>
+<ul *ngIf="kingdom.permanents.length" class="wide">
+	<li *ngFor="let card of kingdom.permanents" (click)="onSelect(card)" [class.selected]="card === selectedCard"><img src="assets/cards/permanents/{{ card.name.replace('’', '').split(' ').join('_') }}.jpg"/><br>{{ card.set }}</li>
+</ul>
+
+<p class="setup">
+	<span *ngIf="setup.VP"><img src="assets/victory.png">Victory tokens/mats</span>
+	<span *ngIf="setup.debt"><img src="assets/debtTokens.png">Debt</span>
+	<span *ngIf="setup.coins"><img src="assets/coins.png">Coins</span>
+	<span *ngIf="setup.embargo"><img src="assets/embargo.png">Embargo tokens</span>
+	<span *ngIf="setup.spoils"><img src="assets/Spoils.jpg">Spoils</span>
+	<span *ngIf="setup.ruins"><img src="assets/ruins.png">Ruins</span>
+	<span *ngIf="setup.horse"><img src="assets/Horse.jpg">Horse pile</span>
+	<span *ngIf="setup.prizes"><img src="assets/cards/Cornucopia/prizes.png">Prizes</span>
+	<span *ngIf="setup.hermit"><img src="assets/Madman.jpg">Madman pile</span>
+	<span *ngIf="setup.urchin"><img src="assets/Mercenary.jpg">Mercenary pile</span>
+	<span *ngIf="setup.page"><img src="assets/page.png">Page upgrades</span>
+	<span *ngIf="setup.peasant"><img src="assets/peasant.png">Peasant upgrades</span>
+	<span *ngIf="setup.wisp"><img src="assets/cards/Nocturne/Will-o-Wisp.jpg">Will o’ Wisp</span>
+	<span *ngIf="setup.imp"><img src="assets/cards/Nocturne/Imp.jpg">Imp</span>
+	<span *ngIf="setup.ghost"><img src="assets/cards/Nocturne/Ghost.jpg">Ghost</span>
+	<span *ngIf="setup.zombies"><img src="assets/cards/Nocturne/Zombies.png">Zombies</span>
+	<span *ngIf="setup.bats"><img src="assets/cards/Nocturne/Bat.jpg">Bats</span>
+	<span *ngIf="setup.wishes"><img src="assets/cards/Nocturne/Wish.jpg">Wish</span>
+	<span *ngIf="setup.villagers || setup.coffers"><img src="assets/CoffersVillagersMat.jpg">Coffers/Villagers Mats</span>
+	<span *ngIf="setup.nativeVillage"><img src="assets/Native_Village_mat.jpg">Native Village mat</span>
+	<span *ngIf="setup.pirateShip"><img src="assets/Pirate_Ship_mat.jpg">Pirate Ship mat</span>
+	<span *ngIf="setup.island"><img src="assets/Island_mat.jpg">Island mat</span>
+	<span *ngIf="setup.tradeRoute"><img src="assets/Trade_Route_mat.jpg">Trade Route mat</span>
+	<span *ngIf="setup.journey"><img src="assets/journey.png">Journey token</span>
+	<span *ngIf="setup.trashing"><img src="assets/trashing.png">Trashing token</span>
+	<span *ngIf="setup.estate"><img src="assets/estate.png">Estate token</span>
+	<span *ngIf="setup.plusAction"><img src="assets/plusAction.png">+1 Action token</span>
+	<span *ngIf="setup.plusCard"><img src="assets/plusCard.png">+1 Card token</span>
+	<span *ngIf="setup.plusBuy"><img src="assets/plusBuy.png">+1 Buy token</span>
+	<span *ngIf="setup.plusOne"><img src="assets/plusCoin.png">+1 Coin token</span>
+	<span *ngIf="setup.minusTwo"><img src="assets/minusTwo.png">−2 Cost token</span>
+	<span *ngIf="setup.minusOne"><img src="assets/minusOne.png">−1 Coin token</span>
+	<span *ngIf="setup.minusDraw"><img src="assets/minusDraw.png">−1 Card token</span>
+	<span *ngIf="setup.obelisk"><img src="assets/cards/{{ setup.obeliskChoice.set.replace(' ', '_') }}/{{ setup.obeliskChoice.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg">Obelisk choice</span>
+	<span *ngIf="setup.mouse"><img src="assets/cards/{{ setup.mouseChoice.set.replace(' ', '_') }}/{{ setup.mouseChoice.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg">Mouse choice</span>
+</p>
+<p class="wide">
+	<span *ngIf="setup.tavernMats"><img src="assets/Tavern_mat.jpg">Tavern Mats</span>
+	<span *ngIf="setup.exile"><img src="assets/Exile_mat.jpg">Exile Mats</span>
+	<span *ngIf="setup.bane"><span class="bane" style="background: transparent url('assets/cards/Cornucopia/Bane.jpg') center/contain no-repeat"><img src="assets/cards/{{ setup.baneChoice.set.replace(' ', '_') }}/{{ setup.baneChoice.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg"></span>Young Witch’s Bane</span>
+	<span *ngIf="setup.boon"><img src="assets/cards/Nocturne/Boon.jpg">Boon deck</span>
+	<span *ngIf="setup.hex"><img src="assets/cards/Nocturne/Hex.jpg">Hex deck</span>
+	<span *ngIf="setup.hex"><img src="assets/states.png">States</span>
+	<span *ngIf="setup.cubes"><img src="assets/cubes.jpg">Wooden cubes</span>
+	<span *ngIf="setup.horn"><img src="assets/cards/Renaissance/Horn.jpg">Horn</span>
+	<span *ngIf="setup.lantern"><img src="assets/cards/Renaissance/Lantern.jpg">Lantern</span>
+	<span *ngIf="setup.flag"><img src="assets/cards/Renaissance/Flag.jpg">Flag</span>
+	<span *ngIf="setup.key"><img src="assets/cards/Renaissance/Key.jpg">Key</span>
+	<span *ngIf="setup.chest"><img src="assets/cards/Renaissance/Treasure_Chest.jpg">Treasure Chest</span>
+</p>
+
+<header class="detail" *ngIf="selectedCard"><button (click)="swapCard.emit(selectedCard)">Swap</button><button (click)="selectedCard = null">X</button></header>
+<dom-card-detail [card]="selectedCard"></dom-card-detail>
