@@ -22,6 +22,15 @@ export class OptionsComponent implements OnInit {
 	constructor(private cookieService: CookieService) {
 	}
 
+	// TODO: no attacks/require attack/random
+	// TODO: require trashing
+	// TODO: how many permanents
+	// TODO: require +2 actions
+	// TODO: require +card
+	// TODO: require +buy
+	// TODO: balance costs (at least one 3, 4, 5 cost)
+	// TODO: how many potion cards
+
 	ngOnInit(): void {
 		if (this.cookieService.check('sets'))
 			this.selectedSets = this.cookieService.get('sets').split(':')

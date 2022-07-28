@@ -65,4 +65,6 @@ export class Setup {
 	mouse = false
 	mouseChoice: Card = new Card()
 	market = false
+	favors = false
+	ally: Card = new Card()
 }

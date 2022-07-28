@@ -355,6 +355,10 @@ export class AppComponent implements OnInit {
 			this.marketSize = Math.min(40, this.marketMax)
 			this.marketState++
 		}
+		if (card.cardType.includes('Liaison')) {
+			setup.favors = true
+			setup.coins = true
+		}
 	}
 
 }
