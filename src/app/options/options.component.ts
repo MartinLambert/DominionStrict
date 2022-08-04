@@ -12,8 +12,8 @@ export class OptionsComponent implements OnInit {
 	@Output() changePromos = new EventEmitter<string[]>()
 	@Output() changeSort = new EventEmitter<string>()
 
-	allSets: string[] = ['Dominion', 'Intrigue', 'Seaside', 'Alchemy', 'Prosperity', 'Cornucopia', 'Hinterlands', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Promo']
-	selectedSets: string[] = ['Dominion', 'Intrigue', 'Seaside', 'Alchemy', 'Prosperity', 'Cornucopia', 'Hinterlands', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Promo']
+	allSets: string[] = ['Dominion1', 'Dominion2', 'Intrigue1', 'Intrigue2', 'Seaside1', 'Seaside2', 'Alchemy', 'Prosperity1', 'Prosperity2', 'Cornucopia', 'Hinterlands1', 'Hinterlands2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Allies', 'Promo']
+	selectedSets: string[] = ['Dominion2', 'Intrigue2', 'Seaside2', 'Alchemy', 'Prosperity2', 'Cornucopia', 'Hinterlands2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Promo']
 	allPromos: string[] = ['Black Market', 'Captain', 'Church', 'Dismantle', 'Envoy', 'Governor', 'Prince', 'Sauna/Avanto', 'Stash', 'Summon', 'Walled Village']
 	selectedPromos: string[] = ['Black Market', 'Captain', 'Church', 'Dismantle', 'Envoy', 'Governor', 'Prince', 'Sauna/Avanto', 'Stash', 'Summon', 'Walled Village']
 	panelOpen = false
