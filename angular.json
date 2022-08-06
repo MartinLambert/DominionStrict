@@ -116,8 +116,7 @@
 				}
 			}
 		}
-	},
-	"defaultProject": "DominionStrict",
+  },
 	"cli": {
 		"analytics": "ab51aaa4-c8a3-4718-820f-8c30af739e82"
 	}

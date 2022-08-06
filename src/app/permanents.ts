@@ -2838,7 +2838,7 @@ export const PERMANENTS: Card[] = [
 	},
 	{
 		id: 1552,
-		name: 'Plateau Shepherd',
+		name: 'Plateau Shepherds',
 		set: 'Allies',
 		edition: [1],
 		cardType: ['Permanent', 'Ally'],
