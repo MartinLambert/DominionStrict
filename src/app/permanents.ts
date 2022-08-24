@@ -2415,7 +2415,10 @@ export const PERMANENTS: Card[] = [
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
 			journey: false, minusOne: false, minusDraw: false
 		},
-	},
+	}
+]
+
+export const ALLIES: Card[] = [
 	{
 		id: 1532,
 		name: 'Architects’ Guild',

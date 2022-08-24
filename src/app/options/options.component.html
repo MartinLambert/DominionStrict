@@ -3,19 +3,83 @@
 	<div>
 		<h4>Sets</h4>
 		<ul>
-			<li *ngFor="let setName of allSets">
-				<label><input type="checkbox" [checked]="selectedSets.includes(setName)" (change)="changeSet(setName)"> {{ setName }}</label>
-			</li>
+			<li>Dominion<ul>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Dominion-1')" (change)="changeSet('Dominion-1')"> 1st Edition</label></li>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Dominion-2')" (change)="changeSet('Dominion-2')"> 2nd Edition</label></li>
+				</ul></li>
+			<li>Intrigue<ul>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Intrigue-1')" (change)="changeSet('Intrigue-1')"> 1st Edition</label></li>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Intrigue-2')" (change)="changeSet('Intrigue-2')"> 2nd Edition</label></li>
+				</ul></li>
+			<li>Seaside<ul>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Seaside-1')" (change)="changeSet('Seaside-1')"> 1st Edition</label></li>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Seaside-2')" (change)="changeSet('Seaside-2')"> 2nd Edition</label></li>
+				</ul></li>
+			<li>Prosperity<ul>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Prosperity-1')" (change)="changeSet('Prosperity-1')"> 1st Edition</label></li>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Prosperity-2')" (change)="changeSet('Prosperity-2')"> 2nd Edition</label></li>
+				</ul></li>
+			<li>Hinterlands<ul>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Hinterlands-1')" (change)="changeSet('Hinterlands-1')"> 1st Edition</label></li>
+					<li><label><input type="checkbox" [checked]="selectedSets.includes('Hinterlands-2')" (change)="changeSet('Hinterlands-2')"> 2nd Edition</label></li>
+				</ul></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Alchemy')" (change)="changeSet('Alchemy')"> Alchemy</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Cornucopia')" (change)="changeSet('Cornucopia')"> Cornucopia</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Dark Ages')" (change)="changeSet('Dark Ages')"> Dark Ages</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Guilds')" (change)="changeSet('Guilds')"> Guilds</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Adventures')" (change)="changeSet('Adventures')"> Adventures</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Empires')" (change)="changeSet('Empires')"> Empires</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Nocturne')" (change)="changeSet('Nocturne')"> Nocturne</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Renaissance')" (change)="changeSet('Renaissance')"> Renaissance</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Menagerie')" (change)="changeSet('Menagerie')"> Menagerie</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Allies')" (change)="changeSet('Allies')"> Allies</label></li>
 		</ul>
-		<ul *ngIf="selectedSets.includes('Promo')" class="promoCards">
+		<h4>Promotional Cards</h4>
+		<ul class="promos"><li><ul>
 			<li *ngFor="let cardName of allPromos">
 				<label><input type="checkbox" [checked]="selectedPromos.includes(cardName)" (change)="changePromo(cardName)"> {{ cardName }}</label>
 			</li>
-		</ul>
-		<h4>Sorting</h4>
+		</ul></li></ul>
+		<h4>Options</h4>
 		<ul>
-			<li><label><input type="radio" name="sorting" value="no"  [checked]="sortBySet === 'no'"  (change)="changeSorting('no')"> By Name</label></li>
-			<li><label><input type="radio" name="sorting" value="yes" [checked]="sortBySet === 'yes'" (change)="changeSorting('yes')"> By Set</label></li>
+			<li>Attacks️<ul><!-- Do we care whether there are cards with the ATTACK type? -->
+					<li><label><input type="radio" name="attacks" value="always" [checked]="options.attacks === optionVals.ALWAYS" (change)="changeOption('attacks', optionVals.ALWAYS)"> Always</label></li>
+					<li><label><input type="radio" name="attacks" value="random" [checked]="options.attacks === optionVals.RANDOM" (change)="changeOption('attacks', optionVals.RANDOM)"> Random</label></li>
+					<li><label><input type="radio" name="attacks" value="never" [checked]="options.attacks === optionVals.NEVER" (change)="changeOption('attacks', optionVals.NEVER)"> Never</label></li>
+				</ul></li>
+			<li>Trashing️<ul><!-- What about cards that allow us to choose and trash cards from our deck? -->
+					<li><label><input type="radio" name="trash" value="always" [checked]="options.trash === optionVals.ALWAYS" (change)="changeOption('trash', optionVals.ALWAYS)"> Always</label></li>
+					<li><label><input type="radio" name="trash" value="random" [checked]="options.trash === optionVals.RANDOM" (change)="changeOption('trash', optionVals.RANDOM)"> Random</label></li>
+					<li><label><input type="radio" name="trash" value="never" [checked]="options.trash === optionVals.NEVER" (change)="changeOption('trash', optionVals.NEVER)"> Never</label></li>
+				</ul></li>
+			<li>+2 Actions️<ul><!-- Should we ensure that there are cards that give us additional actions in a turn? -->
+					<li><label><input type="radio" name="village" value="always" [checked]="options.village === optionVals.ALWAYS" (change)="changeOption('village', optionVals.ALWAYS)"> Always</label></li>
+					<li><label><input type="radio" name="village" value="random" [checked]="options.village === optionVals.RANDOM" (change)="changeOption('village', optionVals.RANDOM)"> Random</label></li>
+					<li><label><input type="radio" name="village" value="never" [checked]="options.village === optionVals.NEVER" (change)="changeOption('village', optionVals.NEVER)"> Never</label></li>
+				</ul></li>
+			<li>+Cards️<ul><!-- Or ways to draw extra cards into our hand? -->
+					<li><label><input type="radio" name="draw" value="always" [checked]="options.draw === optionVals.ALWAYS" (change)="changeOption('draw', optionVals.ALWAYS)"> Always</label></li>
+					<li><label><input type="radio" name="draw" value="random" [checked]="options.draw === optionVals.RANDOM" (change)="changeOption('draw', optionVals.RANDOM)"> Random</label></li>
+					<li><label><input type="radio" name="draw" value="never" [checked]="options.draw === optionVals.NEVER" (change)="changeOption('draw', optionVals.NEVER)"> Never</label></li>
+				</ul></li>
+			<li>+Buy<ul><!-- How about being able to buy extra cards during the Buy phase? -->
+					<li><label><input type="radio" name="buy" value="always" [checked]="options.buy === optionVals.ALWAYS" (change)="changeOption('buy', optionVals.ALWAYS)"> Always</label></li>
+					<li><label><input type="radio" name="buy" value="random" [checked]="options.buy === optionVals.RANDOM" (change)="changeOption('buy', optionVals.RANDOM)"> Random</label></li>
+					<li><label><input type="radio" name="buy" value="never" [checked]="options.buy === optionVals.NEVER" (change)="changeOption('buy', optionVals.NEVER)"> Never</label></li>
+				</ul></li>
+			<li>Potions<ul><!-- If a card with Potions in the cost comes up randomly, should we ensure that there are at least 3 such cards in this kingdom to make buying potions worthwhile? -->
+				<li><label><input type="radio" name="potions" value="never" [checked]="options.potions === optionVals.NEVER" (change)="changeOption('potions', optionVals.NEVER)"> Never</label></li>
+				<li><label><input type="radio" name="potions" value="random" [checked]="options.potions === optionVals.RANDOM" (change)="changeOption('potions', optionVals.RANDOM)"> Random</label></li>
+				<li><label><input type="radio" name="potions" value="priority" [checked]="options.potions === optionVals.MIN3" (change)="changeOption('potions', optionVals.MIN3)"> 0, or 3+</label></li>
+			</ul></li>
+			<li>Card&nbsp;Costs<ul><!-- Is it worth ensuring that there is at least one card costing each of 3, 4, and 5 in every game? -->
+				<li><label><input type="radio" name="costs" value="balanced" [checked]="options.costs === optionVals.BALANCED" (change)="changeOption('costs', optionVals.BALANCED)"> Balanced</label></li>
+				<li><label><input type="radio" name="costs" value="random" [checked]="options.costs === optionVals.RANDOM" (change)="changeOption('costs', optionVals.RANDOM)"> Random</label></li>
+			</ul></li>
+			<li>Sorting<ul><!-- Display the cards in alphabetical order, or listed according to what set they're in? -->
+				<li><label><input type="radio" name="sorting" value="no" [checked]="options.sortBySet === 'no'" (change)="changeOption('sort', 0)"> By Name</label></li>
+				<li><label><input type="radio" name="sorting" value="yes" [checked]="options.sortBySet === 'yes'" (change)="changeOption('sort', 1)"> By Set</label></li>
+			</ul></li>
 		</ul>
 	</div>
 </footer>

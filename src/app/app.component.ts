@@ -4,8 +4,9 @@ import { Game } from './game'
 import { Card } from './card'
 import { Setup } from './setupclass'
 import { CARDS } from './cards'
-import { PERMANENTS } from './permanents'
-import { mark } from '@angular/compiler-cli/src/ngtsc/perf/src/clock'
+import { ALLIES, PERMANENTS } from './permanents'
+import { Options } from './optionsclass'
+import { optionValues } from './optionValues'
 
 @Component({
 	selector: 'dom-root',
@@ -22,7 +23,7 @@ export class AppComponent implements OnInit {
 	selectedCard: Card | null = null
 	selectedSets: string[] = []
 	selectedPromos: string[] = []
-	sortBySet = 'no'
+	options: Options = new Options()
 	market: Game = new Game()
 	marketDraw: Game = new Game()
 	marketDrawSetup: Setup = new Setup()
@@ -35,11 +36,12 @@ export class AppComponent implements OnInit {
 	ngOnInit(): void {
 		this.dominion.cards = CARDS
 		this.dominion.permanents = PERMANENTS
+		this.dominion.allies = ALLIES
 	}
 
 	randomize(): void {
-		// add {kingdomSize} random cards to the kingdom deck, with at least one each of cost 3, 4, and 5, and up to 2 permanents
-		let deck: Card[] = []
+		// add {kingdomSize} random cards and up to 2 permanents to the kingdom deck, consistent with the chosen options
+		let deck: Card[]
 		let cardsOK = false
 		deck = this.kingdom.cards = []
 		this.kingdom.permanents = []
@@ -51,8 +53,30 @@ export class AppComponent implements OnInit {
 			while (deck.length) deck.pop()
 			while (deck.length < this.kingdomSize)
 				this.addCard(deck)
-			const costs = deck.map(({cost}) => cost.coin)
-			cardsOK = costs.includes(3) && costs.includes(4) && costs.includes(5)
+			cardsOK = true
+			// Attacks
+			const types = deck.map(({cardType}) => cardType)
+			if ((this.options.attacks === optionValues.ALWAYS && !types.flat().includes('Attack')) || (this.options.attacks === optionValues.NEVER && types.flat().includes('Attack'))) cardsOK = false
+			// Trashing
+			const trash = deck.map(({flags}) => flags.trashing)
+			if ((this.options.trash === optionValues.ALWAYS && !trash.includes(true)) || (this.options.trash === optionValues.NEVER && trash.includes(true))) cardsOK = false
+			// Villages
+			const village = deck.map(({flags}) => flags.village)
+			if ((this.options.village === optionValues.ALWAYS && !village.includes(true)) || (this.options.village === optionValues.NEVER && village.includes(true))) cardsOK = false
+			// Draw cards
+			const draw = deck.map(({flags}) => flags.drawing)
+			if ((this.options.draw === optionValues.ALWAYS && !draw.includes(true)) || (this.options.draw === optionValues.NEVER && draw.includes(true))) cardsOK = false
+			// Draw cards
+			const buy = deck.map(({flags}) => flags.buyer)
+			if ((this.options.buy === optionValues.ALWAYS && !buy.includes(true)) || (this.options.buy === optionValues.NEVER && buy.includes(true))) cardsOK = false
+			// Potions: either at least 3, or none at all
+			const potions = deck.map(({cost}) => cost.potion).filter((v) => v === 1).length
+			if ((this.options.potions === optionValues.NEVER && potions > 0) || (this.options.potions === optionValues.MIN3 && (potions > 0 && potions < 3))) cardsOK = false
+			// Balanced card costs
+			if (this.options.costs === optionValues.BALANCED) {
+				const costs = deck.map(({cost}) => cost.coin)
+				if (!(costs.includes(3) && costs.includes(4) && costs.includes(5))) cardsOK = false
+			}
 		}
 
 		this.setup = new Setup()
@@ -62,10 +86,8 @@ export class AppComponent implements OnInit {
 			// There is a 25% chance of no permanents, 50% chance of one, 25% chance of two.
 			let numPermanents = 0
 			const theRand = Math.random()
-			if (theRand > 0.25)
-				numPermanents++
-			if (theRand > 0.75)
-				numPermanents++
+			if (theRand > 0.25) numPermanents++
+			if (theRand > 0.75) numPermanents++
 
 			while (this.kingdom.permanents.length < numPermanents)
 				this.kingdom.permanents.push(this.owned.permanents[Math.floor(Math.random() * this.owned.permanents.length)])
@@ -74,6 +96,8 @@ export class AppComponent implements OnInit {
 				this.kingdom.permanents.pop()
 			this.doSetup(this.kingdom.permanents, this.setup)
 		}
+		if (this.setup.favors)
+			this.kingdom.permanents.push(this.dominion.allies[Math.floor(Math.random() * this.dominion.allies.length)])
 	}
 
 	selectCard(card: Card | null): void {
@@ -101,7 +125,7 @@ export class AppComponent implements OnInit {
 			for (const card of deck) {
 				if (newCard === card)
 					cardOK = false
-				if (this.sortBySet === 'yes') {
+				if (this.options.sortBySet === 'yes') {
 					if (card.id < newCard.id)
 						insertIndex++
 				} else if (card.name < newCard.name)
@@ -179,18 +203,18 @@ export class AppComponent implements OnInit {
 		this.updateOwned()
 		this.resetGame()
 	}
-	changeSorting(bySet: string): void {
-		this.sortBySet = bySet
-		if (bySet === 'yes')
-			this.owned.cards.sort((cardA, cardB) => cardA.id - cardB.id)
-		else
-			this.owned.cards.sort((cardA, cardB) => cardA.name > cardB.name ? -1 : 1)
+	changeOpts(newOptions: Options): void {
+		this.options = newOptions
+		this.resetGame()
 	}
 	updateOwned(): void {
-		this.owned.cards = this.dominion.cards.filter(card =>
-			card.set === 'Promo' ? this.selectedPromos.includes(card.name) : this.selectedSets.includes(card.set))
+		this.owned.cards = this.dominion.cards.filter((card) => {
+			if (card.set === 'Promo')  return (this.selectedSets.includes('Promo') && this.selectedPromos.includes(card.name))
+			else if (card.edition.length > 1 || card.edition === [2]) return this.selectedSets.includes(card.set + '-2')
+			else return (this.selectedSets.includes(card.set) || this.selectedSets.includes(card.set + '-1'))
+		})
 		this.owned.permanents = this.dominion.permanents.filter(card =>
-			card.set === 'Promo' ? this.selectedPromos.includes(card.name) : this.selectedSets.includes(card.set))
+			card.set === 'Promo' ? (this.selectedSets.includes('Promo') && this.selectedPromos.includes(card.name)) : this.selectedSets.includes(card.set))
 	}
 
 	resetGame(): void {

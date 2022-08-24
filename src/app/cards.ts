@@ -1200,7 +1200,7 @@ export const CARDS: Card[] = [
 	},
 	{
 		id: 226,
-		name: '’ing Well',
+		name: 'Wishing Well',
 		set: 'Intrigue',
 		edition: [1, 2],
 		cardType: ['Action'],

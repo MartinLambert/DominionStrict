@@ -2,7 +2,7 @@
 	<button (click)="randomize()">Randomize</button>
 </header>
 <dom-card-list (selectCard)="selectCard($event)" (swapCard)="swapCard($event)" (generateMarket)="generateMarketDeck($event)" [kingdom]="kingdom" [setup]="setup" [selectedCard]="selectedCard"></dom-card-list>
-<dom-options (changeSets)="changeSets($event)" (changePromos)="changePromos($event)" (changeSort)="changeSorting($event)"></dom-options>
+<dom-options (changeSets)="changeSets($event)" (changePromos)="changePromos($event)" (changeOptions)="changeOpts($event)"></dom-options>
 
 <section class="market" *ngIf="setup.market">
 	<header style="background: transparent url('assets/cards/Promo/Market.jpg') center/contain no-repeat">
