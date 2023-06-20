@@ -16,7 +16,7 @@ export class Card {
 		spoils: boolean, ruins: boolean, horse: boolean, coins: boolean, debt: boolean, VP: boolean,
 		tavernMats: boolean, coffers: boolean, villagers: boolean, exile: boolean,
 		plusCard: boolean, plusAction: boolean, plusBuy: boolean, plusOne: boolean,
-		journey: boolean, minusOne: boolean, minusDraw: boolean
+		journey: boolean, minusOne: boolean, minusDraw: boolean, loot: boolean
 	}
 
 	constructor() {
@@ -37,7 +37,7 @@ export class Card {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	}
 }

@@ -322,6 +322,8 @@ export class AppComponent implements OnInit {
 			setup.page = true
 		if (card.id === 1019)
 			setup.peasant = true
+		if (card.setup.loot)
+			setup.loot = true
 		if (card.id === 1036)
 			setup.minusTwo = true
 		if (card.id === 1037)

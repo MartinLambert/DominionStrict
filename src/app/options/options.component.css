@@ -10,8 +10,19 @@ footer > div {
   width: max-content;
   max-height: calc(94vh - 2.5em);
   max-width: 50vw;
+  min-width: 520px;
   margin: auto;
   overflow: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
+}
+footer > div button {
+  position: absolute;
+  right: 0;
+  width: min-content;
 }
 footer.open > div {
   display: flex;

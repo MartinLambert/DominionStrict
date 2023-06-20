@@ -41,6 +41,7 @@ export class Setup {
 	urchin = false
 	page = false
 	peasant = false
+	loot = false
 	mirror = false
 	lamp = false
 	goat = false

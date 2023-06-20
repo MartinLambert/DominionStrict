@@ -1,39 +1,34 @@
 div {
 	position: fixed;
-	top: 0; left: 0;
-	bottom: 0; right: 0;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	background-color: #333;
 	display: grid;
 	grid-template-rows: 3em auto;
-	perspective: 1000px;
-	background: #000;
+	overflow: auto;
 
-	aside, article {
-		position: absolute;
-		top: 3em; left: 0;
-		bottom: 0; right: 0;
-		overflow: auto;
-		backface-visibility: hidden;
-
-		img {
-			max-width: 100vw;
-		}
-	}
 	aside {
-		background: #000;
 		display: grid;
 		align-items: center;
 		justify-items: center;
 	}
 	article {
-		transform: rotateY(180deg);
+		max-width: 40em;
+		margin: auto;
 		background: #EEE;
 		color: #000;
 		padding: 1em;
+		text-align: center;
+
+		h2 {
+			margin-top: 0;
+		}
 
 		.help {
 			background: #DDD;
 			border: 1px solid silver;
 			padding: 0.5em;
+			text-align: left;
 		}
 
 		.setup span {
@@ -44,16 +39,5 @@ div {
 			background: lightblue;
 			color: blue;
 		}
-	}
-
-	section {
-		transition: 0.6s;
-		transform: rotateY(0deg);
-		transform-style: preserve-3d;
-		position: relative;
-		height: 100vh;
-	}
-	&.back section {
-		transform: rotateY(180deg);
 	}
 }

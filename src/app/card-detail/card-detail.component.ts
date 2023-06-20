@@ -9,7 +9,6 @@ import { Card } from '../card'
 export class CardDetailComponent implements OnInit {
 
 	@Input() card: Card | null
-	front = true
 
 	constructor() {
 		this.card = null

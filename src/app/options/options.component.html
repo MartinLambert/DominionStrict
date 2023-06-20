@@ -1,6 +1,7 @@
 <footer [ngClass]="{'open': panelOpen}">
 	<h3 (click)="panelOpen = !panelOpen">Options</h3>
 	<div>
+		<button (click)="panelOpen = !panelOpen">X</button>
 		<h4>Sets</h4>
 		<ul>
 			<li>Dominion<ul>
@@ -33,6 +34,7 @@
 			<li><label><input type="checkbox" [checked]="selectedSets.includes('Renaissance')" (change)="changeSet('Renaissance')"> Renaissance</label></li>
 			<li><label><input type="checkbox" [checked]="selectedSets.includes('Menagerie')" (change)="changeSet('Menagerie')"> Menagerie</label></li>
 			<li><label><input type="checkbox" [checked]="selectedSets.includes('Allies')" (change)="changeSet('Allies')"> Allies</label></li>
+			<li><label><input type="checkbox" [checked]="selectedSets.includes('Plunder')" (change)="changeSet('Plunder')"> Plunder</label></li>
 		</ul>
 		<h4>Promotional Cards</h4>
 		<ul class="promos"><li><ul>

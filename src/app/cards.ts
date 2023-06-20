@@ -19,7 +19,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -40,7 +40,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -61,7 +61,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -82,7 +82,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -103,7 +103,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -118,13 +118,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>You may immediately put your deck into your discard pile.',
-		help: '<p>This card was removed for the 2nd Edition of Dominion</p><ul class="faq"><li>You must resolve the Chancellor (decide whether or not to discard your Deck by flipping it into your Discard pile) before doing other things on your turn, like deciding what to buy or playing another Action card.</li><li>You may not look through your Deck as you discard it.</li></ul><ul class="rules"><li>Putting your Deck in your Discard pile in this manner does not count as individually discarding each card in your deck, and you may not use Reactions that require discarding a card (such as that of Tunnels) as you put those cards in your discard pile with Chancellor.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Dominion</p><ul class="faq"><li>You must resolve the Chancellor (decide whether to discard your Deck by flipping it into your Discard pile) before doing other things on your turn, like deciding what to buy or playing another Action card.</li><li>You may not look through your Deck as you discard it.</li></ul><ul class="rules"><li>Putting your Deck in your Discard pile in this manner does not count as individually discarding each card in your deck, and you may not use Reactions that require discarding a card (such as that of Tunnels) as you put those cards in your discard pile with Chancellor.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -145,7 +145,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -166,7 +166,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -187,7 +187,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -208,7 +208,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -229,7 +229,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -250,7 +250,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -271,7 +271,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -292,7 +292,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -313,7 +313,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -334,7 +334,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -355,7 +355,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -376,7 +376,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -397,7 +397,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -418,7 +418,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -439,7 +439,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -460,7 +460,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -481,7 +481,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -502,7 +502,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -523,7 +523,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -544,7 +544,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -565,7 +565,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -586,7 +586,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -607,7 +607,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 }
 	},
 	{
@@ -628,7 +628,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -649,7 +649,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -670,7 +670,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -691,7 +691,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -706,13 +706,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Buy<br>+<img src="assets/Coin1.png" alt="1 coin"></b><br>This turn, cards (everywhere) cost <img src="assets/Coin1.png" alt="1 coin"> less, but not less than <img src="assets/Coin0.png" alt="0 coins">.',
-		help: '<ul class="faq"><li>All cards, including cards in the Supply, in play, in decks, and in hands, cost <img src="assets/Coin1.png" alt="1 coin"> less for the rest of this turn, but not less than <img src="assets/Coin0.png" alt="0 coins">.</li><li>For example after playing Bridge, you could buy a Gold with <img src="assets/Coin5.png" alt="5 coins">, since Gold only costs <img src="assets/Coin5.png" alt="5 coins">; you could Upgrade Copper to Estate, since Copper still costs <img src="assets/Coin0.png" alt="0 coins">, but Estate costs <img src="assets/Coin1.png" alt="1 coin">; you could use Ironworks to gain a Duchy, since Duchy only costs <img src="assets/Coin4.png" alt="4 coins">.</li><li>This is cumulative; if you play two Bridges (or the same Bridge twice via Throne Room), cards will cost <img src="assets/Coin2.png" alt="2 coins"> less.</li></ul><ul class="rules"><li>The effect of Bridge does not depend on the Bridge card itself being in play—only on how many times you’ve played it this turn. Thus if you use Procession on a Bridge, costs are still reduced (by <img src="assets/Coin2.png" alt="2 coins">) even though the Bridge ends up in the trash.</li></ul>',
+		help: '<ul class="faq"><li>All cards, including cards in the Supply, in play, in decks, and in hands, cost <img src="assets/Coin1.png" alt="1 coin"> less for the rest of this turn, but not less than <img src="assets/Coin0.png" alt="0 coins">.</li><li>For example after playing Bridge, you could buy a Gold with <img src="assets/Coin5.png" alt="5 coins">, since Gold only costs <img src="assets/Coin5.png" alt="5 coins">; you could Upgrade Copper to Estate, since Copper still costs <img src="assets/Coin0.png" alt="0 coins">, but Estate costs <img src="assets/Coin1.png" alt="1 coin">; you could use Ironworks to gain a Duchy, since Duchy only costs <img src="assets/Coin4.png" alt="4 coins">.</li><li>This is cumulative; if you play two Bridges (or the same Bridge twice via Throne Room), cards will cost <img src="assets/Coin2.png" alt="2 coins"> less.</li></ul><ul class="rules"><li>The effect of Bridge does not depend on the Bridge card itself being in play—only on how many times you’ve played it this turn. Thus, if you use Procession on a Bridge, costs are still reduced (by <img src="assets/Coin2.png" alt="2 coins">) even though the Bridge ends up in the trash.</li></ul>',
 		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -733,7 +733,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -754,7 +754,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -775,7 +775,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -790,13 +790,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Cards</b><br>If you have 5 or fewer cards in hand (after drawing), <b>+2 Actions</b>.<hr>When another player plays an Attack card, you may first reveal this from a hand of 5 or more cards, to draw 2 cards then discard 3.',
-		help: '<p>This card was added for the 2nd Edition of Intrigue</p><ul class="faq"><li>When playing this, you get +2 Cards, then count your cards in hand, and if you have 5 cards or fewer, you get +2 Actions.</li><li>So, for example if you play this from a hand of 5 cards, you will put it into play, going down to 4 cards, then draw 2 cards, going up to 6 cards, and that is more than 5 cards so you would not get the +2 Actions.</li><li>Diplomat can also be used when another player plays an Attack card, if you have at least 5 cards in hand.</li><li>Before the Attack card does anything, you can reveal a Diplomat from your hand; if you do, you draw 2 cards, then discard 3 cards (which can include the Diplomat).</li><li>If you still have at least 5 cards in hand after doing that (such as due to Council Rooms), you can reveal Diplomat again and do it again.</li><li>You reveal Reactions one at a time; you cannot reveal two Diplomats simultaneously.</li><li>You can reveal a Moat from your hand (to be unaffected by an Attack) either before or after revealing and resolving a Diplomat (even if the Moat was not in your hand until after resolving Diplomat).</li></ul>',
+		help: '<p>This card was added for the 2nd Edition of Intrigue</p><ul class="faq"><li>When playing this, you get +2 Cards, then count your cards in hand, and if you have 5 cards or fewer, you get +2 Actions.</li><li>So, for example if you play this from a hand of 5 cards, you will put it into play, going down to 4 cards, then draw 2 cards, going up to 6 cards, and that is more than 5 cards, so you would not get the +2 Actions.</li><li>Diplomat can also be used when another player plays an Attack card, if you have at least 5 cards in hand.</li><li>Before the Attack card does anything, you can reveal a Diplomat from your hand; if you do, you draw 2 cards, then discard 3 cards (which can include the Diplomat).</li><li>If you still have at least 5 cards in hand after doing that (such as due to Council Rooms), you can reveal Diplomat again and do it again.</li><li>You reveal Reactions one at a time; you cannot reveal two Diplomats simultaneously.</li><li>You can reveal a Moat from your hand (to be unaffected by an Attack) either before or after revealing and resolving a Diplomat (even if the Moat was not in your hand until after resolving Diplomat).</li></ul>',
 		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -817,7 +817,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -838,7 +838,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -859,7 +859,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -880,7 +880,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -901,7 +901,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -922,7 +922,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -937,13 +937,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+2 Actions</b><br>You may trash this for +<img src="assets/Coin2.png" alt="2 coins">.',
-		help: '<ul class="faq"><li>First draw a card and get +2 Actions; then choose whether or not to trash Mining Village before moving on to other actions or other phases, getting +<img src="assets/Coin2.png" alt="2 coins"> if you did.</li><li>You may not trash Mining Village later in the turn, only right then.</li><li>If you Throne Room a Mining Village, you cannot trash it twice (and so cannot get the +<img src="assets/Coin2.png" alt="2 coins"> twice).</li></ul>',
+		help: '<ul class="faq"><li>First draw a card and get +2 Actions; then choose whether to trash Mining Village before moving on to other actions or other phases, getting +<img src="assets/Coin2.png" alt="2 coins"> if you did.</li><li>You may not trash Mining Village later in the turn, only right then.</li><li>If you Throne Room a Mining Village, you cannot trash it twice (and so cannot get the +<img src="assets/Coin2.png" alt="2 coins"> twice).</li></ul>',
 		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -958,13 +958,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Choose one: +<img src="assets/Coin2.png" alt="2 coins">; or discard your hand, <b>+4 Cards</b>, and each other player with at least 5 cards in hand discards their hand and draws 4 cards.',
-		help: '<ul class="faq"><li>Players ’ing to respond with e.g. Moat or Diplomat do so before you choose your option.</li><li>A player who Moats this neither discards nor draws.</li></ul><ul class="rules"><li>You still draw 4 cards if you choose the discard option with no cards left in hand.</li><li>Horse Traders normally doesn’t actually block an attack, but in the case of Minion it can.</li></ul>',
+		help: '<ul class="faq"><li>Players wishing to respond with e.g. Moat or Diplomat do so before you choose your option.</li><li>A player who Moats this neither discards nor draws.</li></ul><ul class="rules"><li>You still draw 4 cards if you choose the discard option with no cards left in hand.</li><li>Horse Traders normally doesn’t actually block an attack, but in the case of Minion it can.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -985,7 +985,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1006,7 +1006,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1027,7 +1027,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1048,7 +1048,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1069,7 +1069,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1090,7 +1090,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1111,7 +1111,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1132,7 +1132,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1153,7 +1153,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1174,7 +1174,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1195,7 +1195,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1216,7 +1216,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1237,7 +1237,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1258,7 +1258,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1279,7 +1279,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1300,7 +1300,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1321,7 +1321,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1342,7 +1342,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1363,7 +1363,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1384,7 +1384,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1405,7 +1405,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1426,7 +1426,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1447,7 +1447,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1468,7 +1468,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1489,7 +1489,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1510,7 +1510,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1531,7 +1531,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1546,13 +1546,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Put this and a card from your hand onto your Island mat.<hr>2<img src="assets/VP.png" alt="victory points">',
-		help: '<ul class="faq"><li>When you set aside your first Island, take an Island player mat to put it on.</li><li>Island and the set aside card are face up on the mat; anyone can look at them.</li><li>They stay there until the end of the game, when you return them to your deck and count your score.</li><li>When playing Island, you have to set aside a card if you can.</li><li>If you play a Command card that plays an Island, you leave the Island in its pile and you move a card to the Island mat.</li><li>If you Throne Room an Island, you set aside two cards with it.</li><li>Use 8 copies of Island for games with 2 players, 12 for games with 3 or more players.</li></ul><ul class="rules"><li>If you Procession an Island, you set it aside with a card, then you set aside another card; you do not trash the Island because it has already been set aside, but you do gain a card costing <img src="assets/Coin1.png" alt="1 coin"> more than the Island.</li></ul>',
+		help: '<ul class="faq"><li>When you set aside your first Island, take an Island player mat to put it on.</li><li>Island and the set aside card are face up on the mat; anyone can look at them.</li><li>They stay there until the end of the game, when you return them to your deck and count your score.</li><li>When playing Island, you have to set aside a card if you can.</li><li>If you play a Command card that plays an Island, you leave the Island in its pile, and you move a card to the Island mat.</li><li>If you Throne Room an Island, you set aside two cards with it.</li><li>Use 8 copies of Island for games with 2 players, 12 for games with 3 or more players.</li></ul><ul class="rules"><li>If you Procession an Island, you set it aside with a card, then you set aside another card; you do not trash the Island because it has already been set aside, but you do gain a card costing <img src="assets/Coin1.png" alt="1 coin"> more than the Island.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1573,7 +1573,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1594,7 +1594,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1615,7 +1615,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1630,13 +1630,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Actions</b><br>Choose one: Put the top card of your deck face down on your Native Village mat (you may look at those cards at any time); or put all the cards from your mat into your hand.',
-		help: '<ul class="faq"><li>When you play this, you either take all of the cards from your mat, or set aside the top card of your deck on your mat.</li><li>When you first set aside a card with Native Village, take a Native Village mat to put the cards on.</li><li>You can look at the cards on your mat whenever you like, but other players cannot.</li><li>You may choose either option even if there are no cards in your deck or no cards on your mat.</li><li>You cannot look at the top card before deciding whether to set it aside or take the cards from the mat.</li><li>At the end of the game, all cards from the mat are returned to your deck for scoring.</li></ul><ul class="rules"><li>If you choose to place the top card of your deck on the Native Village player mat you may then immediately look at the card, but your choice has been done.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you either take all the cards from your mat, or set aside the top card of your deck on your mat.</li><li>When you first set aside a card with Native Village, take a Native Village mat to put the cards on.</li><li>You can look at the cards on your mat whenever you like, but other players cannot.</li><li>You may choose either option even if there are no cards in your deck or no cards on your mat.</li><li>You cannot look at the top card before deciding whether to set it aside or take the cards from the mat.</li><li>At the end of the game, all cards from the mat are returned to your deck for scoring.</li></ul><ul class="rules"><li>If you choose to place the top card of your deck on the Native Village player mat you may then immediately look at the card, but your choice has been done.</li></ul>',
 		flags: { village: true, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1657,7 +1657,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1672,13 +1672,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'If this is the first time you played an Outpost this turn, and the previous turn wasn’t yours, then take an extra turn after this one, and you only draw 3 cards for your next hand.',
-		help: '<ul class="faq"><li>Outpost only does anything the first time you play it in a turn, and only if the previous turn was another player’s (meaning, you are not already taking an extra turn).</li><li>If these conditions are met, you take an extra turn, and only draw 3 cards for your next hand rather than 5 (thus usually only having 3 cards in hand on the extra turn).</li><li>Except for the smaller starting hand, the extra turn is a normal turn.</li><li>If you play e.g. Merchant Ship in the same turn as Outpost, the extra turn will be when you get the +<img src="assets/Coin2.png" alt="2 coins"> from Merchant Ship.</li><li>Extra turns do not count towards the tiebreaker of which tied player had fewer turns.</li></ul><ul class="rules"><li>Remember that the extra turn is completely normal (if it happens); it is the turn in which you play Outpost which is different, in that you only draw three cards during Clean-up.</li><li>This makes Outpost an exception to the basic rule that Duration cards are discarded from play during the Clean-up phase of the last turn on which they “do something”; Outpost doesn’t do anything on the extra turn it creates, but it is not cleaned up until the end of the extra turn regardless.</li><li>Playing Throne Room (or similar cards) on Outpost would seem to do nothing, but the Throne Room will still have to stay out with the Outpost as long as it does.</li><li>If you play more than 1 Outpost in a turn, the extra Outposts will do nothing and they will get discarded from play this turn. This is true even if the first Outpost was enchanted or played as a Way.</li><li>If the previous player played multiple Possessions, and tells you to play an Outpost on the first Possession turn, you get to decide whether to take the Outpost turn first, or one of the other Possession turns. Possession does not have any power in-between turns, making the choice your decision.</li><li>If you buy Mission or Seize the Day or play Voyage on the same turn you play Outpost, you can order those extra turns. The first one you take though, will start with a 3-card hand.</li><li>If you play Outpost and Lich in the same turn, you draw a 3-card hand, skip the Outpost turn, and you keep that hand for your next actual turn. Outpost is discarded during the next Clean-up that happens (either yours or another player’s).</li><li>If you play Voyage and Outpost in the same turn, you can take the extra turns in either order. If you take the Outpost turn second, Outpost will stay in play until you take its extra turn.</li></ul>',
+		help: '<ul class="faq"><li>Outpost only does anything the first time you play it in a turn, and only if the previous turn was another player’s (meaning, you are not already taking an extra turn).</li><li>If these conditions are met, you take an extra turn, and only draw 3 cards for your next hand rather than 5 (thus usually only having 3 cards in hand on the extra turn).</li><li>Except for the smaller starting hand, the extra turn is a normal turn.</li><li>If you play e.g. Merchant Ship in the same turn as Outpost, the extra turn will be when you get the +<img src="assets/Coin2.png" alt="2 coins"> from Merchant Ship.</li><li>Extra turns do not count towards the tiebreaker of which tied player had fewer turns.</li></ul><ul class="rules"><li>Remember that the extra turn is completely normal (if it happens); it is the turn in which you play Outpost which is different, in that you only draw three cards during Clean-up.</li><li>This makes Outpost an exception to the basic rule that Duration cards are discarded from play during the Clean-up phase of the last turn on which they “do something”; Outpost doesn’t do anything on the extra turn it creates, but it is not cleaned up until the end of the extra turn regardless.</li><li>Playing Throne Room (or similar cards) on Outpost would seem to do nothing, but the Throne Room will still have to stay out with the Outpost as long as it does.</li><li>If you play more than 1 Outpost in a turn, the extra Outposts will do nothing, and they will get discarded from play this turn. This is true even if the first Outpost was enchanted or played as a Way.</li><li>If the previous player played multiple Possessions, and tells you to play an Outpost on the first Possession turn, you get to decide whether to take the Outpost turn first, or one of the other Possession turns. Possession does not have any power in-between turns, making the choice your decision.</li><li>If you buy Mission or Seize the Day or play Voyage on the same turn you play Outpost, you can order those extra turns. The first one you take though, will start with a 3-card hand.</li><li>If you play Outpost and Lich in the same turn, you draw a 3-card hand, skip the Outpost turn, and you keep that hand for your next actual turn. Outpost is discarded during the next Clean-up that happens (either yours or another player’s).</li><li>If you play Voyage and Outpost in the same turn, you can take the extra turns in either order. If you take the Outpost turn second, Outpost will stay in play until you take its extra turn.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1699,7 +1699,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1720,7 +1720,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1741,7 +1741,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1762,7 +1762,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1783,7 +1783,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1804,7 +1804,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1825,7 +1825,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1840,13 +1840,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action<br>+<img src="assets/Coin1.png" alt="1 coin"></b><br>At the end of your Buy phase this turn, if you didn’t gain a Victory card in it, you may put this onto your deck.',
-		help: '<ul class="faq"><li>If you didn’t gain any Victory cards during your Buy phase, you may put any or all of your played Treasuries on top of your deck at the end of it.</li><li>If you did gain at least one Victory card, all of the Treasuries are discarded normally.</li><li>Victory cards gained outside of the Buy phase, such as with Smugglers, don’t prevent you from putting Treasuries on your deck.</li></ul><ul class="rules"><li>In 2022, Treasury was reworded, which changed its topdecking condition from not buying a Victory card to not gaining a Victory card in your Buy phase.</li><li>Returning from your Buy phase to your Action phase (e.g. with Villa or Cavalry) counts as ending your Buy phase, which will let you put Treasury onto your deck. You can potentially do this multiple times a turn.</li><li>If you gain a Cavalry, you get the +2 Cards before you get to put Treasury onto your deck.</li></ul>',
+		help: '<ul class="faq"><li>If you didn’t gain any Victory cards during your Buy phase, you may put any or all of your played Treasuries on top of your deck at the end of it.</li><li>If you did gain at least one Victory card, all the Treasuries are discarded normally.</li><li>Victory cards gained outside the Buy phase, such as with Smugglers, don’t prevent you from putting Treasuries on your deck.</li></ul><ul class="rules"><li>In 2022, Treasury was reworded, which changed its topdecking condition from not buying a Victory card to not gaining a Victory card in your Buy phase.</li><li>Returning from your Buy phase to your Action phase (e.g. with Villa or Cavalry) counts as ending your Buy phase, which will let you put Treasury onto your deck. You can potentially do this multiple times a turn.</li><li>If you gain a Cavalry, you get the +2 Cards before you get to put Treasury onto your deck.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1867,7 +1867,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1888,7 +1888,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1909,7 +1909,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1930,7 +1930,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1951,7 +1951,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1972,7 +1972,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -1987,13 +1987,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Once this turn, when you gain a Duration card, you may play it.<br>At the start of your next turn, +<img src="assets/Coin2.png" alt="2 coins"> and you may trash a card from your hand.',
-		help: '<p>This card was added for the 2nd Edition of Seaside</p><ul class="faq"><li>If you gain a Duration card the turn you play Sailor, playing it is optional.</li><li>This is cumulative; if you play two Sailors, you can play up to two gained Duration cards. However two Sailors cannot play the same gained Duration card twice.</li><li>Sailor applies to cards gained due to being bought, or gained other ways, such as with Workshop.</li><li>If you gain a Duration card in your Buy phase, Sailor can play it, even though it’s your Buy phase. If such a card gives you +Actions, that doesn’t let you play more Action cards in your Buy phase; if it draws Treasure cards, you can only play them if you haven’t bought any cards yet.</li><li>The ability to play Duration cards only happens the turn you play Sailor; on your next turn, you just get +<img src="assets/Coin2.png" alt="2 coins"> and may trash a card from your hand.</li></ul><ul class="rules"><li>The Duration doesn’t need to be an Action, meaning that you can play Night-Durations when you gain them (like Cobbler).</li><li>If you exchange a Hero for a Champion, you aren’t gaining it, so you can’t play it.</li><li>If you gain a Garrison and play it, you’ll immediately add a token to Garrison.</li><li>This can play a gained Duration even if it was gained to somewhere other than your discard pile (such as a Guardian, or a card gained with Blockade), or if another card is trying to move it at the same time (such as Gatekeeper). But if the gained card has already gotten moved (e.g. by another Sailor), then this can’t play it.</li></ul>',
+		help: '<p>This card was added for the 2nd Edition of Seaside</p><ul class="faq"><li>If you gain a Duration card the turn you play Sailor, playing it is optional.</li><li>This is cumulative; if you play two Sailors, you can play up to two gained Duration cards. However, two Sailors cannot play the same gained Duration card twice.</li><li>Sailor applies to cards gained due to being bought, or gained other ways, such as with Workshop.</li><li>If you gain a Duration card in your Buy phase, Sailor can play it, even though it’s your Buy phase. If such a card gives you +Actions, that doesn’t let you play more Action cards in your Buy phase; if it draws Treasure cards, you can only play them if you haven’t bought any cards yet.</li><li>The ability to play Duration cards only happens the turn you play Sailor; on your next turn, you just get +<img src="assets/Coin2.png" alt="2 coins"> and may trash a card from your hand.</li></ul><ul class="rules"><li>The Duration doesn’t need to be an Action, meaning that you can play Night-Durations when you gain them (like Cobbler).</li><li>If you exchange a Hero for a Champion, you aren’t gaining it, so you can’t play it.</li><li>If you gain a Garrison and play it, you’ll immediately add a token to Garrison.</li><li>This can play a gained Duration even if it was gained to somewhere other than your discard pile (such as a Guardian, or a card gained with Blockade), or if another card is trying to move it at the same time (such as Gatekeeper). But if the gained card has already gotten moved (e.g. by another Sailor), then this can’t play it.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2014,7 +2014,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2035,7 +2035,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2056,7 +2056,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2077,7 +2077,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2098,7 +2098,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2113,13 +2113,13 @@ export const CARDS: Card[] = [
 			potion: 1
 		},
 		text: '<b>+1 Card<br>+1 Action</b><br>Reveal the top 4 cards of your deck. Put the Coppers and Potions into your hand. Put the rest back in any order.',
-		help: '<ul class="faq"><li>You draw a card and get +1 Action first.</li><li>Then reveal the top four cards of your deck, put the revealed Coppers and Potions into your hand, and put the other cards back on your deck in any order.</li><li>You cannot choose not to take all of the Coppers and Potions.</li></ul>',
+		help: '<ul class="faq"><li>You draw a card and get +1 Action first.</li><li>Then reveal the top four cards of your deck, put the revealed Coppers and Potions into your hand, and put the other cards back on your deck in any order.</li><li>You cannot choose not to take all the Coppers and Potions.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2140,7 +2140,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2161,7 +2161,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2182,7 +2182,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2203,7 +2203,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2224,7 +2224,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2245,7 +2245,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2259,14 +2259,14 @@ export const CARDS: Card[] = [
 			debt: 0,
 			potion: 1
 		},
-		text: '<b>+1 Action</b><br>Each player (including you) reveals the top card of their deck and either discards it or puts it back, your choice. Then reveal cards from your deck until revealing one that isn’t an Action. Put all of the revealed cards into your hand.',
+		text: '<b>+1 Action</b><br>Each player (including you) reveals the top card of their deck and either discards it or puts it back, your choice. Then reveal cards from your deck until revealing one that isn’t an Action. Put all the revealed cards into your hand.',
 		help: '<ul class="faq"><li>First each player reveals their top card, and discards it or puts it back, with you choosing separately for each player.</li><li>If people care about the order, go clockwise, starting with yourself.</li><li>After that, reveal cards from the top of your deck until you reveal a card that is not an Action card.</li><li>If you run out of cards without revealing a non-Action card, shuffle your discard pile and keep going. If you have no discard pile left either, stop there.</li><li>Put all of the Action cards you revealed from your deck into your hand, plus that first non-Action card.</li></ul><ul class="rules"><li>Cards with multiple types, one of which is Action, are Actions.</li><li>The only cards that go into your hand are the ones revealed as part of revealing cards until finding a non-Action; you do not get discarded cards from the first part of what Scrying Pool did, or cards from other players’ decks.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2287,7 +2287,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2308,7 +2308,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2329,7 +2329,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2350,7 +2350,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2371,7 +2371,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2392,7 +2392,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2413,7 +2413,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2434,7 +2434,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2455,7 +2455,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2476,7 +2476,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2497,7 +2497,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2512,13 +2512,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action<br>+1 Buy<br>+<img src="assets/Coin2.png" alt="2 coins"></b><hr>You can’t buy this if you have any Coppers in play.',
-		help: '<ul class="faq"><li>A single Copper in play is enough to stop you from buying Grand Market.</li><li>You do not have to play all of the Treasures in your hand.</li><li>Coppers in your hand do not stop you from buying Grand Market - only Coppers in play do.</li><li>Coppers that were in play earlier in the turn but aren’t anymore also do not stop you; if you have 11 Coppers in play and 2 Buys, you could buy a Mint, trash all of your played Treasures, and then buy a Grand Market.</li><li>You can gain Grand Market other ways - for example with Expand - whether or not you have Coppers in play.</li><li>Treasures other than Copper do not prevent you from buying Grand Market, even if they are worth <img src="assets/Coin1.png" alt="1 coin"> (such as Loan).</li><li>Remember you cannot play more Treasures after buying a card.</li></ul>',
+		help: '<ul class="faq"><li>A single Copper in play is enough to stop you from buying Grand Market.</li><li>You do not have to play all the Treasures in your hand.</li><li>Coppers in your hand do not stop you from buying Grand Market - only Coppers in play do.</li><li>Coppers that were in play earlier in the turn but aren’t anymore also do not stop you; if you have 11 Coppers in play and 2 Buys, you could buy a Mint, trash all of your played Treasures, and then buy a Grand Market.</li><li>You can gain Grand Market other ways - for example with Expand - regardless of whether you have Coppers in play.</li><li>Treasures other than Copper do not prevent you from buying Grand Market, even if they are worth <img src="assets/Coin1.png" alt="1 coin"> (such as Loan).</li><li>Remember you cannot play more Treasures after buying a card.</li></ul>',
 		flags: { village: false, drawing: true, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2539,7 +2539,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2560,7 +2560,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2575,13 +2575,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<img src="assets/Coin1.png" alt="1 coin"><br>Reveal cards from your deck until you reveal a Treasure. Discard it or trash it. Discard the other cards.',
-		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>When you play Loan, you get <img src="assets/Coin1.png" alt="1 coin">, reveal cards from the top of your deck until revealing a Treasure card, and then decide whether to trash that card or discard it.</li><li>Then you discard all of the other revealed cards.</li><li>If you run out of cards before revealing a Treasure, shuffle your discard pile (but not the revealed cards) to get more; if you still do not find a Treasure, just discard all of the revealed cards.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>When you play Loan, you get <img src="assets/Coin1.png" alt="1 coin">, reveal cards from the top of your deck until revealing a Treasure card, and then decide whether to trash that card or discard it.</li><li>Then you discard all the other revealed cards.</li><li>If you run out of cards before revealing a Treasure, shuffle your discard pile (but not the revealed cards) to get more; if you still do not find a Treasure, just discard all the revealed cards.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2596,13 +2596,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'You may reveal a Treasure card from your hand. Gain a copy of it.<hr>When you gain this, trash all non-Duration Treasures you have in play.',
-		help: '<ul class="faq"><li>When you gain this, you trash all of your non-Duration Treasure cards from play (but not ones in your hand or elsewhere). (Duration cards are in other expansions, such as Seaside).</li><li>This doesn’t cause you to lose the <img src="assets/Coin.png" alt="coins"> you made from those cards this turn.</li><li>Remember that you don’t have to play all of the Treasures from your hand each turn, just the ones you want to play, and you can’t play more Treasures after buying cards.</li><li>If you gain this in your Action phase, such as with Artisan, you will usually not have any Treasures in play to trash.</li><li>When you play this, you may reveal a Treasure card from your hand and gain a copy of it from the Supply, putting the gained card into your discard pile.</li><li>The revealed card stays in your hand amd can still be played that turn.</li><li>If you gain a Mint with Tiara in play, you can put the Mint on your deck, regardless of whether you trash the Tiara before or afterwards.</li></ul><ul class="rules"><li>If you have Capitalism, Mint can both gain and trash Action-Treasures.</li><li>If you played some Coppers, but trashed them all with Mint, that means you’re allowed to buy a Grand Market.</li><li>If you first gain Mandarin and top-deck all your Treasures, gaining Mint won’t trash any Treasures.</li><li>Mint can only gain copies from the Supply, so it can’t gain copies of Spoils, Heirlooms, or Treasures from the Black Market deck.</li></ul>',
+		help: '<ul class="faq"><li>When you gain this, you trash all of your non-Duration Treasure cards from play (but not ones in your hand or elsewhere). (Duration cards are in other expansions, such as Seaside).</li><li>This doesn’t cause you to lose the <img src="assets/Coin.png" alt="coins"> you made from those cards this turn.</li><li>Remember that you don’t have to play all the Treasures from your hand each turn, just the ones you want to play, and you can’t play more Treasures after buying cards.</li><li>If you gain this in your Action phase, such as with Artisan, you will usually not have any Treasures in play to trash.</li><li>When you play this, you may reveal a Treasure card from your hand and gain a copy of it from the Supply, putting the gained card into your discard pile.</li><li>The revealed card stays in your hand amd can still be played that turn.</li><li>If you gain a Mint with Tiara in play, you can put the Mint on your deck, regardless of whether you trash the Tiara before or afterwards.</li></ul><ul class="rules"><li>If you have Capitalism, Mint can both gain and trash Action-Treasures.</li><li>If you played some Coppers, but trashed them all with Mint, that means you’re allowed to buy a Grand Market.</li><li>If you first gain Mandarin and top-deck all your Treasures, gaining Mint won’t trash any Treasures.</li><li>Mint can only gain copies from the Supply, so it can’t gain copies of Spoils, Heirlooms, or Treasures from the Black Market deck.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2623,7 +2623,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2638,13 +2638,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>Each other player may discard a Curse. If they don’t, they gain a Curse and a Copper.',
-		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>This hits the other players in turn order, which can matter when the Curse or Copper piles are low.</li><li>Each of the other players in turn chooses whether or not to discard a Curse card, and the players who do not gain a Curse and a Copper from the Supply, putting them into their discard piles.</li><li>If either the Curse or Copper pile is empty, players still gain the other card.</li></ul><ul class="rules"><li>A player hit by Mountebank gains the Curse first, and then the Copper.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>This hits the other players in turn order, which can matter when the Curse or Copper piles are low.</li><li>Each of the other players in turn chooses whether to discard a Curse card, and the players who do not gain a Curse and a Copper from the Supply, putting them into their discard piles.</li><li>If either the Curse or Copper pile is empty, players still gain the other card.</li></ul><ul class="rules"><li>A player hit by Mountebank gains the Curse first, and then the Copper.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: true },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2665,7 +2665,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2686,7 +2686,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2707,7 +2707,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2728,7 +2728,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2749,7 +2749,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2764,13 +2764,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Buy</b><br>Trash a card from your hand. +<img src="assets/Coin1.png" alt="1 coin"> per Coin token on the Trade Route mat.<hr>Setup: Add a Coin token to each Victory Supply pile; move that token to the Trade Route mat when a card is gained from the pile.',
-		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>You get +1 Buy, and trash a card from your hand if you can.</li><li>Then you get +<img src="assets/Coin1.png" alt="1 coin"> per Coin token on the Trade Route mat.</li><li>This card has setup; at the start of games using it, you put a Coin token on each Victory card pile being used (including Kingdom card piles such as Gardens, and Colonies if used).</li><li>In the rare cases where there are more than 8 Victory piles, the tokens are not counter-limited; use a replacement.</li><li>Whenever any player gains the first card from a Victory card pile - whether by buying it or otherwise gaining it - the Coin token is moved to the mat.</li><li>So if no Victory cards have been gained this game, the mat has no tokens and Trade Route makes +<img src="assets/Coin0.png" alt="0 coins">; if four Provinces and one Estate have been gained, the mat has two tokens and Trade Route makes +<img src="assets/Coin2.png" alt="2 coins">.</li><li>If you are using the promotional card Black Market, and Trade Route is in the Black Market deck, you do the setup for Trade Route.</li></ul><ul class="rules"><li>Certain Victory cards come from split piles that are not themselves Victory card piles, such as Dame Josephine and Territory; gaining them does not add a token to the Trade Route mat.</li><li>However Castles are a Victory Card pile. A good rule of thumb would be whether Victory appears on the pile’s randomizer card.</li><li>The Trade Route token on a pile will not move if the top card of a pile is removed without gaining it, such as when you trash it with Salt the Earth, or exile it with Way of the Worm or Enclave.</li><li>If you gain a Victory card from the trash, you still move a Coin token from its Supply pile to the mat.</li><li>You get +<img src="assets/Coin.png" alt="coins"> after trashing a card. So if you trash a Hunting Grounds and gain the first Duchy, that will increase the +<img src="assets/Coin.png" alt="coins"> you get from this.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>You get +1 Buy, and trash a card from your hand if you can.</li><li>Then you get +<img src="assets/Coin1.png" alt="1 coin"> per Coin token on the Trade Route mat.</li><li>This card has Setup; at the start of games using it, you put a Coin token on each Victory card pile being used (including Kingdom card piles such as Gardens, and Colonies if used).</li><li>In the rare cases where there are more than 8 Victory piles, the tokens are not counter-limited; use a replacement.</li><li>Whenever any player gains the first card from a Victory card pile - whether by buying it or otherwise gaining it - the Coin token is moved to the mat.</li><li>So if no Victory cards have been gained this game, the mat has no tokens and Trade Route makes +<img src="assets/Coin0.png" alt="0 coins">; if four Provinces and one Estate have been gained, the mat has two tokens and Trade Route makes +<img src="assets/Coin2.png" alt="2 coins">.</li><li>If you are using the promotional card Black Market, and Trade Route is in the Black Market deck, you do the setup for Trade Route.</li></ul><ul class="rules"><li>Certain Victory cards come from split piles that are not themselves Victory card piles, such as Dame Josephine and Territory; gaining them does not add a token to the Trade Route mat.</li><li>However Castles are a Victory Card pile. A good rule of thumb would be whether Victory appears on the pile’s randomizer card.</li><li>The Trade Route token on a pile will not move if the top card of a pile is removed without gaining it, such as when you trash it with Salt the Earth, or exile it with Way of the Worm or Enclave.</li><li>If you gain a Victory card from the trash, you still move a Coin token from its Supply pile to the mat.</li><li>You get +<img src="assets/Coin.png" alt="coins"> after trashing a card. So if you trash a Hunting Grounds and gain the first Duchy, that will increase the +<img src="assets/Coin.png" alt="coins"> you get from this.</li></ul>',
 		flags: { village: false, drawing: false, buyer: true, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2785,13 +2785,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Cards</b><br>Discard any number of cards for +<img src="assets/Coin1.png" alt="1 coin"> each.<br>Each other player may discard 2 cards, to draw a card.',
-		help: '<ul class="faq"><li>“Any number” includes zero.</li><li>You draw two cards first; the cards you just drew can be among the cards you discard.</li><li>Each other player chooses whether or not to discard 2 cards, then discards 2 cards if they chose to, then draws a card if they did discard 2 cards.</li><li>A player with just one card can choose to discard it, but won’t draw a card.</li><li>A player who discards but then has no cards left to draw shuffles in the discards before drawing.</li></ul>',
+		help: '<ul class="faq"><li>“Any number” includes zero.</li><li>You draw two cards first; the cards you just drew can be among the cards you discard.</li><li>Each other player chooses whether to discard 2 cards, then discards 2 cards if they chose to, then draws a card if they did discard 2 cards.</li><li>A player with just one card can choose to discard it, but won’t draw a card.</li><li>A player who discards but then has no cards left to draw shuffles in the discards before drawing.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2806,13 +2806,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<img src="assets/Coin1.png" alt="1 coin"><br>Reveal cards from your deck until you reveal a Treasure. Discard the other cards. Play that Treasure.',
-		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>When you play Venture, you reveal cards from your deck until revealing a Treasure card.</li><li>If you run out of cards before revealing a Treasure, shuffle your discard pile (but not the revealed cards) to get more; if you still don’t find a Treasure, just discard all of the revealed cards.</li><li>If you do find a Treasure, discard the other cards and play the Treasure.</li><li>If that Treasure does something when played, do that something. For example if Venture finds you another Venture, you reveal cards again.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Prosperity</p><ul class="faq"><li>When you play Venture, you reveal cards from your deck until revealing a Treasure card.</li><li>If you run out of cards before revealing a Treasure, shuffle your discard pile (but not the revealed cards) to get more; if you still don’t find a Treasure, just discard all the revealed cards.</li><li>If you do find a Treasure, discard the other cards and play the Treasure.</li><li>If that Treasure does something when played, do that something. For example if Venture finds you another Venture, you reveal cards again.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2833,7 +2833,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2854,7 +2854,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2875,7 +2875,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2896,7 +2896,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2917,7 +2917,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2938,7 +2938,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2959,7 +2959,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -2980,7 +2980,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3001,7 +3001,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3022,7 +3022,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3043,7 +3043,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3064,7 +3064,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3079,13 +3079,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Actions</b><br>Reveal cards from your deck until you reveal a Treasure or Action card. Put that card into your hand and discard the rest.',
-		help: '<ul class="faq"><li>Reveal cards from the top of your deck until you reveal a Treasure or Action card.</li><li>If you fail to find one (even after shuffling), just discard all of the revealed cards.</li><li>If you do find a Treasure of Action card, put it into your hand, and discard the rest of the revealed cards.</li><li>You do not choose Treasure or Action - you stop on the first card matching either type.</li></ul>',
+		help: '<ul class="faq"><li>Reveal cards from the top of your deck until you reveal a Treasure or Action card.</li><li>If you fail to find one (even after shuffling), just discard all the revealed cards.</li><li>If you do find a Treasure of Action card, put it into your hand, and discard the rest of the revealed cards.</li><li>You do not choose Treasure or Action - you stop on the first card matching either type.</li></ul>',
 		flags: { village: true, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3100,13 +3100,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>Each other player reveals cards from the top of their deck until they reveal a Victory card or a Curse. They put it on top and discard the rest.',
-		help: '<ul class="faq"><li>Each other player reveals cards from the top of their deck until they reveal a Victory or Curse card.</li><li>If they do not find one (even after shuffling), they just discard all of the revealed cards.</li><li>If they do find one, they put the Victory or Curse card on top of their deck, and discard the other revealed cards.</li><li>You do not choose Victory or Curse – they stop on the first card that matches either type.</li></ul><ul class="rules"><li>Cards with Victory as one of multiple types, such as Nobles, are still Victory cards and can be left on top by Fortune Teller.</li></ul>',
+		help: '<ul class="faq"><li>Each other player reveals cards from the top of their deck until they reveal a Victory or Curse card.</li><li>If they do not find one (even after shuffling), they just discard all the revealed cards.</li><li>If they do find one, they put the Victory or Curse card on top of their deck, and discard the other revealed cards.</li><li>You do not choose Victory or Curse – they stop on the first card that matches either type.</li></ul><ul class="rules"><li>Cards with Victory as one of multiple types, such as Nobles, are still Victory cards and can be left on top by Fortune Teller.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3127,7 +3127,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3148,7 +3148,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3169,7 +3169,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3184,13 +3184,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Buy<br>+<img src="assets/Coin3.png" alt="3 coins"></b><br>Discard 2 cards<hr>When another player plays an Attack card, you may first set this aside from your hand. If you do, then at the start of your next turn, <b>+1 Card</b> and return this to your hand.',
-		help: '<ul class="faq"><li>When you play this, you get +1 Buy and +<img src="assets/Coin3.png" alt="3 coins">, and discard 2 cards from your hand.</li><li>If you do not have enough cards to discard, just discard what you can; you still get the +1 Buy and +<img src="assets/Coin3.png" alt="3 coins">.</li><li>When another player plays an Attack card, before that card does anything, you may reveal this from your hand. If you do, you set this aside, and at the start of your next turn, you return it to your hand and draw a card.</li><li>While it is set aside, it is not in play or in your hand, and cannot be further revealed to Attacks. Therefore it will only work on one Attack per round of turns.</li><li>You can reveal it for an Attack and still play it on your next turn.</li><li>You can reveal multiple Horse Traders to a single Attack. For example, if another player plays Followers, you could reveal and set aside two Horse Traders from your hand, then gain a Curse but discard no cards, as you would only have three cards in hand at that point. Then on your next turn you would pick up the two Horse Traders and also draw two cards.</li></ul><ul class="rules"><li>If the game ends while Horse Traders is set aside, it’s returned to its owner’s deck before scoring; this can matter for alt-VP cards such as Gardens.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you get +1 Buy and +<img src="assets/Coin3.png" alt="3 coins">, and discard 2 cards from your hand.</li><li>If you do not have enough cards to discard, just discard what you can; you still get the +1 Buy and +<img src="assets/Coin3.png" alt="3 coins">.</li><li>When another player plays an Attack card, before that card does anything, you may reveal this from your hand. If you do, you set this aside, and at the start of your next turn, you return it to your hand and draw a card.</li><li>While it is set aside, it is not in play or in your hand, and cannot be further revealed to Attacks. Therefore, it will only work on one Attack per round of turns.</li><li>You can reveal it for an Attack and still play it on your next turn.</li><li>You can reveal multiple Horse Traders to a single Attack. For example, if another player plays Followers, you could reveal and set aside two Horse Traders from your hand, then gain a Curse but discard no cards, as you would only have three cards in hand at that point. Then on your next turn you would pick up the two Horse Traders and also draw two cards.</li></ul><ul class="rules"><li>If the game ends while Horse Traders is set aside, it’s returned to its owner’s deck before scoring; this can matter for alt-VP cards such as Gardens.</li></ul>',
 		flags: { village: false, drawing: true, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3205,13 +3205,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action</b><br>Reveal your hand. Reveal cards from your deck until you reveal one that isn’t a copy of one in your hand. Put it into your hand and discard the rest.',
-		help: '<ul class="faq"><li>First you draw a card and get +1 Action.</li><li>Then you reveal your hand, and reveal cards from your deck until revealing one that does not have the same name as any of the cards in your hand.</li><li>If you do not find one (even after shuffling), just discard all of the cards revealed from your deck.</li><li>If you do find a card not matching any cards in your hand, put it into your hand and discard the other cards revealed from your deck.</li></ul>',
+		help: '<ul class="faq"><li>First you draw a card and get +1 Action.</li><li>Then you reveal your hand, and reveal cards from your deck until revealing one that does not have the same name as any of the cards in your hand.</li><li>If you do not find one (even after shuffling), just discard all the cards revealed from your deck.</li><li>If you do find a card not matching any cards in your hand, put it into your hand and discard the other cards revealed from your deck.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3232,7 +3232,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3253,7 +3253,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3268,13 +3268,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Do this twice: Trash a card from your hand, then gain a card costing exactly <img src="assets/Coin1.png" alt="1 coin"> more than it.',
-		help: '<ul class="faq"><li>Trash a card from your hand, and gain a card costing exactly <img src="assets/Coin1.png" alt="1 coin"> more than it; then trash another card from your hand, and gain a card costing exactly <img src="assets/Coin1.png" alt="1 coin"> more than that card.</li><li>If you have no cards in hand, you do not trash anything or gain anything; if you have only one card in hand, trash it and gain a card costing <img src="assets/Coin1.png" alt="1 coin"> more than it.</li><li>If there is no card at the exact cost needed, you do not gain a card for that trashed card. For example you could use Remake to trash an Estate, gaining a Silver, then trash a Copper, gaining nothing, due to there being no cards costing <img src="assets/Coin1.png" alt="1 coin"> in the Supply.</li></ul><ul class="rules"><li>First trash a card, activating on-trash abilities; then gain a card, activating on-gain abilities; then trash a second card, activating its on-trash abilities; then gain a card, activating on-gain abilities.</li><li>This is in contrast to other cards that trash multiple cards at once (like Count). Even though Remake trashes 2 cards, the trashes take place one after another, instead of all at once. This means you can use Remake to trash the same Fortress twice, which is not possible with other two-card trashers such as Steward.</li></ul>',
+		help: '<ul class="faq"><li>Trash a card from your hand, and gain a card costing exactly <img src="assets/Coin1.png" alt="1 coin"> more than it; then trash another card from your hand, and gain a card costing exactly <img src="assets/Coin1.png" alt="1 coin"> more than that card.</li><li>If you have no cards in hand, you do not trash anything or gain anything; if you have only one card in hand, trash it and gain a card costing <img src="assets/Coin1.png" alt="1 coin"> more than it.</li><li>If there is no card at the exact cost needed, you do not gain a card for that trashed card. For example, you could use Remake to trash an Estate, gaining a Silver, then trash a Copper, gaining nothing, due to there being no cards costing <img src="assets/Coin1.png" alt="1 coin"> in the Supply.</li></ul><ul class="rules"><li>First trash a card, activating on-trash abilities; then gain a card, activating on-gain abilities; then trash a second card, activating its on-trash abilities; then gain a card, activating on-gain abilities.</li><li>This is in contrast to other cards that trash multiple cards at once (like Count). Even though Remake trashes 2 cards, the trashes take place one after another, instead of all at once. This means you can use Remake to trash the same Fortress twice, which is not possible with other two-card trashers such as Steward.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3289,13 +3289,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Each player may reveal a Province from their hand. If you do, discard it and gain any Prize (from the Prize pile) or a Duchy, onto your deck. If no-one else does, <b>+1 Card</b> and <b>+<img src="assets/Coin1.png" alt="1 coin"></b>.',
-		help: '<ul class="faq"><li>First you get +1 Action.</li><li>Then each player, including you, may reveal a Province card from their hand.</li><li>Then, if you revealed a Province, discard it, and you gain a Prize of your choice, or a Duchy, putting whatever card you took on top of your deck.</li><li>There are five Prizes, set out at the start of the game.</li><li>You cannot take Prizes from the trash or from other players; you can only take Prizes that no-one has taken yet this game.</li><li>You can take any Prize from the Prize pile; you do not have to take the top one.</li><li>You can take a Duchy instead, whether or not the Prizes have run out.</li><li>You can opt to take a Duchy even if the Duchy pile is empty, or a Prize even if no Prizes are left; in these cases you gain nothing.</li><li>After gaining your card or not, if no other player revealed a Province, you draw a card and get +<img src="assets/Coin1.png" alt="1 coin">.</li><li>So this card will play out one of four ways:<ol><li>if you do not reveal a Province and no-one else does either, you will get +1 Action +1 Card +<img src="assets/Coin1.png" alt="1 coin">;</li><li>if you reveal a Province and no-one else does, you will gain a Prize or a Duchy onto the top of your deck, as well as get +1 Action +1 Card +<img src="assets/Coin1.png" alt="1 coin">; the card drawn will always be the Prize or Duchy just placed on top of your deck;</li><li>if you reveal a Province and so does someone else, you will get +1 Action and gain a Prize or a Duchy, which will be on top of your deck;</li><li>if you do not reveal a Province but someone else does, you will just get +1 Action.</li></ol></li><li>You can look through the Prizes that players have not gained yet at any time.</li></ul><p>Prizes</p><ul class="faq"><li>There are five Prizes: Bag of Gold, Diadem, Followers, Princess, and Trusty Steed. These are cards which are never part of the Supply.</li><li>If the Prizes run out, that does not count towards the game end condition.</li><li>The Prizes may not be bought, or gained via cards like Horn of Plenty; they may only be gained via the card Tournament, or via cards that directly provide a way to gain them (such as Lurker from second edition Intrigue, which can gain Actions from the trash).</li><li>Ambassador (from Dominion: Seaside) cannot return Prizes to their pile.</li><li>Trashed Prizes go to the trash pile, like other cards; they do not return to the Prize pile.</li><li>If you are using the promotional card Black Market, do not put Prizes in the Black Market deck.</li><li>Even though Prizes cannot be bought, they have a cost of <img src="assets/Coin0.png" alt="0 coins">, which matters for cards like Remake.</li></ul><p>Bag of Gold</p><ul class="faq"><li>The Gold you gain is put on top of your deck.</li><li>If there are no Golds left in the Supply, you do not gain one.</li></ul><p>Diadem</p><ul class="faq"><li>When you play Diadem, you get an extra +<img src="assets/Coin1.png" alt="1 coin"> per unused Action you have. This means Actions, not Action cards. So for example if you play Farming Village (which gives you +2 Actions), then Diadem, Diadem will give you an extra +<img src="assets/Coin2.png" alt="2 coins">, for <img src="assets/Coin4.png" alt="4 coins"> total.</li><li>If you play no Action cards at all on your turn, you will have one unused Action, so you will get <img src="assets/Coin3.png" alt="3 coins"> total from Diadem.</li></ul><ul class="rules"><li>It is possible to steal Diadem from another player by using Thief.</li><li>If you play Diadem during your Action phase, such as with Black Market, it does not use up your remaining Actions; it only gives <img src="assets/Coin.png" alt="coins"> equal to their number.</li></ul><p>Followers</p><ul class="faq"><li>Do the things in the order listed. You draw 2 cards; then you gain an Estate; then each other player (in turn order) gains a Curse and discards down to 3 cards in hand.</li><li>A player with 3 or fewer cards in hand does not discard any cards.</li><li>If there are no Estates left, you do not gain one.</li></ul><p>Princess</p><ul class="faq"><li>This makes all cards cheaper (to a minimum of <img src="assets/Coin0.png" alt="0 coins">) for the rest of the turn.</li><li>This applies to cards everywhere - cards in the Supply, cards in hand, cards in decks. For example if you played Princess, then Remake, trashing a Copper, you could gain a Silver, as Silver would cost <img src="assets/Coin1.png" alt="1 coin"> while Copper would still cost <img src="assets/Coin0.png" alt="0 coins">.</li><li>This is cumulative with itself and with other forms of cost reduction: for instance, if you play a Bridge and then Princess, costs will be reduced by a total of <img src="assets/Coin3.png" alt="3 coins">; if you use Throne Room on a Princess, costs will be reduced by <img src="assets/Coin4.png" alt="4 coins">.</li></ul><ul class="rules"><li>Princess’s cost-reduction ability was originally below a dividing line checking to see “while it is in play”, but since 2022, it simply counts “this turn” when played.</li></ul><p>Trusty Steed</p><ul class="faq"><li>First choose any two of the four options; then do those options in the order listed. So if you choose both +2 Cards and the last option, you will draw cards before you gain the Silvers and put your deck into your discard pile.</li><li>The last option both gains you Silvers and puts your deck into your discard pile. If you choose that option and there are fewer than four Silvers left, just gain as many as you can.</li><li>You do not get to look through your deck as you put it into your discard pile.</li></ul><ul class="rules"><li>This doesn’t count as discarding, so it will not activate Tunnel, Faithful Hound, or Village Green.</li></ul>',
+		help: '<ul class="faq"><li>First you get +1 Action.</li><li>Then each player, including you, may reveal a Province card from their hand.</li><li>Then, if you revealed a Province, discard it, and you gain a Prize of your choice, or a Duchy, putting whatever card you took on top of your deck.</li><li>There are five Prizes, set out at the start of the game.</li><li>You cannot take Prizes from the trash or from other players; you can only take Prizes that no-one has taken yet this game.</li><li>You can take any Prize from the Prize pile; you do not have to take the top one.</li><li>You can take a Duchy instead, regardless of whether the Prizes have run out.</li><li>You can opt to take a Duchy even if the Duchy pile is empty, or a Prize even if no Prizes are left; in these cases you gain nothing.</li><li>After gaining your card or not, if no other player revealed a Province, you draw a card and get +<img src="assets/Coin1.png" alt="1 coin">.</li><li>So this card will play out one of four ways:<ol><li>if you do not reveal a Province and no-one else does either, you will get +1 Action +1 Card +<img src="assets/Coin1.png" alt="1 coin">;</li><li>if you reveal a Province and no-one else does, you will gain a Prize or a Duchy onto the top of your deck, as well as get +1 Action +1 Card +<img src="assets/Coin1.png" alt="1 coin">; the card drawn will always be the Prize or Duchy just placed on top of your deck;</li><li>if you reveal a Province and so does someone else, you will get +1 Action and gain a Prize or a Duchy, which will be on top of your deck;</li><li>if you do not reveal a Province but someone else does, you will just get +1 Action.</li></ol></li><li>You can look through the Prizes that players have not gained yet at any time.</li></ul><p>Prizes</p><ul class="faq"><li>There are five Prizes: Bag of Gold, Diadem, Followers, Princess, and Trusty Steed. These are cards which are never part of the Supply.</li><li>If the Prizes run out, that does not count towards the game end condition.</li><li>The Prizes may not be bought, or gained via cards like Horn of Plenty; they may only be gained via the card Tournament, or via cards that directly provide a way to gain them (such as Lurker from second edition Intrigue, which can gain Actions from the trash).</li><li>Ambassador (from Dominion: Seaside) cannot return Prizes to their pile.</li><li>Trashed Prizes go to the trash pile, like other cards; they do not return to the Prize pile.</li><li>If you are using the promotional card Black Market, do not put Prizes in the Black Market deck.</li><li>Even though Prizes cannot be bought, they have a cost of <img src="assets/Coin0.png" alt="0 coins">, which matters for cards like Remake.</li></ul><p>Bag of Gold</p><ul class="faq"><li>The Gold you gain is put on top of your deck.</li><li>If there are no Golds left in the Supply, you do not gain one.</li></ul><p>Diadem</p><ul class="faq"><li>When you play Diadem, you get an extra +<img src="assets/Coin1.png" alt="1 coin"> per unused Action you have. This means Actions, not Action cards. So for example if you play Farming Village (which gives you +2 Actions), then Diadem, Diadem will give you an extra +<img src="assets/Coin2.png" alt="2 coins">, for <img src="assets/Coin4.png" alt="4 coins"> total.</li><li>If you play no Action cards at all on your turn, you will have one unused Action, so you will get <img src="assets/Coin3.png" alt="3 coins"> total from Diadem.</li></ul><ul class="rules"><li>It is possible to steal Diadem from another player by using Thief.</li><li>If you play Diadem during your Action phase, such as with Black Market, it does not use up your remaining Actions; it only gives <img src="assets/Coin.png" alt="coins"> equal to their number.</li></ul><p>Followers</p><ul class="faq"><li>Do the things in the order listed. You draw 2 cards; then you gain an Estate; then each other player (in turn order) gains a Curse and discards down to 3 cards in hand.</li><li>A player with 3 or fewer cards in hand does not discard any cards.</li><li>If there are no Estates left, you do not gain one.</li></ul><p>Princess</p><ul class="faq"><li>This makes all cards cheaper (to a minimum of <img src="assets/Coin0.png" alt="0 coins">) for the rest of the turn.</li><li>This applies to cards everywhere - cards in the Supply, cards in hand, cards in decks. For example if you played Princess, then Remake, trashing a Copper, you could gain a Silver, as Silver would cost <img src="assets/Coin1.png" alt="1 coin"> while Copper would still cost <img src="assets/Coin0.png" alt="0 coins">.</li><li>This is cumulative with itself and with other forms of cost reduction: for instance, if you play a Bridge and then Princess, costs will be reduced by a total of <img src="assets/Coin3.png" alt="3 coins">; if you use Throne Room on a Princess, costs will be reduced by <img src="assets/Coin4.png" alt="4 coins">.</li></ul><ul class="rules"><li>Princess’s cost-reduction ability was originally below a dividing line checking to see “while it is in play”, but since 2022, it simply counts “this turn” when played.</li></ul><p>Trusty Steed</p><ul class="faq"><li>First choose any two of the four options; then do those options in the order listed. So if you choose both +2 Cards and the last option, you will draw cards before you gain the Silvers and put your deck into your discard pile.</li><li>The last option both gains you Silvers and puts your deck into your discard pile. If you choose that option and there are fewer than four Silvers left, just gain as many as you can.</li><li>You do not get to look through your deck as you put it into your discard pile.</li></ul><ul class="rules"><li>This doesn’t count as discarding, so it will not activate Tunnel, Faithful Hound, or Village Green.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3310,13 +3310,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Cards</b><br>Discard 2 cards. Each other player may reveal a Bane card from their hand; if they don’t, they gain a Curse.<hr>Setup: Add an extra Kingdom card pile costing <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins"> to the Supply. Cards from that pile are Bane cards.',
-		help: '<p>Preparation</p><ul><li>In games using Young Witch, choose an additional Kingdom card costing <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins">, put its pile into the Supply, and mark its pile with the Bane card (underneath it, sideways). This is the “Bane” pile referred to by Young Witch; cards that start the game in this pile are “Bane cards.”</li><li>You may choose the card any way you like; if you are using randomizers to choose your 10 cards, you can reveal cards from the randomizer deck until finding one costing <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins">, and use that one.</li><li>If you are also using the card Trade Route (from Dominion: Prosperity) and the Bane pile is a Victory card pile, that pile gets a Coin token, like other Victory card piles; similarly, if Trade Route itself is the Bane pile, all Victory card piles get tokens as normal.</li><li>If you are using the promotional card Black Market, and Young Witch is in the Black Market deck, put out a Bane pile for Young Witch.</li></ul><ul class="faq"><li>This card causes there to be an extra pile in the Supply, called the Bane pile.</li><li>The extra pile is just like other Kingdom card piles - it can be bought, it can be gained via cards like Horn of Plenty, it counts for the end game condition.</li><li>When you play Young Witch, after you draw 2 cards and discard 2 cards, each other player may reveal a Bane card from their hand; each player who does not gains a Curse.</li><li>This attack hits other players in turn order, which matters when the Curse pile is low.</li><li>Players may respond to a Young Witch with Reaction cards like Horse Traders or Moat; those happen before Bane cards are revealed.</li></ul><ul class="rules"><li>You may select a Kingdom card pile to use as the Bane in whatever way you want—at random, choosing a card you particularly enjoy, etc.—as long as its cost is <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins"> and it’s not already part of the Kingdom.</li><li>If Young Witch is in the Black Market deck, you do put out a Bane; however, Black Market itself cannot be the Bane in that instance.</li><li>If the top card of a split pile costs either <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins"> (such as Settlers or Herb Gatherer), it can be chosen as the Bane. All cards from the split pile can be revealed to block Young Witch.</li><li>However, cards that the Bane gives you access to but do not come from the same supply pile <em>cannot</em> block Young Witch. For instance, if Page or Urchin is the Bane, Treasure Hunter or Mercenary is <em>not</em> a Bane card.</li><li>Any setup instructions or rule changes triggered by the presence of the Bane have their normal effect. For instance, if the Bane is a Liaison you have to select an Ally and everyone starts with a Favor token; if the Bane is Tracker, everyone starts with a Pouch; etc.</li><li>Any relevant setup instructions of any other cards will also apply as usual to the Bane. For example, the Bane will still get <img src="assets/Debt1.png" alt="1 debt"> from Tax; and if it’s an Action Supply pile, it may be chosen by Obelisk.</li><li>If the Bane is a Reaction that reacts to an Attack being played and leaves your hand when you use its ability (such as Beggar or Caravan Guard), you cannot both use its Reaction effect and block Young Witch; you must pick one.</li></ul>',
+		help: '<p>Preparation</p><ul><li>In games using Young Witch, choose an additional Kingdom card costing <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins">, put its pile into the Supply, and mark its pile with the Bane card (underneath it, sideways). This is the “Bane” pile referred to by Young Witch; cards that start the game in this pile are “Bane cards.”</li><li>You may choose the card any way you like; if you are using randomizers to choose your 10 cards, you can reveal cards from the randomizer deck until finding one costing <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins">, and use that one.</li><li>If you are also using the card Trade Route (from Dominion: Prosperity) and the Bane pile is a Victory card pile, that pile gets a Coin token, like other Victory card piles; similarly, if Trade Route itself is the Bane pile, all Victory card piles get tokens as normal.</li><li>If you are using the promotional card Black Market, and Young Witch is in the Black Market deck, put out a Bane pile for Young Witch.</li></ul><ul class="faq"><li>This card causes there to be an extra pile in the Supply, called the Bane pile.</li><li>The extra pile is just like other Kingdom card piles - it can be bought, it can be gained via cards like Horn of Plenty, it counts for the end game condition.</li><li>When you play Young Witch, after you draw 2 cards and discard 2 cards, each other player may reveal a Bane card from their hand; each player who does not, gains a Curse.</li><li>This attack hits other players in turn order, which matters when the Curse pile is low.</li><li>Players may respond to a Young Witch with Reaction cards like Horse Traders or Moat; those happen before Bane cards are revealed.</li></ul><ul class="rules"><li>You may select a Kingdom card pile to use as the Bane in whatever way you want—at random, choosing a card you particularly enjoy, etc.—as long as its cost is <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins"> and it’s not already part of the Kingdom.</li><li>If Young Witch is in the Black Market deck, you do put out a Bane; however, Black Market itself cannot be the Bane in that instance.</li><li>If the top card of a split pile costs either <img src="assets/Coin2.png" alt="2 coins"> or <img src="assets/Coin3.png" alt="3 coins"> (such as Settlers or Herb Gatherer), it can be chosen as the Bane. All cards from the split pile can be revealed to block Young Witch.</li><li>However, cards that the Bane gives you access to but do not come from the same supply pile <em>cannot</em> block Young Witch. For instance, if Page or Urchin is the Bane, Treasure Hunter or Mercenary is <em>not</em> a Bane card.</li><li>Any setup instructions or rule changes triggered by the presence of the Bane have their normal effect. For instance, if the Bane is a Liaison you have to select an Ally and everyone starts with a Favor token; if the Bane is Tracker, everyone starts with a Pouch; etc.</li><li>Any relevant setup instructions of any other cards will also apply as usual to the Bane. For example, the Bane will still get <img src="assets/Debt1.png" alt="1 debt"> from Tax; and if it’s an Action Supply pile, it may be chosen by Obelisk.</li><li>If the Bane is a Reaction that reacts to an Attack being played and leaves your hand when you use its ability (such as Beggar or Caravan Guard), you cannot both use its Reaction effect and block Young Witch; you must pick one.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: true },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3337,7 +3337,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3358,7 +3358,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3379,7 +3379,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3400,7 +3400,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3421,7 +3421,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3442,7 +3442,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3463,7 +3463,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3484,7 +3484,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3499,13 +3499,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'If this is the first time you played a Fool’s Gold this turn, <b>+<img src="assets/Coin1.png" alt="1 coin"></b> otherwise <b>+<img src="assets/Coin4.png" alt="4 coins"></b>.<hr>When another player gains a Province, you may trash this from your hand, to gain a Gold onto your deck.',
-		help: '<ul class="faq"><li>The first Fool’s Gold you play in a turn is worth <img src="assets/Coin1.png" alt="1 coin">, and all further copies are worth <img src="assets/Coin4.png" alt="4 coins">.</li><li>So if you play three of them, you get <img src="assets/Coin1.png" alt="1 coin"> + <img src="assets/Coin4.png" alt="4 coins"> + <img src="assets/Coin4.png" alt="4 coins">, or <img src="assets/Coin9.png" alt="9 coins"> total.</li><li>Fool’s Gold is also a Reaction.</li><li>When another player gains a Province, you may trash Fool’s Gold from your hand to gain a Gold from the Supply, putting it onto your deck.</li><li>You cannot use this ability when you gain a Province, only when another player does.</li></ul><ul class="rules"><li>If you play the same Fool’s Gold twice in the same turn (with Crown or Counterfeit), the second play will produce +<img src="assets/Coin4.png" alt="4 coins">.</li><li>If another player gains a Province during your turn (e.g. you play a Governor and they trash a King’s Court into Province), you can react with your Fool’s Gold.</li><li>Even if your 1st Fool’s Gold gets blocked by Highwayman, your other Fool’s Golds will still give +<img src="assets/Coin4.png" alt="4 coins">.</li></ul>',
+		help: '<ul class="faq"><li>The first Fool’s Gold you play in a turn is worth <img src="assets/Coin1.png" alt="1 coin">, and all further copies are worth <img src="assets/Coin4.png" alt="4 coins">.</li><li>So if you play three of them, you get <img src="assets/Coin1.png" alt="1 coin"> + <img src="assets/Coin4.png" alt="4 coins"> + <img src="assets/Coin4.png" alt="4 coins">, or <img src="assets/Coin9.png" alt="9 coins"> total.</li><li>Fool’s Gold is also a Reaction.</li><li>When another player gains a Province, you may trash Fool’s Gold from your hand to gain a Gold from the Supply, putting it onto your deck.</li><li>You cannot use this ability when you gain a Province, only when another player does.</li></ul><ul class="rules"><li>If you play the same Fool’s Gold twice in the same turn (with Crown or Counterfeit), the second play will produce +<img src="assets/Coin4.png" alt="4 coins">.</li><li>If another player gains a Province during your turn (e.g. you play a Governor, and they trash a King’s Court into Province), you can react with your Fool’s Gold.</li><li>Even if your 1st Fool’s Gold gets blocked by Highwayman, your other Fool’s Golds will still give +<img src="assets/Coin4.png" alt="4 coins">.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3526,7 +3526,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3547,7 +3547,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3568,7 +3568,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3589,7 +3589,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3610,7 +3610,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3631,7 +3631,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3652,7 +3652,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3667,13 +3667,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin1.png" alt="1 coin"></b><br>Each other player reveals the top 2 cards of their deck, trashes a revealed Silver or Gold you choose, discards the rest, and gains a Copper if they didn’t reveal a Treasure. You gain the trashed cards.<hr>When you buy this, do its attack.',
-		help: '<p>This card was removed for the 2nd Edition of Hinterlands</p><ul class="faq"><li>When you play this, you get +<img src="assets/Coin1.png" alt="1 coin">.</li><li>When you play this and also when you buy it, each other player reveals the top two cards of their deck, trashes a Silver or Gold they revealed that you choose, and discards the rest.</li><li>Each of these players that did not reveal a Treasure at all gains a Copper from the Supply, putting it into their discard pile.</li><li>Finally, you gain all of the Silvers and Golds trashed this way.</li><li>This cannot trash any Treasures except Silver or Gold.</li><li>Gaining a Noble Brigand without buying it does not cause this ability to happen.</li><li>Noble Brigand is an Attack card, and when you announce it, players can use cards like Moat in response.</li><li>However, buying a Noble Brigand is not “playing an Attack card,” and so cards like Moat cannot respond to that.</li></ul><ul class="rules"><li>Because when-Gain effects happen after when-Buy effects, you can buy a Noble Brigand, do its attack, and then use Trader to get a Silver instead of keeping the Noble Brigand.</li><li>If this trashed multiple Silvers or Golds, you gain those cards after each other player has been attacked.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Hinterlands</p><ul class="faq"><li>When you play this, you get +<img src="assets/Coin1.png" alt="1 coin">.</li><li>When you play this and also when you buy it, each other player reveals the top two cards of their deck, trashes a Silver or Gold they revealed that you choose, and discards the rest.</li><li>Each of these players that did not reveal a Treasure at all gains a Copper from the Supply, putting it into their discard pile.</li><li>Finally, you gain all the Silvers and Golds trashed this way.</li><li>This cannot trash any Treasures except Silver or Gold.</li><li>Gaining a Noble Brigand without buying it does not cause this ability to happen.</li><li>Noble Brigand is an Attack card, and when you announce it, players can use cards like Moat in response.</li><li>However, buying a Noble Brigand is not “playing an Attack card,” and so cards like Moat cannot respond to that.</li></ul><ul class="rules"><li>Because when-Gain effects happen after when-Buy effects, you can buy a Noble Brigand, do its attack, and then use Trader to get a Silver instead of keeping the Noble Brigand.</li><li>If this trashed multiple Silvers or Golds, you gain those cards after each other player has been attacked.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3688,13 +3688,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Buy<br>+<img src="assets/Coin2.png" alt="2 coins"></b><hr>This is gained onto your deck (instead of to your discard pile).',
-		help: '<p>This card was removed for the 2nd Edition of Hinterlands</p><ul class="faq"><li>When you gain this card, it goes on top of your deck rather than into your discard pile.</li><li>This is true whether you gained it due to buying it, or gained it some other way.</li></ul><ul class="rules"><li>If you gain Nomad Camp but you exchange it (e.g. for a Changeling), the exchanged card goes in your discard pile, not on your deck.</li><li>If you gain this to your hand (e.g. with Artisan), you didn’t gain it to your discard pile, so Nomad Camp’s ability doesn’t trigger and it stays in your hand.</li><li>An effect that tries to move Nomad Camp <em>after</em> it is gained (such as Summon) will successfully move it from your deck without losing track of it.</li><li>If you Possess a player and make them gain a Nomad Camp, you’ll gain it onto your deck. This is in contrast to other ways to gain cards onto your deck (such as Crafters’ Guild), in which case Possession will make you gain the card to your discard pile instead.</li></ul>',
+		help: '<p>This card was removed for the 2nd Edition of Hinterlands</p><ul class="faq"><li>When you gain this card, it goes on top of your deck rather than into your discard pile.</li><li>This is true whether you gained it due to buying it, or gained it some other way.</li></ul><ul class="rules"><li>If you gain Nomad Camp but you exchange it (e.g. for a Changeling), the exchanged card goes in your discard pile, not on your deck.</li><li>If you gain this to your hand (e.g. with Artisan), you didn’t gain it to your discard pile, so Nomad Camp’s ability doesn’t trigger, and it stays in your hand.</li><li>An effect that tries to move Nomad Camp <em>after</em> it is gained (such as Summon) will successfully move it from your deck without losing track of it.</li><li>If you Possess a player and make them gain a Nomad Camp, you’ll gain it onto your deck. This is in contrast to other ways to gain cards onto your deck (such as Crafters’ Guild), in which case Possession will make you gain the card to your discard pile instead.</li></ul>',
 		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3715,7 +3715,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3736,7 +3736,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3757,7 +3757,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3778,7 +3778,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3799,7 +3799,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3820,7 +3820,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3841,7 +3841,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3862,7 +3862,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3883,7 +3883,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3904,7 +3904,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3925,7 +3925,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3946,7 +3946,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3967,7 +3967,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -3988,7 +3988,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4009,7 +4009,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4030,7 +4030,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4051,7 +4051,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4066,13 +4066,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Trash a card from your hand. Gain a card costing up to <img src="assets/Coin5.png" alt="5 coins">.',
-		help: '<ul class="faq"><li>You trash a card from your hand if you can, and then gain a card whether or not you trashed one.</li></ul><ul class="rules"><li>Neither step is optional.</li></ul>',
+		help: '<ul class="faq"><li>You trash a card from your hand if you can, and then gain a card regardless of whether you trashed one.</li></ul><ul class="rules"><li>Neither step is optional.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4093,7 +4093,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4114,7 +4114,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4135,7 +4135,7 @@ export const CARDS: Card[] = [
 			spoils: true, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4156,7 +4156,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4177,7 +4177,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4198,7 +4198,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4219,7 +4219,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4234,13 +4234,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Cards</b><br>Each other player gains a Ruins. You may play a Cultist from your hand.<hr>When you trash this, <b>+3 Cards</b>.',
-		help: '<ul class="faq"><li>When you play this, you draw two cards, then each other player gains a Ruins.</li><li>Go in turn order starting to your left; each player takes the top Ruins, revealing the next one each time.</li><li>If the Ruins pile runs out, players stop gaining them at that point.</li><li>After giving out Ruins, you may play another Cultist from your hand.</li><li>It can be one you just drew from playing Cultist, or one you already had in your hand.</li><li>Playing a Cultist this way does not use up any extra Actions you were allowed to play due to cards like Fortress - the original Cultist uses up one Action and that is it.</li><li>When you trash a Cultist, you draw three cards.</li><li>This happens whether or not it is your turn, and whether or not the card that causes Cultist to be trashed was yours.</li><li>If you trash a Cultist while revealing cards, such as to a Knight attack, you do not draw the revealed cards that are about to be discarded.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you draw two cards, then each other player gains a Ruins.</li><li>Go in turn order starting to your left; each player takes the top Ruins, revealing the next one each time.</li><li>If the Ruins pile runs out, players stop gaining them at that point.</li><li>After giving out Ruins, you may play another Cultist from your hand.</li><li>It can be one you just drew from playing Cultist, or one you already had in your hand.</li><li>Playing a Cultist this way does not use up any extra Actions you were allowed to play due to cards like Fortress - the original Cultist uses up one Action and that is it.</li><li>When you trash a Cultist, you draw three cards.</li><li>This happens regardless of whether it is your turn, and regardless of whether the card that causes Cultist to be trashed was yours.</li><li>If you trash a Cultist while revealing cards, such as to a Knight attack, you do not draw the revealed cards that are about to be discarded.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: true, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4261,7 +4261,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: true, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4282,7 +4282,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4303,7 +4303,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4324,7 +4324,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4345,7 +4345,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4360,13 +4360,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Look through your discard pile. You may trash a non-Treasure card from it or from your hand. Gain a card costing up to <img src="assets/Coin3.png" alt="3 coins">.<br>At the end of your Buy phase this turn, if you didn’t gain any cards in it, exchange this for a Madman.',
-		help: '<ul class="faq"><li>When you play this, look through your discard pile, and then you may choose to trash a card that is not a Treasure, from either your hand or your discard pile.</li><li>You do not have to trash a card and cannot trash Treasures.</li><li>After trashing or not, you must gain a card costing up to <img src="assets/Coin3.png" alt="3 coins">.</li><li>Then, at the end of your Buy phase normally, if you did not gain any cards during that Buy phase, you exchange the Hermit for a Madman. You return the Hermit to its pile, and you take a Madman from its pile (from outside the Supply) and put it into your discard pile.</li><li>If you buy any cards, or gain a card during your Buy phase (e.g. with War Chest or Ball), you won’t exchange the Hermit.</li><li>If Hermit is not in play (e.g. it got trashed by Procession, or it was played with Band of Misfits), you’ll fail to exchange the Hermit. And if there are no Madmen in the pile, you’ll fail to exchange the Hermit.</li><li>If you take multiple Buy phases in a turn (with e.g. Villa or Cavalry), Hermit will check each Buy phase separately to see if any cards were gained in it.</li><li>If you play Hermit after your Buy phase (e.g. you gain it at Night (with e.g. Vampire) or Clean-up (with e.g. Improve) and then play it with Innovation), you won’t have the chance to exchange it this turn.</li><li>If you Possess another player and make them play Hermit, they will never be able to gain a card during their Buy phase, so they’ll exchange the Hermit. But because they aren’t gaining the Madman, it doesn’t become yours.</li><li>If you buy a card with Black Market during your Action phase, that has no impact on whether or not you can exchange your Hermit.</li></ul><p>Madman</p><ul class="faq"><li>This card is not in the Supply; it can only be obtained via Hermit.</li><li>When you play it, you get +2 Actions, return it to the Madman pile if you can (this is not optional), and if you did return it, you draw a card per card in your hand.</li><li>For example if you had three cards in hand after playing Madman, you would draw three cards.</li><li>Normally nothing will prevent you from returning Madman to the Madman pile, but you may fail to due to playing Madman twice via cards like Throne Room.</li><li>So, for example, if you Procession a Madman, you will get +2 Actions, return Madman to the Madman pile, draw a card per card in your hand, get another +2 Actions, fail to return Madman and so not draw cards the second time, fail to trash Madman, and then gain an Action card costing exactly <img src="assets/Coin1.png" alt="1 coin"> if you can.</li></ul><ul class="rules"><li>Since Madman is not in the Supply, the Madman pile being empty does NOT count towards the three-pile end-game condition.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, look through your discard pile, and then you may choose to trash a card that is not a Treasure, from either your hand or your discard pile.</li><li>You do not have to trash a card and cannot trash Treasures.</li><li>After trashing or not, you must gain a card costing up to <img src="assets/Coin3.png" alt="3 coins">.</li><li>Then, at the end of your Buy phase normally, if you did not gain any cards during that Buy phase, you exchange the Hermit for a Madman. You return the Hermit to its pile, and you take a Madman from its pile (from outside the Supply) and put it into your discard pile.</li><li>If you buy any cards, or gain a card during your Buy phase (e.g. with War Chest or Ball), you won’t exchange the Hermit.</li><li>If Hermit is not in play (e.g. it got trashed by Procession, or it was played with Band of Misfits), you’ll fail to exchange the Hermit. And if there are no Madmen in the pile, you’ll fail to exchange the Hermit.</li><li>If you take multiple Buy phases in a turn (with e.g. Villa or Cavalry), Hermit will check each Buy phase separately to see if any cards were gained in it.</li><li>If you play Hermit after your Buy phase (e.g. you gain it at Night (with e.g. Vampire) or Clean-up (with e.g. Improve) and then play it with Innovation), you won’t have the chance to exchange it this turn.</li><li>If you Possess another player and make them play Hermit, they will never be able to gain a card during their Buy phase, so they’ll exchange the Hermit. But because they aren’t gaining the Madman, it doesn’t become yours.</li><li>If you buy a card with Black Market during your Action phase, that has no impact on whether you can exchange your Hermit.</li></ul><p>Madman</p><ul class="faq"><li>This card is not in the Supply; it can only be obtained via Hermit.</li><li>When you play it, you get +2 Actions, return it to the Madman pile if you can (this is not optional), and if you did return it, you draw a card per card in your hand.</li><li>For example if you had three cards in hand after playing Madman, you would draw three cards.</li><li>Normally nothing will prevent you from returning Madman to the Madman pile, but you may fail to due to playing Madman twice via cards like Throne Room.</li><li>So, for example, if you Procession a Madman, you will get +2 Actions, return Madman to the Madman pile, draw a card per card in your hand, get another +2 Actions, fail to return Madman and so not draw cards the second time, fail to trash Madman, and then gain an Action card costing exactly <img src="assets/Coin1.png" alt="1 coin"> if you can.</li></ul><ul class="rules"><li>Since Madman is not in the Supply, the Madman pile being empty does NOT count towards the three-pile end-game condition.</li></ul>',
 		flags: { village: true, drawing: true, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4387,7 +4387,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4408,7 +4408,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4429,7 +4429,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4450,7 +4450,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4471,7 +4471,7 @@ export const CARDS: Card[] = [
 			spoils: true, ruins: true, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4486,13 +4486,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action<br>+1 Buy</b><hr>When one of your cards is trashed, you may discard this from your hand to gain a Gold.',
-		help: '<ul class="faq"><li>When you play this, you draw a card and get +1 Action and +1 Buy.</li><li>When one of your cards is trashed, you may discard Market Square from your hand.</li><li>If you do, you gain a Gold.</li><li>If there is no Gold left in the Supply, you do not gain one.</li><li>You may discard multiple Market Squares when a single card of yours is trashed.</li></ul><ul class="rules"><li>Market Square has the same timing as ”when you trash this“ effects on other cards, such as Cultist, and you choose the order they happen in.</li><li>Market Square doesn’t have to have been in your hand when you trash a card; you could trash Cultist, drawing one or more Market Squares, and still discard them. This is allowed since your opponents can’t see what’s in your hand.</li><li>Market Square cannot be discarded if you trash a card you don’t own, such as with Lurker.</li><li>If you trash a Haunted Mirror, you can discard Market Square for either a Gold or a Ghost, but not both.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you draw a card and get +1 Action and +1 Buy.</li><li>When one of your cards is trashed, you may discard Market Square from your hand.</li><li>If you do, you gain a Gold.</li><li>If there is no Gold left in the Supply, you do not gain one.</li><li>You may discard multiple Market Squares when a single card of yours is trashed.</li></ul><ul class="rules"><li>Market Square has the same timing as “when you trash this“ effects on other cards, such as Cultist, and you choose the order they happen in.</li><li>Market Square doesn’t have to have been in your hand when you trash a card; you could trash Cultist, drawing one or more Market Squares, and still discard them. This is allowed since your opponents can’t see what’s in your hand.</li><li>Market Square cannot be discarded if you trash a card you don’t own, such as with Lurker.</li><li>If you trash a Haunted Mirror, you can discard Market Square for either a Gold or a Ghost, but not both.</li></ul>',
 		flags: { village: false, drawing: true, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4513,7 +4513,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4528,13 +4528,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Trash this. If you did, gain 2 Spoils, and each other player with 5 or more cards in hand reveals their hand and discards a card that you choose.',
-		help: '<ul class="faq"><li>First trash Pillage.</li><li>Then, if you did, you gain two Spoils cards.</li><li>These come from the Spoils pile, which is not part of the Supply.</li><li>If there are no Spoils cards left, you do not get one; if there is only one, you just get one.</li><li>Then each other player with 5 or more cards in hand reveals their hand and discards a card of your choice.</li><li>This happens in turn order, starting with the player to your left.</li></ul><ul class="rules"><li>Pillage was originally phrased to not have all effects after the trashing be dependent on the card being trashed. This meant that you did get 4 Spoils when you Throne Room a Pillage, for example. Also the Spoils were gained after affecting other players.</li></ul>',
+		help: '<ul class="faq"><li>First trash Pillage.</li><li>Then, if you did, you gain two Spoils cards.</li><li>These come from the Spoils pile, which is not part of the Supply.</li><li>If there are no Spoils cards left, you do not get one; if there is only one, you just get one.</li><li>Then each other player with 5 or more cards in hand reveals their hand and discards a card of your choice.</li><li>This happens in turn order, starting with the player to your left.</li></ul><ul class="rules"><li>Pillage was originally phrased to not have all effects after the trashing be dependent on the card being trashed. This meant that you did get 4 Spoils when you Throne Room a Pillage, for example. Also, the Spoils were gained after affecting other players.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: true, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4555,7 +4555,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4576,7 +4576,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4591,13 +4591,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action</b><br>Gain a Rats. Trash a card from your hand other than a Rats (or reveal a hand of all Rats).<hr>When you trash this, <b>+1 Card</b>.',
-		help: '<ul class="faq"><li>Follow the instructions in order.</li><li>First draw a card; then gain a Rats; then trash a card from your hand that is not a Rats card.</li><li>If there are no Rats cards left, you do not gain one.</li><li>If you have no cards in your hand other than Rats, reveal your hand and you do not trash a card.</li><li>If Rats is trashed, you draw a card.</li><li>This happens whether it is your turn or another player’s, and regardless of which player has the card that trashed Rats.</li><li>There are 20 copies of Rats, rather than the usual 10; the pile starts with all 20, regardless of the number of players.</li></ul>',
+		help: '<ul class="faq"><li>Follow the instructions in order.</li><li>First draw a card; then gain a Rats; then trash a card from your hand that is not a Rats card.</li><li>If there are no Rats cards left, you do not gain one.</li><li>If you have no cards in your hand other than Rats, reveal your hand, and you do not trash a card.</li><li>If Rats is trashed, you draw a card.</li><li>This happens whether it is your turn or another player’s, and regardless of which player has the card that trashed Rats.</li><li>There are 20 copies of Rats, rather than the usual 10; the pile starts with all 20, regardless of the number of players.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4612,13 +4612,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Name a card. Reveal cards from your deck until you reveal a Victory card you did not name. Discard the rest, trash the Victory card, and gain a Victory card costing up to <img src="assets/Coin3.png" alt="3 coins"> more than it.',
-		help: '<ul class="faq"><li>You can name any card, whether or not it is being used this game or is a Victory card.</li><li>Then reveal cards from your deck until you reveal a Victory card that is not what you named.</li><li>If you run out of cards, shuffle your discard pile and continue, without shuffling in the revealed cards.</li><li>If you run out of cards with no cards left in your discard pile, stop there, discard everything, and nothing more happens.</li><li>If you did find a Victory card that was not what you named, you discard the other revealed cards, trash the Victory card, and gain a Victory card costing up to <img src="assets/Coin3.png" alt="3 coins"> more than the trashed card.</li></ul>',
+		help: '<ul class="faq"><li>You can name any card, regardless of whether it is being used this game or is a Victory card.</li><li>Then reveal cards from your deck until you reveal a Victory card that is not what you named.</li><li>If you run out of cards, shuffle your discard pile and continue, without shuffling in the revealed cards.</li><li>If you run out of cards with no cards left in your discard pile, stop there, discard everything, and nothing more happens.</li><li>If you did find a Victory card that was not what you named, you discard the other revealed cards, trash the Victory card, and gain a Victory card costing up to <img src="assets/Coin3.png" alt="3 coins"> more than the trashed card.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4639,7 +4639,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4660,7 +4660,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4681,7 +4681,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4702,7 +4702,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4723,7 +4723,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4744,7 +4744,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4765,7 +4765,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4786,7 +4786,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4807,7 +4807,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4828,7 +4828,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4843,13 +4843,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Coffers</b><br>You may trash a card from your hand. If you do, remove any number of tokens from your Coffers and gain a card, costing up to the cost of the trashed card plus <img src="assets/Coin1.png" alt="1 coin"> per token removed.',
-		help: '<ul class="faq"><li>First add two tokens to your Coffers mat.</li><li>Then you may trash a card from your hand and remove any number of tokens from your Coffers.</li><li>The number of tokens you remove can be zero.</li><li>If you trashed a card, you gain a card costing up to the cost of the trashed card plus the number of tokens you removed. For example you could trash an Estate and remove six tokens to gain a Province, or you could trash another Butcher and remove zero tokens to gain a Duchy.</li><li>You can remove the tokens you just added.</li><li>Removing tokens for this ability doesn’t give you <img src="assets/Coin.png" alt="coins"> to spend, it just changes what cards you can gain with this ability.</li></ul><ul class="rules"><li>If you trash a Silk Merchant, you can immediately use the Coffer you gain from it to gain a more expensive card with Butcher.</li></ul>',
+		help: '<ul class="faq"><li>First add two tokens to your Coffers mat.</li><li>Then you may trash a card from your hand and remove any number of tokens from your Coffers.</li><li>The number of tokens you remove can be zero.</li><li>If you trashed a card, you gain a card costing up to the cost of the trashed card plus the number of tokens you removed. For example, you could trash an Estate and remove six tokens to gain a Province, or you could trash another Butcher and remove zero tokens to gain a Duchy.</li><li>You can remove the tokens you just added.</li><li>Removing tokens for this ability doesn’t give you <img src="assets/Coin.png" alt="coins"> to spend, it just changes what cards you can gain with this ability.</li></ul><ul class="rules"><li>If you trash a Silk Merchant, you can immediately use the Coffer you gain from it to gain a more expensive card with Butcher.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4870,7 +4870,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4891,7 +4891,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4912,7 +4912,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4933,7 +4933,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4954,7 +4954,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4975,7 +4975,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -4996,7 +4996,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5017,7 +5017,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5032,13 +5032,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Trash a card from your hand. Gain 2 cards each costing less than it.<hr>Overpay: Gain 2 Action cards each costing the amount you overpaid.',
-		help: '<ul class="faq"><li>When you play this, trash a card from your hand, and gain two cards each costing less than the card you trashed.</li><li>Trashing a card is not optional.</li><li>If you do not have any cards left in your hand to trash, you do not gain any cards.</li><li>The two cards you gain can be different or the same. For example you could trash a Gold to gain a Duchy and a Silver.</li><li>Gaining cards is not optional if you trashed a card.</li><li>If there are no cheaper cards in the Supply (for example if you trash a Copper), you do not gain any.</li><li>The cards you gain are gained one at a time; this may matter with cards that do something when gained, such as Inn from Dominion: Hinterlands.</li><li>When you buy this, you may choose to overpay for it. If you do, then after you gain Stonemason, you gain two Action cards each costing exactly the amount you overpaid.</li><li>The Action cards can be different or the same. For example, if you buy Stonemason for <img src="assets/Coin6.png" alt="6 coins">, you could gain two Heralds.</li><li>If there are no cards with the appropriate cost in the Supply, you do not gain one.</li><li>Overpaying with <img src="assets/Potion.png" alt="potion"> (from Dominion: Alchemy) will let you gain cards with <img src="assets/Potion.png" alt="potion"> in the cost.</li><li>If you choose not to overpay, you will not gain any cards from that ability; it is not possible to use it to gain Action cards costing <img src="assets/Coin0.png" alt="0 coins">.</li></ul><ul class="rules"><li>If you gain this without buying it, you can’t overpay for it.</li><li>You can’t overpay with <img src="assets/Debt.png" alt="debt">, meaning you can’t overpay by <img src="assets/Debt8.png" alt="8 debt"> to gain 2 City Quarters.</li><li>To overpay and gain an Animal Fair, you have to overpay <img src="assets/Coin7.png" alt="7 coins">.</li><li>In 2022, the rules for overpaying got errata so that now you gain the Stonemason before you gain the cards from the overpay effect. This may matter for cards like Destrier and Wayfarer.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, trash a card from your hand, and gain two cards each costing less than the card you trashed.</li><li>Trashing a card is not optional.</li><li>If you do not have any cards left in your hand to trash, you do not gain any cards.</li><li>The two cards you gain can be different or the same. For example, you could trash a Gold to gain a Duchy and a Silver.</li><li>Gaining cards is not optional if you trashed a card.</li><li>If there are no cheaper cards in the Supply (for example if you trash a Copper), you do not gain any.</li><li>The cards you gain are gained one at a time; this may matter with cards that do something when gained, such as Inn from Dominion: Hinterlands.</li><li>When you buy this, you may choose to overpay for it. If you do, then after you gain Stonemason, you gain two Action cards each costing exactly the amount you overpaid.</li><li>The Action cards can be different or the same. For example, if you buy Stonemason for <img src="assets/Coin6.png" alt="6 coins">, you could gain two Heralds.</li><li>If there are no cards with the appropriate cost in the Supply, you do not gain one.</li><li>Overpaying with <img src="assets/Potion.png" alt="potion"> (from Dominion: Alchemy) will let you gain cards with <img src="assets/Potion.png" alt="potion"> in the cost.</li><li>If you choose not to overpay, you will not gain any cards from that ability; it is not possible to use it to gain Action cards costing <img src="assets/Coin0.png" alt="0 coins">.</li></ul><ul class="rules"><li>If you gain this without buying it, you can’t overpay for it.</li><li>You can’t overpay with <img src="assets/Debt.png" alt="debt">, meaning you can’t overpay by <img src="assets/Debt8.png" alt="8 debt"> to gain 2 City Quarters.</li><li>To overpay and gain an Animal Fair, you have to overpay <img src="assets/Coin7.png" alt="7 coins">.</li><li>In 2022, the rules for overpaying got errata so that now you gain the Stonemason before you gain the cards from the overpay effect. This may matter for cards like Destrier and Wayfarer.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5059,7 +5059,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5080,7 +5080,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5101,7 +5101,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5122,7 +5122,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: true, minusDraw: false
+			journey: false, minusOne: true, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5137,13 +5137,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action</b><br>At the start of your next turn, <b>+<img src="assets/Coin1.png" alt="1 coin"></b>.<hr>When another player plays an Attack card, you may first play this from your hand.',
-		help: '<ul class="faq"><li>This gives you +1 Card and +1 Action when you play it, and then +<img src="assets/Coin1.png" alt="1 coin"> at the start of your next turn after that.</li><li>This card has a Reaction ability that lets you play it when another player plays an Attack card.</li><li>Playing this during another player’s turn is similar to playing it during your own turn - you put Caravan Guard into play, get +1 Card and +1 Action, and will get +<img src="assets/Coin1.png" alt="1 coin"> at the start of your next turn - the very next turn you take. However getting +1 Action during someone else’s turn does not do anything for you; it does not let you play other Action cards during that player’s turn.</li><li>Similarly if an effect gives you +<img src="assets/Coin1.png" alt="1 coin"> or +1 Buy during another player’s turn, that still does not let you buy cards during that player’s turn (although +<img src="assets/Coin1.png" alt="1 coin"> can cancel the −<img src="assets/Coin1.png" alt="1 coin"> token given out by Bridge Troll).</li><li>The +1 Action (or potential other +’s) does not carry over to your next turn either.</li><li>After reacting with a Caravan Guard, you can use another one, even one you just drew, and also can use other Reactions, even ones you just drew; you keep going until you have no more Reactions you ’ to respond to the Attack with.</li></ul><ul class="rules"><li>If you call Royal Carriage on Caravan Guard after you play it as a Reaction during another player’s turn, it will stay in play until your next turn and give you an extra +<img src="assets/Coin1.png" alt="1 coin"> at that time, as you would expect. However, if you call Coin of the Realm, it will be discarded during the Clean-up phase of the Attacking player’s turn, and the +2 Actions it will give you don’t do anything for you, as +Action doesn’t mean anything when it’s not your turn.</li><li>If you react with this against a Relic, you draw a card, and then you put your -1 Card token on your deck.</li><li>If you react with a Trained Caravan Guard (meaning has the <b>+<img src="assets/Coin1.png" alt="1 coin"></b> token from the Training event) against a Bridge Troll, and you don’t have your -<img src="assets/Coin1.png" alt="1 coin"> token, you will get +<img src="assets/Coin1.png" alt="1 coin"> before you take your -<img src="assets/Coin1.png" alt="1 coin"> token, so you won’t be able to remove it. But if you get affected by a different attack afterwards, reacting with a Trained Caravan Guard will remove your -<img src="assets/Coin1.png" alt="1 coin"> token.</li></ul>',
+		help: '<ul class="faq"><li>This gives you +1 Card and +1 Action when you play it, and then +<img src="assets/Coin1.png" alt="1 coin"> at the start of your next turn after that.</li><li>This card has a Reaction ability that lets you play it when another player plays an Attack card.</li><li>Playing this during another player’s turn is similar to playing it during your own turn - you put Caravan Guard into play, get +1 Card and +1 Action, and will get +<img src="assets/Coin1.png" alt="1 coin"> at the start of your next turn - the very next turn you take. However, getting +1 Action during someone else’s turn does not do anything for you; it does not let you play other Action cards during that player’s turn.</li><li>Similarly if an effect gives you +<img src="assets/Coin1.png" alt="1 coin"> or +1 Buy during another player’s turn, that still does not let you buy cards during that player’s turn (although +<img src="assets/Coin1.png" alt="1 coin"> can cancel the −<img src="assets/Coin1.png" alt="1 coin"> token given out by Bridge Troll).</li><li>The +1 Action (or potential other +’s) does not carry over to your next turn either.</li><li>After reacting with a Caravan Guard, you can use another one, even one you just drew, and also can use other Reactions, even ones you just drew; you keep going until you have no more Reactions you ’ to respond to the Attack with.</li></ul><ul class="rules"><li>If you call Royal Carriage on Caravan Guard after you play it as a Reaction during another player’s turn, it will stay in play until your next turn and give you an extra +<img src="assets/Coin1.png" alt="1 coin"> at that time, as you would expect. However, if you call Coin of the Realm, it will be discarded during the Clean-up phase of the Attacking player’s turn, and the +2 Actions it will give you don’t do anything for you, as +Action doesn’t mean anything when it’s not your turn.</li><li>If you react with this against a Relic, you draw a card, and then you put your -1 Card token on your deck.</li><li>If you react with a Trained Caravan Guard (meaning has the <b>+<img src="assets/Coin1.png" alt="1 coin"></b> token from the Training event) against a Bridge Troll, and you don’t have your -<img src="assets/Coin1.png" alt="1 coin"> token, you will get +<img src="assets/Coin1.png" alt="1 coin"> before you take your -<img src="assets/Coin1.png" alt="1 coin"> token, so you won’t be able to remove it. But if you get affected by a different attack afterwards, reacting with a Trained Caravan Guard will remove your -<img src="assets/Coin1.png" alt="1 coin"> token.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5158,13 +5158,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<img src="assets/Coin1.png" alt="1 coin"><br>When you play this, put it on your Tavern mat.<hr>Directly after you finish playing an Action card, you may call this, for <b>+2 Actions</b>.',
-		help: '<ul class="faq"><li>This is a Treasure worth <img src="assets/Coin1.png" alt="1 coin">.</li><li>You play it in your Buy phase, like other Treasures.</li><li>When you play it, it goes on your Tavern mat. It produces <img src="assets/Coin1.png" alt="1 coin"> that turn but is no longer in play. It stays on the mat until you call it.</li><li>You can call it after resolving playing an Action card, for +2 Actions (which will let you play further Action cards).</li><li>Move the Coin of the Realm into play when you call it, but it does not give you <img src="assets/Coin1.png" alt="1 coin"> that turn, it just gives +2 Actions.</li><li>It is discarded that turn with your other cards in play.</li></ul><ul class="rules"><li>You can call Coin of the Realm if you play Actions outside of your Action phase (e.g. playing a card with Toil, or playing a Werewolf at Night, or playing a Caravan Guard on another player’s turn), but you don’t get to use the +2 Actions to play Actions from your hand.</li><li>If you play this with an Action card (such as Black Market or Storyteller), you may immediately call it for +2 Actions.</li><li>Unlike Royal Carriage, if the Action you played is no longer in play (e.g. because it was a Reserve card that went onto your Tavern mat), you can still call this.</li></ul>',
+		help: '<ul class="faq"><li>This is a Treasure worth <img src="assets/Coin1.png" alt="1 coin">.</li><li>You play it in your Buy phase, like other Treasures.</li><li>When you play it, it goes on your Tavern mat. It produces <img src="assets/Coin1.png" alt="1 coin"> that turn but is no longer in play. It stays on the mat until you call it.</li><li>You can call it after resolving playing an Action card, for +2 Actions (which will let you play further Action cards).</li><li>Move the Coin of the Realm into play when you call it, but it does not give you <img src="assets/Coin1.png" alt="1 coin"> that turn, it just gives +2 Actions.</li><li>It is discarded that turn with your other cards in play.</li></ul><ul class="rules"><li>You can call Coin of the Realm if you play Actions outside your Action phase (e.g. playing a card with Toil, or playing a Werewolf at Night, or playing a Caravan Guard on another player’s turn), but you don’t get to use the +2 Actions to play Actions from your hand.</li><li>If you play this with an Action card (such as Black Market or Storyteller), you may immediately call it for +2 Actions.</li><li>Unlike Royal Carriage, if the Action you played is no longer in play (e.g. because it was a Reserve card that went onto your Tavern mat), you can still call this.</li></ul>',
 		flags: { village: true, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5185,7 +5185,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5206,7 +5206,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5221,13 +5221,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Put this on your Tavern mat.<hr>When you gain a card costing up to <img src="assets/Coin6.png" alt="6 coins">, you may call this, to gain a copy of that card.',
-		help: '<ul class="faq"><li>When you play this, you put it on your Tavern mat. It stays on your mat until you call it.</li><li>You can call it when gaining a card costing up to <img src="assets/Coin6.png" alt="6 coins">, and gain another copy of that card. The gained card comes from the Supply and is put into your discard pile; Duplicate cannot gain non-supply cards such as Teacher.</li><li>Duplicate can be called during other players’ turns when you gain cards; for example, another player might buy Messenger and choose to have each player gain an Estate, and you could Duplicate that Estate.</li><li>You can call multiple Duplicates to gain multiple copies of the same card.</li><li>Duplicate is discarded during the Clean-up of the turn you call it, whether or not it is your turn.</li></ul><ul class="rules"><li>Cards with <img src="assets/Potion.png" alt="potion"> or <img src="assets/Debt.png" alt="debt"> in their cost cannot be Duplicated.</li><li>If you have Innovation, which allows you to play a card immediately on gaining it, you could gain a Duplicate, play it immediately and put it on the Tavern mat, and then call it immediately to gain another Duplicate. This is because when the Duplicate reaches the Tavern mat, you’re still within the time window of carrying out effects triggered by gaining the Duplicate.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you put it on your Tavern mat. It stays on your mat until you call it.</li><li>You can call it when gaining a card costing up to <img src="assets/Coin6.png" alt="6 coins">, and gain another copy of that card. The gained card comes from the Supply and is put into your discard pile; Duplicate cannot gain non-supply cards such as Teacher.</li><li>Duplicate can be called during other players’ turns when you gain cards; for example, another player might buy Messenger and choose to have each player gain an Estate, and you could Duplicate that Estate.</li><li>You can call multiple Duplicates to gain multiple copies of the same card.</li><li>Duplicate is discarded during the Clean-up of the turn you call it, regardless of whether it is your turn.</li></ul><ul class="rules"><li>Cards with <img src="assets/Potion.png" alt="potion"> or <img src="assets/Debt.png" alt="debt"> in their cost cannot be Duplicated.</li><li>If you have Innovation, which allows you to play a card immediately on gaining it, you could gain a Duplicate, play it immediately and put it on the Tavern mat, and then call it immediately to gain another Duplicate. This is because when the Duplicate reaches the Tavern mat, you’re still within the time window of carrying out effects triggered by gaining the Duplicate.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5248,7 +5248,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5269,7 +5269,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: true, minusOne: false, minusDraw: false
+			journey: true, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5290,7 +5290,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5311,7 +5311,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5332,7 +5332,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5353,7 +5353,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5374,7 +5374,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5395,7 +5395,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5416,7 +5416,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5437,7 +5437,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5458,7 +5458,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: true, plusAction: true, plusBuy: true, plusOne: true,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5479,7 +5479,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5500,7 +5500,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: true, minusOne: false, minusDraw: false
+			journey: true, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5521,7 +5521,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5542,7 +5542,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5563,7 +5563,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: true
+			journey: false, minusOne: false, minusDraw: true, loot: false
 		}
 	},
 	{
@@ -5578,13 +5578,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Put this on your Tavern mat.<hr>Directly after you finish playing an Action card, if it’s still in play, you may call this, to replay that Action.',
-		help: '<ul class="faq"><li>When you play this, you get +1 Action and put it on your Tavern mat. It stays on your mat until you call it, directly after resolving a played Action card that is still in play.</li><li>Royal Carriage cannot respond to Actions that are no longer in play, such as a Reserve card that was put on the Tavern mat, or a card that trashed itself (like a Raze used to trash itself).</li><li>When called, Royal Carriage causes you to replay the card you just played.</li><li>You can call multiple Royal Carriages to replay the same Action multiple times (provided the Action is still in play).</li><li>You completely resolve the Action before deciding whether or not to use Royal Carriage on it.</li><li>If you use Royal Carriage to replay a Duration card, Royal Carriage will stay in play until the Duration card is discarded from play, to track the fact that the Duration card has been played twice.</li></ul><ul class="rules"><li>With Duration cards, you call Royal Carriage after resolving the Duration card’s on-play effects; you don’t wait for the next turn.</li><li>You can’t call a Royal Carriage to replay a called Reserve card, even though the Reserve card is in play after you call it.</li><li>Royal Carriage can be called on a Crown played during your Buy phase, a Werewolf played during your Night phase.</li><li>You can also call Royal Carriage on a card you play on another player’s turn (e.g. Caravan Guard or Falconer). If it’s a Duration, Royal Carriage will stay in play; otherwise you will discard the Royal Carriage during that player’s Clean-up.</li><li>If a card you play leaves and then immediately returns to your play area (e.g. you play a Transmogrify at the start of your turn with Piazza and then immediately call the Transmogrify), you can’t call Royal Carriage on it.</li><li>If an Action card plays a Royal Carriage (such as Disciple), you can immediately call the Royal Carriage to replay the Disciple.</li><li>If an Action plays another Action (such as a Sauna that plays an Avanto), you will call Royal Carriages in the opposite order of when they were played. So you can’t call Royal Carriage on Sauna before Avanto. If you call a Royal Carriage on Sauna, you can no longer call Royal Carriage on Avanto.</li><li>If an Action is in play, and you replay it with a Royal Carriage to remove it from play (e.g. you replay a Tragic Hero and it trashes itself, then you can no longer call other Royal Carriages on it.</li><li>If you have 3 Favors, play an Underling, and then replay it with Royal Carriage, you’ll get a total of +<img src="assets/Coin2.png" alt="2 coins"> from League of Shopkeepers.</li><li>In a couple of rare and implausible scenarios, it is conceivably possible to play a card in someone else’s play area. In the unlikely event that this ever happens, you can’t call Royal Carriage on a card you played in another player’s play area.</li></ul>',
+		help: '<ul class="faq"><li>When you play this, you get +1 Action and put it on your Tavern mat. It stays on your mat until you call it, directly after resolving a played Action card that is still in play.</li><li>Royal Carriage cannot respond to Actions that are no longer in play, such as a Reserve card that was put on the Tavern mat, or a card that trashed itself (like a Raze used to trash itself).</li><li>When called, Royal Carriage causes you to replay the card you just played.</li><li>You can call multiple Royal Carriages to replay the same Action multiple times (provided the Action is still in play).</li><li>You completely resolve the Action before deciding whether to use Royal Carriage on it.</li><li>If you use Royal Carriage to replay a Duration card, Royal Carriage will stay in play until the Duration card is discarded from play, to track the fact that the Duration card has been played twice.</li></ul><ul class="rules"><li>With Duration cards, you call Royal Carriage after resolving the Duration card’s on-play effects; you don’t wait for the next turn.</li><li>You can’t call a Royal Carriage to replay a called Reserve card, even though the Reserve card is in play after you call it.</li><li>Royal Carriage can be called on a Crown played during your Buy phase, a Werewolf played during your Night phase.</li><li>You can also call Royal Carriage on a card you play on another player’s turn (e.g. Caravan Guard or Falconer). If it’s a Duration, Royal Carriage will stay in play; otherwise you will discard the Royal Carriage during that player’s Clean-up.</li><li>If a card you play leaves and then immediately returns to your play area (e.g. you play a Transmogrify at the start of your turn with Piazza and then immediately call the Transmogrify), you can’t call Royal Carriage on it.</li><li>If an Action card plays a Royal Carriage (such as Disciple), you can immediately call the Royal Carriage to replay the Disciple.</li><li>If an Action plays another Action (such as a Sauna that plays an Avanto), you will call Royal Carriages in the opposite order of when they were played. So you can’t call Royal Carriage on Sauna before Avanto. If you call a Royal Carriage on Sauna, you can no longer call Royal Carriage on Avanto.</li><li>If an Action is in play, and you replay it with a Royal Carriage to remove it from play (e.g. you replay a Tragic Hero and it trashes itself, then you can no longer call other Royal Carriages on it.</li><li>If you have 3 Favors, play an Underling, and then replay it with Royal Carriage, you’ll get a total of +<img src="assets/Coin2.png" alt="2 coins"> from League of Shopkeepers.</li><li>In a couple of rare and implausible scenarios, it is conceivably possible to play a card in someone else’s play area. In the unlikely event that this ever happens, you can’t call Royal Carriage on a card you played in another player’s play area.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5605,7 +5605,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5626,7 +5626,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5647,7 +5647,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5668,7 +5668,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5689,7 +5689,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: true, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5704,13 +5704,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Set aside the top 3 cards of your deck face down (you may look at them). Now and at the start of your next two turns, put one into your hand.',
-		help: '<ul class="faq"><li>You look at three cards, and get one now, one next turn, and one the turn after that.</li><li>Put the set-aside cards under Archive.</li><li>If you play two Archives, they get separate sets of cards.</li><li>If you Throne Room an Archive, keep the sets of cards separate; you get one from each each turn.</li><li>If there are fewer than three cards, just set aside what you can, and Archive will run out of cards faster and still be discarded the turn it has no cards left.</li></ul><ul class="rules"><li>A Throne Room on an Archive remains in play even if there are not enough cards left in your deck to sustain a second Archive effect for the full 3 turns.</li></ul>',
+		help: '<ul class="faq"><li>You look at three cards, and get one now, one next turn, and one the turn after that.</li><li>Put the set-aside cards under Archive.</li><li>If you play two Archives, they get separate sets of cards.</li><li>If you Throne Room an Archive, keep the sets of cards separate; you get one from each, each turn.</li><li>If there are fewer than three cards, just set aside what you can, and Archive will run out of cards faster and still be discarded the turn it has no cards left.</li></ul><ul class="rules"><li>A Throne Room on an Archive remains in play even if there are not enough cards left in your deck to sustain a second Archive effect for the full 3 turns.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5731,7 +5731,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5752,7 +5752,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5773,7 +5773,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5794,7 +5794,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5815,7 +5815,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5836,7 +5836,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5857,7 +5857,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5878,7 +5878,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5893,13 +5893,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Until your next turn, the first time each other player plays an Action card on their turn, they get <b>+1 Card</b> and <b>+1 Action</b> instead of following its instructions.<br>At the start of your next turn,<br><b>+2 Cards</b>',
-		help: '<ul class="faq"><li>Players revealing a card like Moat when this is played have to do it right then, not later, even though the attack will not hurt them until their turn.</li><li>The first Action each other player plays, just on their next turn, will give them +1 Card +1 Action instead of what it would have normally done.</li><li>This does not affect abilities below a dividing line; they still function. For example a player playing Sacrifice would get +1 Card +1 Action and not do anything Sacrifice normally does; a player playing Groundskeeper would get +1 Card +1 Action and would still get <img src="assets/VP.png" alt="victory points"> for gaining Victory cards.</li><li>It can be helpful to turn the affected card sideways, to remember that it did not do what it normally does.</li><li>Enchantress does not affect card abilities from cards played on previous turns; for example if an opponent plays Enchantress and you have an Archive out from a previous turn, on your turn you will first get a card from your Archive as normal, and then the first Action card actually played on that turn will be affected by Enchantress.</li><li>If Enchantress affects a Crown played in a Buy phase, its player gets +1 Card +1 Action, but has no way to use the +1 Action, since it is their Buy phase (but it might matter e.g. if the player buys Villa).</li><li>If your opponents play multiple Enchantresses in a round, they still only affect the first card you play on each turn, and not any further cards.</li></ul><ul class="rules"><li>If a player under the effect of an Enchantress takes one or more extra turns, the first Action played on each of those turns is also turned into a cantrip.</li><li>If a Duration card gets affected by Enchantress, it will get discarded from play this turn. This doesn’t stop any below-the-line effects.</li><li>Enchantress does not change anything about the card, just prevents on-play instructions on the card from being carried out properly. So cards that are Enchanted can still prompt Reactions (such as another player’s Diplomat), still carry out all Adventures tokens effects (such as the +<img src="assets/Coin1.png" alt="1 coin"> token from Training), and can still be replayed by Royal Carriage, Citadel, or Scepter to perform their normal effects.</li><li>Using a Way on a card overrides Enchantress; you get the effect of the Way, rather than the +1 Card / +1 Action effect Enchantress would give you. This applies even for Way of the ChameleonWay of the Chameleon.jpg.</li><li>The Lantern has no effect on Enchantress; if the first card you play on an Enchanted turn is Border Guard, you just get +1 Card / +1 Action regardless of whether or not you have the Lantern.</li><li>If you play a card, but then somehow play a second card before you begin executing the first card’s instructions, the first card is still the one affected by Enchantress.</li><li>If the first Action card you play in a turn is a Werewolf during the Night phase, or a Crown during the Buy phase, the Werewolf or Crown will still be affected by Enchantress and give you +1 Card / +1 Action (neither of them very useful in the Night phase) rather than its usual effect.</li><li>This applies if the first Action card played in a turn is played after the Action phase for any other reason, as well—e.g., as a result of Capitalism or Gamble.</li></ul>',
+		help: '<ul class="faq"><li>Players revealing a card like Moat when this is played have to do it right then, not later, even though the attack will not hurt them until their turn.</li><li>The first Action each other player plays, just on their next turn, will give them +1 Card +1 Action instead of what it would have normally done.</li><li>This does not affect abilities below a dividing line; they still function. For example a player playing Sacrifice would get +1 Card +1 Action and not do anything Sacrifice normally does; a player playing Groundskeeper would get +1 Card +1 Action and would still get <img src="assets/VP.png" alt="victory points"> for gaining Victory cards.</li><li>It can be helpful to turn the affected card sideways, to remember that it did not do what it normally does.</li><li>Enchantress does not affect card abilities from cards played on previous turns; for example if an opponent plays Enchantress and you have an Archive out from a previous turn, on your turn you will first get a card from your Archive as normal, and then the first Action card actually played on that turn will be affected by Enchantress.</li><li>If Enchantress affects a Crown played in a Buy phase, its player gets +1 Card +1 Action, but has no way to use the +1 Action, since it is their Buy phase (but it might matter e.g. if the player buys Villa).</li><li>If your opponents play multiple Enchantresses in a round, they still only affect the first card you play on each turn, and not any further cards.</li></ul><ul class="rules"><li>If a player under the effect of an Enchantress takes one or more extra turns, the first Action played on each of those turns is also turned into a cantrip.</li><li>If a Duration card gets affected by Enchantress, it will get discarded from play this turn. This doesn’t stop any below-the-line effects.</li><li>Enchantress does not change anything about the card, just prevents on-play instructions on the card from being carried out properly. So cards that are Enchanted can still prompt Reactions (such as another player’s Diplomat), still carry out all Adventures tokens effects (such as the +<img src="assets/Coin1.png" alt="1 coin"> token from Training), and can still be replayed by Royal Carriage, Citadel, or Scepter to perform their normal effects.</li><li>Using a Way on a card overrides Enchantress; you get the effect of the Way, rather than the +1 Card / +1 Action effect Enchantress would give you. This applies even for Way of the ChameleonWay of the Chameleon.jpg.</li><li>The Lantern has no effect on Enchantress; if the first card you play on an Enchanted turn is Border Guard, you just get +1 Card / +1 Action regardless of whether you have the Lantern.</li><li>If you play a card, but then somehow play a second card before you begin executing the first card’s instructions, the first card is still the one affected by Enchantress.</li><li>If the first Action card you play in a turn is a Werewolf during the Night phase, or a Crown during the Buy phase, the Werewolf or Crown will still be affected by Enchantress and give you +1 Card / +1 Action (neither of them very useful in the Night phase) rather than its usual effect.</li><li>This applies if the first Action card played in a turn is played after the Action phase for any other reason, as well—e.g., as a result of Capitalism or Gamble.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5920,7 +5920,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5941,7 +5941,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5962,7 +5962,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5983,7 +5983,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -5998,13 +5998,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+1 Action</b><br>This turn, when you gain a Victory card, +1<img src="assets/VP.png" alt="victory point">.',
-		help: '<ul class="faq"><li>This can trigger multiple times in a turn, for cards gained different ways. For example you could play Groundskeeper, then play Engineer gaining an Estate and taking 1<img src="assets/VP.png" alt="victory point">, then in your Buy phase buy a Duchy taking another +1<img src="assets/VP.png" alt="victory point">.</li><li>Multiple Groundskeepers are cumulative.</li></ul><ul class="rules"><li>In 2022, Groundskeeper got errata that changed it from a “while this is in play” ability to a “this turn” ability. This means that now if you use Crown to play a Groundskeeper twice, then each Victory card you gain that turn will come with 2<img src="assets/VP.png" alt="victory points">.</li></ul>',
+		help: '<ul class="faq"><li>This can trigger multiple times in a turn, for cards gained different ways. For example, you could play Groundskeeper, then play Engineer gaining an Estate and taking 1<img src="assets/VP.png" alt="victory point">, then in your Buy phase buy a Duchy taking another +1<img src="assets/VP.png" alt="victory point">.</li><li>Multiple Groundskeepers are cumulative.</li></ul><ul class="rules"><li>In 2022, Groundskeeper got errata that changed it from a “while this is in play” ability to a “this turn” ability. This means that now if you use Crown to play a Groundskeeper twice, then each Victory card you gain that turn will come with 2<img src="assets/VP.png" alt="victory points">.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6019,13 +6019,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin3.png" alt="3 coins"></b><br>You may reveal a Gold from your hand. If you do, each other player discards down to 2 cards in hand, then draws a card.',
-		help: '<ul class="faq"><li>Players ’ing to respond to the Attack (e.g. with Moat) must do so before you choose whether or not to reveal a Gold.</li></ul>',
+		help: '<ul class="faq"><li>Players ’ing to respond to the Attack (e.g. with Moat) must do so before you choose whether to reveal a Gold.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6046,7 +6046,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6067,7 +6067,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6088,7 +6088,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: true, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6109,7 +6109,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6130,7 +6130,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6151,7 +6151,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6172,7 +6172,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6193,7 +6193,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6214,7 +6214,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6235,7 +6235,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6256,7 +6256,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6271,13 +6271,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Trash this. Gain a copy of a card you have in play.<hr>In games using this, when you gain a card costing <img src="assets/Coin3.png" alt="3 coins"> or more, you may exchange it for a Changeling.',
-		help: '<ul class="faq"><li>When Changeling is in the Supply, any time you gain a card costing at least <img src="assets/Coin3.png" alt="3 coins">, you may exchange it for a Changeling from the Supply.</li><li>You can only do this if you can actually return the card you gained, and there is at least one Changeling in the Supply.</li><li>The Changeling goes to your discard pile, no matter where the gained card went.</li><li>Things that happen due to gaining the gained card still happen.</li><li>So for example you could gain Skulk, exchange it for a Changeling (returning Skulk to the Supply and putting Changeling into your discard pile), and still gain a Gold from Skulk’s ability.</li><li>Exchanging for a Changeling is optional.</li><li>You cannot do it if the gained card costs less than<img src="assets/Coin3.png" alt="3 coins">, even if it normally costs <img src="assets/Coin3.png" alt="3 coins"> or more, and you cannot do it if the cost is neither more or less than <img src="assets/Coin3.png" alt="3 coins"> (such as Transmute from Alchemy).</li><li>When you play Changeling, you trash it and gain a copy of a card you have in play; that can be any card you have in play, including Actions, Treasures, and Night cards, and including Duration cards you played on a previous turn that are still in play.</li></ul><ul class="rules"><li>Changeling cannot gain a copy of Changeling, since it is not in play when the effect happens – it’s either in the trash (in a normal turn) or set aside (when played in a Possessed turn).</li><li>Changeling can gain only Supply cards – for example it cannot gain an Imp, any Traveller upgrades, etc.</li><li>Changeling cannot gain cards that are not available – for example it cannot gain any of Knights (since all Knights are different), a Ruins when the Ruins card you have in play is not the same as the top card on the Ruins pile, a card from a split pile when it is covered by the other card from that pile (like Plunder, when it is covered by Encampment), etc.</li><li>You can choose any card you have in play, but if that card’s pile is empty, or its name does not match the name of the top card on that pile, or that card’s pile is not in the Supply, or that card has no pile, you gain nothing.</li><li>You can exchange for Changeling when gaining non-Supply cards, as long as they come from a pile, such as Ghost. You cannot exchange for non-Supply cards that do not have an associated pile, such as the Zombies.</li><li>Remember that you can choose the order in which simultaneous effects happen. When you gain a card that moves itself (like Villa), and you allow that moving effect to happen first, Changeling will lose track of the card and not be able to exchange with it. If you want to exchange, make sure you do that first.</li><li>This checks the cost of the card as you’re gaining it, not after. So if you gain a Fisherman with an empty discard pile, you cannot exchange it for a Changeling, because Fisherman cost <img src="assets/Coin2.png" alt="2 coins"> when you gained it.</li></ul>',
+		help: '<ul class="faq"><li>When Changeling is in the Supply, any time you gain a card costing at least <img src="assets/Coin3.png" alt="3 coins">, you may exchange it for a Changeling from the Supply.</li><li>You can only do this if you can actually return the card you gained, and there is at least one Changeling in the Supply.</li><li>The Changeling goes to your discard pile, no matter where the gained card went.</li><li>Things that happen due to gaining the gained card still happen.</li><li>So for example you could gain Skulk, exchange it for a Changeling (returning Skulk to the Supply and putting Changeling into your discard pile), and still gain a Gold from Skulk’s ability.</li><li>Exchanging for a Changeling is optional.</li><li>You cannot do it if the gained card costs less than<img src="assets/Coin3.png" alt="3 coins">, even if it normally costs <img src="assets/Coin3.png" alt="3 coins"> or more, and you cannot do it if the cost is neither more nor less than <img src="assets/Coin3.png" alt="3 coins"> (such as Transmute from Alchemy).</li><li>When you play Changeling, you trash it and gain a copy of a card you have in play; that can be any card you have in play, including Actions, Treasures, and Night cards, and including Duration cards you played on a previous turn that are still in play.</li></ul><ul class="rules"><li>Changeling cannot gain a copy of Changeling, since it is not in play when the effect happens – it’s either in the trash (in a normal turn) or set aside (when played in a Possessed turn).</li><li>Changeling can gain only Supply cards – for example it cannot gain an Imp, any Traveller upgrades, etc.</li><li>Changeling cannot gain cards that are not available – for example it cannot gain any of Knights (since all Knights are different), a Ruins when the Ruins card you have in play is not the same as the top card on the Ruins pile, a card from a split pile when it is covered by the other card from that pile (like Plunder, when it is covered by Encampment), etc.</li><li>You can choose any card you have in play, but if that card’s pile is empty, or its name does not match the name of the top card on that pile, or that card’s pile is not in the Supply, or that card has no pile, you gain nothing.</li><li>You can exchange for Changeling when gaining non-Supply cards, as long as they come from a pile, such as Ghost. You cannot exchange for non-Supply cards that do not have an associated pile, such as the Zombies.</li><li>Remember that you can choose the order in which simultaneous effects happen. When you gain a card that moves itself (like Villa), and you allow that moving effect to happen first, Changeling will lose track of the card and not be able to exchange with it. If you want to exchange, make sure you do that first.</li><li>This checks the cost of the card as you’re gaining it, not after. So if you gain a Fisherman with an empty discard pile, you cannot exchange it for a Changeling, because Fisherman cost <img src="assets/Coin2.png" alt="2 coins"> when you gained it.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6298,7 +6298,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6319,7 +6319,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6340,7 +6340,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6355,13 +6355,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Actions</b><br>Draw until you have 6 cards in hand.<hr>When you gain this, receive a Hex.',
-		help: '<ul class="faq"><li>If you already have six or more cards in hand, you do not draw any cards.</li><li>When you gain Cursed Village, you receive a Hex; since that will often be in your Buy phase, some of the Hexes may not do anything to you.</li></ul>',
+		help: '<ul class="faq"><li>If you already have six or more cards in hand, you do not draw any cards.</li><li>When you gain Cursed Village, you receive a Hex; since that will often be in your Buy phase, some Hexes may not do anything to you.</li></ul>',
 		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6376,13 +6376,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'At the start of your next turn, <b>+2 Cards</b>.<hr>This is gained to your hand (instead of your discard pile).',
-		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this card onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Den of Sin’s ability doesn’t trigger and it stays on your deck.</li></ul>',
+		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this card onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Den of Sin’s ability doesn’t trigger, and it stays on your deck.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6403,7 +6403,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6424,7 +6424,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6445,7 +6445,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6466,7 +6466,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6487,7 +6487,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6502,13 +6502,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'At the start of your next turn, <b>+1 Card</b> and <b>+1 Action</b>.<hr>This is gained to your hand (instead of your discard pile).',
-		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Ghost Town’s ability doesn’t trigger and it stays on your deck.</li></ul>',
+		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Ghost Town’s ability doesn’t trigger, and it stays on your deck.</li></ul>',
 		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6523,13 +6523,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'At the start of your next turn, <b>+<img src="assets/Coin1.png" alt="1 coin"></b>.<br>Until then, when another player plays an Attack card, it doesn’t affect you.<hr>This is gained to your hand (instead of your discard pile).',
-		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li><li>When you play Guardian, you are unaffected by Attack cards other players play between then and your next turn (even if you want one to affect you).</li><li>Guardian does not prevent you from using Reactions when other players play Attacks.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Guardian’s ability doesn’t trigger and it stays on your deck.</li><li>This protects you for the rest of the turn when you play it. So if after playing a Guardian, you gain a Duchy with Vampire, this will protect you from another player’s Black Cat.</li><li>This offers no protection during your next turn. This means that on the turn after you play a Guardian, you can still get attacked by another player’s Black Cat.</li></ul>',
+		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li><li>When you play Guardian, you are unaffected by Attack cards other players play between then and your next turn (even if you want one to affect you).</li><li>Guardian does not prevent you from using Reactions when other players play Attacks.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Guardian’s ability doesn’t trigger, and it stays on your deck.</li><li>This protects you for the rest of the turn when you play it. So if after playing a Guardian, you gain a Duchy with Vampire, this will protect you from another player’s Black Cat.</li><li>This offers no protection during your next turn. This means that on the turn after you play a Guardian, you can still get attacked by another player’s Black Cat.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6550,7 +6550,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6571,7 +6571,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6592,7 +6592,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6613,7 +6613,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6628,13 +6628,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Look at the top 5 cards of your deck, discard any number, and put the rest back in any order.<hr>This is gained to your hand (instead of your discard pile).',
-		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Night Watchman’s ability doesn’t trigger and it stays on your deck.</li></ul>',
+		help: '<ul class="faq"><li>Since Night is after the Buy phase, normally you can play this the turn you buy it.</li></ul><ul class="rules"><li>If you gain this onto your deck (with e.g. Armory), you didn’t gain it to your discard pile, so Night Watchman’s ability doesn’t trigger, and it stays on your deck.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6655,7 +6655,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6676,7 +6676,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6697,7 +6697,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6718,7 +6718,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6739,7 +6739,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6760,7 +6760,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6781,7 +6781,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6802,7 +6802,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6823,7 +6823,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6844,7 +6844,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6865,7 +6865,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6886,7 +6886,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6907,7 +6907,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6922,13 +6922,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Action</b><br>Reveal the top 2 cards of your deck. Put one into your hand and discard the other. If both were Actions, take the Lantern or Horn.',
-		help: '<ul class="faq"><li>When you play a Border Guard and do not have the Lantern, you reveal the top 2 cards of your deck, choose one and put it into your hand, and discard the other; then if they were both Action cards, you take the Lantern or the Horn.</li><li>If you reveal fewer than 2 cards, or fewer than 3 cards when you have the Lantern, you don’t take an Artifact.</li></ul><p>Lantern</p><ul class="faq"><li>When you play a Border Guard and have the Lantern, you reveal the top 3 cards of your deck, choose one and put it into your hand, and discard the rest; then if all three were Action cards, you may take the Horn.</li><li>The Lantern functions the turn you get it.</li></ul><ul class="rules"><li>Lantern will still affect Border Guards played from the Supply (with eg. Band of Misfits) or the trash (with Necromancer).</li><li>If you play Border Guard using Way of the Chameleon (for example, to avoid the effect of Enchantress), Lantern will have no effect, meaning you will only reveal 2 cards.</li></ul><p>Horn</p><ul class="faq"><li>The Horn functions the turn you get it.</li></ul>',
+		help: '<ul class="faq"><li>When you play a Border Guard and do not have the Lantern, you reveal the top 2 cards of your deck, choose one and put it into your hand, and discard the other; then if they were both Action cards, you take the Lantern or the Horn.</li><li>If you reveal fewer than 2 cards, or fewer than 3 cards when you have the Lantern, you don’t take an Artifact.</li></ul><p>Lantern</p><ul class="faq"><li>When you play a Border Guard and have the Lantern, you reveal the top 3 cards of your deck, choose one and put it into your hand, and discard the rest; then if all three were Action cards, you may take the Horn.</li><li>The Lantern functions the turn you get it.</li></ul><ul class="rules"><li>Lantern will still affect Border Guards played from the Supply (with e.g. Band of Misfits) or the trash (with Necromancer).</li><li>If you play Border Guard using Way of the Chameleon (for example, to avoid the effect of Enchantress), Lantern will have no effect, meaning you will only reveal 2 cards.</li></ul><p>Horn</p><ul class="faq"><li>The Horn functions the turn you get it.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6949,7 +6949,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6970,7 +6970,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -6991,7 +6991,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7012,7 +7012,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7033,7 +7033,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7054,7 +7054,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7075,7 +7075,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7096,7 +7096,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7117,7 +7117,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7138,7 +7138,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7159,7 +7159,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7180,7 +7180,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7201,7 +7201,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7222,7 +7222,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7243,7 +7243,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7264,7 +7264,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7285,7 +7285,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7306,7 +7306,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7327,7 +7327,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: true, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7348,7 +7348,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7369,7 +7369,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7390,7 +7390,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7411,7 +7411,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: true, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7432,7 +7432,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7453,7 +7453,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7468,13 +7468,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+2 Cards</b><br>If it isn’t your turn, each other player gains a Curse.<hr>When another player gains a Victory card, you may play this from your hand.',
-		help: '<ul class="faq"><li>When you play this on your turn, you draw 2 cards.</li><li>When you play it on another player’s turn – usually only possible via its reaction – you draw 2 cards, and then everyone else gains a Curse, in turn order starting with the player whose turn it is.</li><li>When anyone else gains a Victory card – whether or not it is your turn – you may play this from your hand.</li></ul><ul class="rules"><li>If another player gains a Victory card during your turn (for example, if you give them an Estate with Ambassador), you can react with your Black Cat, but you will not give out any Curses.</li><li>If you get attacked during your turn, you can still use Reactions like Horse Traders and Caravan Guard.</li><li>If another player gains a Province, but you first gain a Curse from another player’s Black Cat, then you may play Sheepdogs in response to the Curse, but you can’t react with any of your Black Cats in the middle of the Curse gain. This is because all on-gain effects from the Province are “paused” to resolve on-gain effects from the Curse, and they unpause once the other player’s Black Cat has finished resolving.</li></ul>',
+		help: '<ul class="faq"><li>When you play this on your turn, you draw 2 cards.</li><li>When you play it on another player’s turn – usually only possible via its reaction – you draw 2 cards, and then everyone else gains a Curse, in turn order starting with the player whose turn it is.</li><li>When anyone else gains a Victory card – regardless of whether it is your turn – you may play this from your hand.</li></ul><ul class="rules"><li>If another player gains a Victory card during your turn (for example, if you give them an Estate with Ambassador), you can react with your Black Cat, but you will not give out any Curses.</li><li>If you get attacked during your turn, you can still use Reactions like Horse Traders and Caravan Guard.</li><li>If another player gains a Province, but you first gain a Curse from another player’s Black Cat, then you may play Sheepdogs in response to the Curse, but you can’t react with any of your Black Cats in the middle of the Curse gain. This is because all on-gain effects from the Province are “paused” to resolve on-gain effects from the Curse, and they unpause once the other player’s Black Cat has finished resolving.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: true },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7495,7 +7495,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7516,7 +7516,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7537,7 +7537,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7558,7 +7558,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7579,7 +7579,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7600,7 +7600,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7621,7 +7621,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7642,7 +7642,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7663,7 +7663,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7684,7 +7684,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7705,7 +7705,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7726,7 +7726,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7747,7 +7747,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7768,7 +7768,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7789,7 +7789,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7810,7 +7810,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7831,7 +7831,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7852,7 +7852,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7873,7 +7873,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7894,7 +7894,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7915,7 +7915,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7936,7 +7936,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7951,13 +7951,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card</b><br><b>+4 Actions</b><br><b>+1 Buy</b><br>Ignore any further <b>+Actions</b> you get this turn.',
-		help: '<ul class="faq"><li>Any extra Actions you already had before playing this do not go away; for example, if you play Village and then Snowy Village, you can play 5 more Actions after that.</li><li>Any further +Actions you would get that turn, you do not, including from playing another Snowy Village or converting Villagers (from Renaissance).</li><li>This does not stop you from playing more cards via cards that tell you to play cards, such as Throne Room.</li></ul><ul class="rules"><li>You can convert Villagers between drawing the card and reaching the sentence that prevents further +Actions.</li><li>If you played a Champion, you’ll get +1 Action from it when you play Snowy Village, and then you won’t get any +Actions from Champion for the rest of the turn.</li><li>If you play this with Conclave, Snowy Village will prevent you from getting +1 Action from Conclave.</li></ul>',
+		help: '<ul class="faq"><li>You do not lose any extra Actions you already had; for example, if you play Village and then Snowy Village, you can play 5 more Actions after that.</li><li>Any further +Actions you would get that turn, you do not, including from playing another Snowy Village or converting Villagers (from Renaissance).</li><li>This does not stop you from playing more cards via cards that tell you to play cards, such as Throne Room.</li></ul><ul class="rules"><li>You can convert Villagers between drawing the card and reaching the sentence that prevents further +Actions.</li><li>If you played a Champion, you’ll get +1 Action from it when you play Snowy Village, and then you won’t get any +Actions from Champion for the rest of the turn.</li><li>If you play this with Conclave, Snowy Village will prevent you from getting +1 Action from Conclave.</li></ul>',
 		flags: { village: true, drawing: true, buyer: true, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7978,7 +7978,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: true,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -7999,7 +7999,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: true, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8020,7 +8020,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8041,7 +8041,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8062,7 +8062,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8083,7 +8083,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8098,13 +8098,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'This pile starts the game with 4 copies each of Town Crier, Blacksmith, Miller, and Elder, in that order. Only the top card can be gained or bought.',
-		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Townsfolk pile starts out with 4 Town Criers on top, then 4 Millers, then 4 Blacksmiths, then 4 Elders. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Town Criers were at the top of the Townsfolk, followed by Millers, you would put those three Town Criers on the bottom, and Millers would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Townsfolk pile, and then Miller will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Town Crier</p><ul class="faq"><li>First choose either to get +<img src="assets/Coin2.png" alt="2 coins">:, or to gain a Silver, or to get +1 Card and +1 Action. Then, no matter what you picked, choose whether or not to rotate the Townsfolk pile.</li></ul><p>Blacksmith</p><ul class="faq"><li>You either draw until you have 6 cards in hand, or draw 2 cards, or draw one card and get +1 Action.</li></ul><p>Miller</p><ul class="faq"><li>If you have fewer than four cards (after shuffling), you just look at what’s left.</li></ul><p>Elder</p><ul class="faq"><li>You can play an Action card with no “choose” ability; it will simply do what it normally does.</li><li>If you play one with a “choose” ability, you may take an extra choice, but don’t have to; for example, when playing Count (from Dark Ages), you could choose to only get one thing from the first “choose” ability, but two from the second.</li><li>If you choose multiple things, you do those things in the order listed on the card; for example, if you use Elder on Blacksmith and choose “draw until you have 6 cards in hand” and “+1 Card and +1 Action,” you first draw up to 6, then get +1 Card and +1 Action.</li><li>If you use Elder on Courtier (from Intrigue), you get one extra choice, not one extra choice per type.</li><li>Elder doesn’t affect all choices, just ones that say “choose” and have a list of options; for example Workshop gives you a choice of what card to gain, but Elder playing Workshop doesn’t do anything extra.</li></ul><ul class="rules"><li>Some cards may appear like they’re giving you a choice (e.g. Weaver, Barge, and Jester), but because they don’t say “choose one,” they aren’t affected by Elder.</li><li>If you use Elder on Scrap and trash a card costing <img src="assets/Coin0.png" alt="0 coins">, you get one choice. But if you use Elder on Scrap and trash nothing (because you have no cards in hand), you get no choices.</li><li>Catacombs is not useful when played with Elder. If you choose both options, you put the 3 cards into your hand, discard them (from your hand), and draw 3 different cards.</li><li>If you use Elder on Amulet, you get an additional choice this turn, but you won’t get an additional choice on the following turn. Elder won’t stay in play.</li><li>If you use Elder on Stronghold, you can get both +<img src="assets/Coin3.png" alt="3 coins"> now and +3 Cards next turn. Elder won’t stay in play.</li><li>Way of the Chameleon overrules Elder; if you play Elder and then play a card that gives choices using Way of the Chameleon, you get the normal number of choices.</li><li>If you use Elder on an Action that gives choices, and then you replay that Action (e.g. with Royal Carriage or Scepter), you won’t get an additional choice on the second play.</li></ul>',
+		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Townsfolk pile starts out with 4 Town Criers on top, then 4 Millers, then 4 Blacksmiths, then 4 Elders. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Town Criers were at the top of the Townsfolk, followed by Millers, you would put those three Town Criers on the bottom, and Millers would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Townsfolk pile, and then Miller will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Town Crier</p><ul class="faq"><li>First choose either to get +<img src="assets/Coin2.png" alt="2 coins">:, or to gain a Silver, or to get +1 Card and +1 Action. Then, no matter what you picked, choose whether to rotate the Townsfolk pile.</li></ul><p>Blacksmith</p><ul class="faq"><li>You either draw until you have 6 cards in hand, or draw 2 cards, or draw one card and get +1 Action.</li></ul><p>Miller</p><ul class="faq"><li>If you have fewer than four cards (after shuffling), you just look at what’s left.</li></ul><p>Elder</p><ul class="faq"><li>You can play an Action card with no “choose” ability; it will simply do what it normally does.</li><li>If you play one with a “choose” ability, you may take an extra choice, but don’t have to; for example, when playing Count (from Dark Ages), you could choose to only get one thing from the first “choose” ability, but two from the second.</li><li>If you choose multiple things, you do those things in the order listed on the card; for example, if you use Elder on Blacksmith and choose “draw until you have 6 cards in hand” and “+1 Card and +1 Action,” you first draw up to 6, then get +1 Card and +1 Action.</li><li>If you use Elder on Courtier (from Intrigue), you get one extra choice, not one extra choice per type.</li><li>Elder doesn’t affect all choices, just ones that say “choose” and have a list of options; for example Workshop gives you a choice of what card to gain, but Elder playing Workshop doesn’t do anything extra.</li></ul><ul class="rules"><li>Some cards may appear like they’re giving you a choice (e.g. Weaver, Barge, and Jester), but because they don’t say “choose one,” they aren’t affected by Elder.</li><li>If you use Elder on Scrap and trash a card costing <img src="assets/Coin0.png" alt="0 coins">, you get one choice. But if you use Elder on Scrap and trash nothing (because you have no cards in hand), you get no choices.</li><li>Catacombs is not useful when played with Elder. If you choose both options, you put the 3 cards into your hand, discard them (from your hand), and draw 3 different cards.</li><li>If you use Elder on Amulet, you get an additional choice this turn, but you won’t get an additional choice on the following turn. Elder won’t stay in play.</li><li>If you use Elder on Stronghold, you can get both +<img src="assets/Coin3.png" alt="3 coins"> now and +3 Cards next turn. Elder won’t stay in play.</li><li>Way of the Chameleon overrules Elder; if you play Elder and then play a card that gives choices using Way of the Chameleon, you get the normal number of choices.</li><li>If you use Elder on an Action that gives choices, and then you replay that Action (e.g. with Royal Carriage or Scepter), you won’t get an additional choice on the second play.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8119,13 +8119,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'This pile starts the game with 4 copies each of Herb Gatherer, Acolyte, Sorceress, and Sibyl, in that order. Only the top card can be gained or bought.',
-		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Augurs pile starts out with 4 Herb Gatherers on top, then 4 Acolytes, then 4 Sorceresses, then 4 Sibyls. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Herb Gatherers were at the top of the Augurs, followed by Acolytes, you would put those three Herb Gatherers on the bottom, and Acolyte would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Augurs pile, and then Sorceress will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Herb Gatherer</p><ul class="faq"><li>Putting your deck into your discard pile does not trigger “when you discard this” abilities like Tunnel’s (from Hinterlands).</li><li>Playing a Treasure from your discard pile is optional, as is rotating the Augurs.</li></ul><p>Acolyte</p><ul class="faq"><li>Both abilities are optional; you may do either or both or neither.</li><li>You only gain a Gold if you actually trashed an Action or Victory card from your hand; you only gain an Augur if you actually trashed Acolyte.</li><li>Gaining an Augur will give you whichever Augur is on top of the pile currently, even if that’s another Acolyte.</li></ul><p>Sorceress</p><ul class="faq"><li>Name a card; if the top card of your deck has that name, each other player gains a Curse.</li><li>You put the card into your hand whether or not it had the name you chose.</li></ul><p>Sibyl</p><ul class="faq"><li>If after drawing your deck has no cards in it, the first card you put back will become the top card of it.</li></ul>',
+		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Augurs pile starts out with 4 Herb Gatherers on top, then 4 Acolytes, then 4 Sorceresses, then 4 Sibyls. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Herb Gatherers were at the top of the Augurs, followed by Acolytes, you would put those three Herb Gatherers on the bottom, and Acolyte would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Augurs pile, and then Sorceress will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Herb Gatherer</p><ul class="faq"><li>Putting your deck into your discard pile does not trigger “when you discard this” abilities like Tunnel’s (from Hinterlands).</li><li>Playing a Treasure from your discard pile is optional, as is rotating the Augurs.</li></ul><p>Acolyte</p><ul class="faq"><li>Both abilities are optional; you may do either or both or neither.</li><li>You only gain a Gold if you actually trashed an Action or Victory card from your hand; you only gain an Augur if you actually trashed Acolyte.</li><li>Gaining an Augur will give you whichever Augur is on top of the pile currently, even if that’s another Acolyte.</li></ul><p>Sorceress</p><ul class="faq"><li>Name a card; if the top card of your deck has that name, each other player gains a Curse.</li><li>You put the card into your hand regardless of whether it had the name you chose.</li></ul><p>Sibyl</p><ul class="faq"><li>If after drawing your deck has no cards in it, the first card you put back will become the top card of it.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: true, cursing: true },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8146,7 +8146,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8167,7 +8167,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: true, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8188,7 +8188,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8209,7 +8209,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8224,13 +8224,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'This pile starts the game with 4 copies each of Old Map, Voyage, Sunken Treasure, and Distant Shore, in that order. Only the top card can be gained or bought.',
-		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Odysseys pile starts out with 4 Old Maps on top, then 4 Voyages, then 4 Sunken Treasures, then 4 Distant Shores. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Old Maps were at the top of the Odysseys, followed by Voyages, you would put those three Old Maps on the bottom, and Voyage would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Odyssey pile, and then Sunken Treasure will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Old Map</p><ul class="faq"><li>Everything happens in the order listed: first you get +1 Card and +1 Action; then you discard a card; then you draw a card; then you choose whether or not to rotate the Odysseys.</li></ul><p>Voyage</p><ul class="faq"><li>This doesn’t stop you from playing cards that aren’t in your hand; for example, if the third card you play is Golem (from Alchemy), it can still play its two cards, which are set aside.</li><li>On a Voyage turn, if you Throne Room a card, both Throne Room and that card count as plays from your hand, but Throne Room replaying the card does not.</li><li>This limits plays of all types of cards, including Treasures like Copper.</li></ul><ul class="rules"><li>Unlike Outpost, playing multiple Voyages in one turn will give you that many extra turns.</li><li>If you play 2 Voyages in one turn, you discard one Voyage during the first extra turn, and you discard the 2nd Voyage during the 2nd extra turn.</li><li>If you play a Voyage twice with Throne Room, both the Voyage and the Throne Room will remain in play for both extra turns.</li><li>If you skip a Voyage turn with Lich, you discard the Voyage during the next Clean-up that happens (either yours or another player’s).</li><li>Once you’ve played 3 cards from your hand, Voyage’s restriction will override any ability that lets you play cards from your hand (such as Market Towns or Storyteller).</li><li>Normally, an Action played with City-state won’t count towards Voyage’s restriction. But if you gain an Action card to your hand (with e.g. Swap), playing that card with City-state will count towards Voyage’s restriction.</li></ul><p>Sunken Treasure</p><ul class="faq"><li>If there’s no such Action in the Supply, you don’t gain one.</li></ul><p>Distant Shore</p><ul class="faq"><li>Gaining an Estate isn’t optional. If the Estate pile is empty you still get +2 Cards and +1 Action.</li></ul>',
+		help: '<ul class="faq"><li>Dominion: Allies has six split piles, that have four different cards in each of them.</li><li>The cards start the game in order by cost. For example, the Odysseys pile starts out with 4 Old Maps on top, then 4 Voyages, then 4 Sunken Treasures, then 4 Distant Shores. This order may get messed up by cards like Swap; that’s fine.</li><li>As with the split piles in Dominion: Empires, only the top card of a split pile can be bought or gained.</li><li>You can look through the cards in a split pile at any time, without changing the order.</li><li>The top card of each split pile has an ability that can “rotate” the pile. Rotating a pile means taking the top card, and all copies of it directly under it, and putting them on the bottom. For example, if three Old Maps were at the top of the Odysseys, followed by Voyages, you would put those three Old Maps on the bottom, and Voyage would now be on top.</li><li>Some cards refer to information about a pile as if it’s just one card. In these cases, go with what’s on the Randomizer card, which usually matches the top card.</li><li>Some things refer to cards from a particular pile; these things work on all cards from a split pile. For example Training (from Dominion: Adventures) lets a player put a token on an Action pile, which causes them to get +<img src="assets/Coin1.png" alt="1 coin"> when playing a card from that pile. The token can be put on the Odyssey pile, and then Sunken Treasure will also make +<img src="assets/Coin1.png" alt="1 coin"> when played.</li></ul><p>Old Map</p><ul class="faq"><li>Everything happens in the order listed: first you get +1 Card and +1 Action; then you discard a card; then you draw a card; then you choose whether to rotate the Odysseys.</li></ul><p>Voyage</p><ul class="faq"><li>This doesn’t stop you from playing cards that aren’t in your hand; for example, if the third card you play is Golem (from Alchemy), it can still play its two cards, which are set aside.</li><li>On a Voyage turn, if you Throne Room a card, both Throne Room and that card count as plays from your hand, but Throne Room replaying the card does not.</li><li>This limits plays of all types of cards, including Treasures like Copper.</li></ul><ul class="rules"><li>Unlike Outpost, playing multiple Voyages in one turn will give you that many extra turns.</li><li>If you play 2 Voyages in one turn, you discard one Voyage during the first extra turn, and you discard the 2nd Voyage during the 2nd extra turn.</li><li>If you play a Voyage twice with Throne Room, both the Voyage and the Throne Room will remain in play for both extra turns.</li><li>If you skip a Voyage turn with Lich, you discard the Voyage during the next Clean-up that happens (either yours or another player’s).</li><li>Once you’ve played 3 cards from your hand, Voyage’s restriction will override any ability that lets you play cards from your hand (such as Market Towns or Storyteller).</li><li>Normally, an Action played with City-state won’t count towards Voyage’s restriction. But if you gain an Action card to your hand (with e.g. Swap), playing that card with City-state will count towards Voyage’s restriction.</li></ul><p>Sunken Treasure</p><ul class="faq"><li>If there’s no such Action in the Supply, you don’t gain one.</li></ul><p>Distant Shore</p><ul class="faq"><li>Gaining an Estate isn’t optional. If the Estate pile is empty you still get +2 Cards and +1 Action.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8251,7 +8251,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8272,7 +8272,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8293,7 +8293,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8314,7 +8314,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8335,7 +8335,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8356,7 +8356,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8377,7 +8377,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8398,7 +8398,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8419,7 +8419,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8440,7 +8440,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8461,7 +8461,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8482,7 +8482,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8503,7 +8503,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8524,7 +8524,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8545,7 +8545,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8566,7 +8566,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8587,7 +8587,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8608,7 +8608,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8629,7 +8629,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8650,7 +8650,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8671,7 +8671,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8692,7 +8692,847 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1601,
+		name: 'Cage',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure', 'Duration'],
+		cost: {
+			coin: 2,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Set aside up to 4 cards from your hand face down (on this). The next time you gain a Victory card, trash this, and put the set aside cards into your hand at end of turn.',
+		help: '<ul class="faq"><li>The cards go to your hand after drawing your regular hand of 5 cards for next turn.</li><li>For example you might set aside two Estates and two Coppers on a Cage on an early turn; then on a late turn, buy a Province, trash the Cage, and add the two Estates and two Coppers to your hand at end of turn.</li><li>If you set aside nothing with this, it will still stay in play until you gain a Victory card.</li><li>If gaining a Victory card causes you to play this (e.g. you gain a Province, then gain a Cage with Haggler, and play it with Mining Road), that won’t trigger the Cage (it triggers off the next Victory card you gain).</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1602,
+		name: 'Grotto',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 2,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Action</b><br>Set aside up to 4 cards from your hand face down (on this). At the start of your next turn, discard them, then draw as many.',
+		help: '<ul class="faq"><li>For example you could set aside 3 cards from your hand, and at the start of your next turn, discard those 3 cards, then draw 3 cards.</li><li>If you set aside 0 cards, Grotto won’t stay in play for your next turn.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1603,
+		name: 'Jewelled Egg',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 2,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b><img src="assets/Coin1.png" alt="1 coin"><br>+1 Buy</b><hr>When you trash this, gain a Loot.',
+		help: '<ul class="faq"><li>The player trashing Jewelled Egg gets the Loot, regardless of which player played the card that caused them to trash it.</li></ul>',
+		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1604,
+		name: 'Search',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 2,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>The next time a Supply pile empties, trash this and gain a Loot.',
+		help: '<ul class="faq"><li>If you Throne Room a Search, Throne Room will stay out with Search until a pile empties, and then you’ll trash Search once but gain two Loots (and discard Throne Room that turn).</li><li>If multiple players have played a Search when a Supply pile empties, players trash their Searches and gain Loots in turn order.</li><li>If gaining a card empties a Supply pile, you’ll order Search with other when-gain effects, and if trashing a card empties a Supply pile (e.g. Lurker), you’ll order Search with other when-trash effects.</li><li>If you play this with Band of Misfits, it will stay in play until a Supply pile empties. When one does, you trash nothing and gain a Loot.</li><li>If emptying a Supply pile causes you to play this (e.g. you gain the last Search and play it with Innovation), that won’t trigger the Search (it triggers off the next Supply pile that’s emptied).</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1605,
+		name: 'Shaman',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 2,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Action<br>+<img src="assets/Coin1.png" alt="1 coin"></b><br>You may trash a card from your hand.<hr>In games using this, at the start of your turn, gain a card from the trash costing up to <img src="assets/Coin6.png" alt="6 coins">.',
+		help: '<ul class="faq"><li>In games using Shaman, for the whole game, at the start of each of your turns (including extra turns), you gain a card from the trash costing up to <img src="assets/Coin6.png" alt="6 coins">. This is mandatory.</li><li>If there’s no such card, you don’t gain one.</li><li>This applies even on your first turn (relevant with Necromancer, from Nocturne).</li><li>It applies even if no-one ever gets a Shaman.</li><li>The gained card goes into your discard pile. It’s a card you gained, and can trigger things that care about that; for example gaining a Treasure would trigger Secluded Shrine’s ability.</li><li>You can order the gaining with other start-of-turn abilities. So if there are 0 cards in the trash, you can:<ul><li>First resolve Shaman, gain nothing, and then trash a Copper with Rope (for the next player to gain).</li><li>First trash your Cabin Boy from play, and then gain it back from the trash with Shaman.</li></ul></li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1606,
+		name: 'Secluded Shrine',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 3,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin1.png" alt="1 coin"></b><br>The next time you gain a Treasure, trash up to 2 cards from your hand.',
+		help: '<ul class="faq"><li>This can trigger on any player’s turn.</li><li>It triggers even if the player can’t or doesn’t want to trash anything; they don’t have to trash anything (0 is included in “up to 2”), but Secluded Shrine is done, and is discarded that turn.</li><li>If you gain a Gondola and play a Secluded Shrine, that will trigger your other Secluded Shrines, but not the one you just played (it triggers off your <em>next</em> Treasure gain).</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1607,
+		name: 'Siren',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration', 'Attack'],
+		cost: {
+			coin: 3,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Each other player gains a Curse. At the start of your next turn, draw until you have 8 cards in hand.<br>When you gain this, trash it unless you trash an Action from your hand.',
+		help: '<ul class="faq"><li>When you gain a Siren, it’s immediately trashed unless you trash an Action card from your hand.</li><li>However if you manage to move the Siren from where it was gained (whether it was gained to your discard pile or somewhere else) before resolving this ability - for example putting it on top of your deck with Insignia - then it will fail to be trashed (though you can still trash an Action card if you want).</li><li>If you have an Action in hand, you can decline to trash it, just to trash the Siren. This can be useful for triggering when-trash effects (such as Sewers or Market Square).</li><li>Some effects (e.g., Rush) can move a gained Siren; the Siren loses track of itself, and it can’t trash itself. However, some effects (e.g., Spell Scroll) aren’t able to move a gained Siren in time; the Siren trashes itself, and then the Spell Scroll can’t play it.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1608,
+		name: 'Stowaway',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration', 'Reaction'],
+		cost: {
+			coin: 3,
+			debt: 0,
+			potion: 0
+		},
+		text: 'At the start of your next turn, <b>+2 Cards</b>.<br>When anyone gains a Duration card, you may play this from your hand.',
+		help: '<ul class="faq"><li>You may play this from your hand when you personally gain a Duration card, or when another player does.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1609,
+		name: 'Taskmaster',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 3,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Action</b>, <b>+<img src="assets/Coin1.png" alt="1 coin"></b>, and if you gain a card costing exactly <img src="assets/Coin5.png" alt="5 coins"> this turn, then at the start of your next turn, repeat this ability.',
+		help: '<ul class="faq"><li>Taskmaster can end up making +1 Action and +<img src="assets/Coin1.png" alt="1 coin"> turn after turn, as long as you keep gaining at least one card costing <img src="assets/Coin5.png" alt="5 coins">.</li><li>Repeating Taskmaster’s ability doesn’t count as playing it again (which matters for Ways and Conspirator).</li><li>At the start of your turn, you can first repeat this ability, then gain a Duchy with Importer, and that will let the Taskmaster repeat itself on your next turn.</li><li>On the turn on which you play Taskmaster, only <img src="assets/Coin5.png" alt="5 coins"> cards gained <em>after</em> you play Taskmaster count towards its condition.</li><li>This checks the cost that a card had at the moment you gained it. So if you gain a Destrier that costs <img src="assets/Coin6.png" alt="6 coins">, that won’t count for Taskmaster even though its cost is reduced to <img src="assets/Coin5.png" alt="5 coins"> once it’s been gained. But if you gain a Destrier that costs <img src="assets/Coin5.png" alt="5 coins"> (so its cost is then reduced to <img src="assets/Coin4.png" alt="4 coins">), that lets Taskmaster repeat itself.</li></ul>',
+		flags: { village: true, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1610,
+		name: 'Abundance',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure', 'Duration'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'The next time you gain an Action card: <b>+1 Buy</b> and <b>+<img src="assets/Coin3.png" alt="3 coins"></b>.',
+		help: '<ul class="faq"><li>This triggers when you gain an Action card due to buying it, or gain one some other way.</li><li>If it happens during another player’s turn, the +<img src="assets/Coin3.png" alt="3 coins"> and +1 Buy won’t be useful.</li><li>If gaining an Action card causes you to play this (e.g. you gain a Courier and play it with Innovation), that won’t trigger the Abundance (it triggers off the next Action you gain).</li></ul>',
+		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1611,
+		name: 'Cabin Boy',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Card<br>+1 Action</b><br>At the start of your next turn, choose one: <b>+<img src="assets/Coin2.png" alt="2 coins"></b>; or trash this to gain a Duration card.',
+		help: '<ul class="faq"><li>You can trash a Cabin Boy to gain another Cabin Boy.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1612,
+		name: 'Crucible',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Trash a card from your hand.<br><b>+<img src="assets/Coin1.png" alt="1 coin"></b>per <img src="assets/Coin1.png" alt="1 coin"> it costs.',
+		help: '<ul class="faq"><li>For example if you trash an Estate, which costs <img src="assets/Coin2.png" alt="2 coins">, you get +<img src="assets/Coin2.png" alt="2 coins">.</li><li>If you trash a card with <img src="assets/Debt.png" alt="debt"> or <img src="assets/Potion.png" alt="a potion"> in its cost, you get nothing for those symbols.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1613,
+		name: 'Flagship',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration', 'Command'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>The next time you play a non-Command Action card, replay it.',
+		help: '<ul class="faq"><li>This isn’t optional; whatever that next non-Command Action card is, Flagship replays it.</li><li>It replays it even if the card trashed itself, and even if it isn’t your turn.</li><li>Command cards, such as Flagship itself, are not replayed; Flagship waits for a non-Command Action card.</li></ul><ul class="rules"><li>If you play a Flagship and then a Band of Misfits, you will replay the card that the Band of Misfits plays. But if you play a Flagship and then a Necromancer, Flagship will replay the Necromancer.<ul><li>This means it’s possible for Flagship to replay a Duration card that’s not in play; if so, Flagship will stay in play for as long as the Duration would. So if Band of Misfits plays a Caravan, and Flagship replays it, both the Flagship and Band of Misfits will stay in play for as long as Caravan would.</li></ul></li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1614,
+		name: 'Fortune Hunter',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b><br>Look at the top 3 cards of your deck. You may play a Treasure from them. Put the rest back in any order.',
+		help: '<ul class="faq"><li>Completely resolve playing the Treasure before putting the other cards back on top; for example if the Treasure is a Figurine, the two cards you draw won’t be the other ones you looked at with Fortune Hunter.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1615,
+		name: 'Gondola',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure', 'Duration'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Either now or at the start of your next turn: <b>+<img src="assets/Coin2.png" alt="2 coins"></b><hr>When you gain this, you may play an Action card from your hand.',
+		help: '<ul class="faq"><li>When playing Gondola, choose whether to get +<img src="assets/Coin2.png" alt="2 coins"> immediately, or at the start of your next turn. If you choose “immediately,” Gondola will be discarded in the same turn’s Clean-up; if you choose “next turn,” Gondola will be discarded that turn.</li><li>If you play Gondola multiple times, such as with King’s Cache, you choose each time whether to get the +<img src="assets/Coin2.png" alt="2 coins"> now or next turn, and Gondola only stays in play if at least one of the plays was for next turn (in which case the King’s Cache also stays in play).</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1616,
+		name: 'Harbor Village',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Card<br>+2 Actions</b><br>After the next Action you play this turn, if it gave you +<img src="assets/Coin.png" alt="coin">, +<img src="assets/Coin1.png" alt="1 coin">.',
+		help: '<ul class="faq"><li>This only cares if the Action itself gave you +<img src="assets/Coin.png" alt="coin"> not if you otherwise got +<img src="assets/Coin.png" alt="coin"> due to playing it (such as due to Training, from Adventures, or due to receiving The Forest’s Gift, from Nocturne).</li><li>It’s okay if you no longer have the <img src="assets/Coin.png" alt="coin"> (such as due to Capital City).</li><li>+Coffers is not +<img src="assets/Coin.png" alt="coin">.</li><li>+<img src="assets/Coin0.png" alt="0 coins"> doesn’t get you the bonus.</li><li>Using a Way (from Menagerie) to get +<img src="assets/Coin.png" alt="coin"> (e.g. Way of the Sheep) does get you the bonus.</li><li>If you Throne Room a Harbor Village and then play a Militia, you played Harbor Village, then Harbor Village, then Militia, so you get nothing for the first play of Harbor Village and +<img src="assets/Coin1.png" alt="1 coin"> for the second play of it.</li></ul><ul class="rules"><li>If an Action makes +<img src="assets/Coin1.png" alt="1 coin">, but you have the -<img src="assets/Coin1.png" alt="1 coin"> token (from Bridge Troll and/or Ball), that reduces the Action’s +<img src="assets/Coin1.png" alt="1 coin"> to +<img src="assets/Coin0.png" alt="0 coins">, so it won’t count for Harbor Village.</li><li>Normally, playing 2 consecutive Harbor Villages won’t give +<img src="assets/Coin.png" alt="coin">. However, if your 2nd Harbor Village causes you play an Action giving +<img src="assets/Coin.png" alt="coin"> (e.g. the Harbor Village is Inspired), then the 2nd Harbor Village will give +<img src="assets/Coin1.png" alt="1 coin">, which will cause the 1st Harbor Village to give +<img src="assets/Coin1.png" alt="1 coin">. This is because the triggered Action gets resolved before the first Harbor Village finishes checking the second Harbor Village, unlike in the Throne Room example above.</li><li>If the next Action you play didn’t give +<img src="assets/Coin.png" alt="coin">, but replaying that card causes it to give +<img src="assets/Coin.png" alt="coin"> (e.g. you play a Steward and choose +2 Cards, then call a Royal Carriage on the Steward and choose +<img src="assets/Coin2.png" alt="2 coins">), that won’t count for Harbor Village. However, if the Steward is Reckless, and you choose +2 Cards and +<img src="assets/Coin2.png" alt="2 coins">, that will count for Harbor Village.</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1617,
+		name: 'Landing Party',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+2 Cards<br>+2 Actions</b><br>The next time the first card you play on a turn is a Treasure, put this onto your deck afterwards.',
+		help: '<ul class="faq"><li>Resolve the Treasure before putting Landing Party on your deck.</li><li>It’s okay if the Treasure has more types, including Action (like Spell Scroll).</li></ul><ul class="rules"><li>If you play this with a Command variant such as Band of Misfits, the stop-moving rule means that Landing Party can’t put itself onto your deck, and it isn’t waiting for anything to happen. So you’ll discard the Band of Misfits from play during this turn’s Clean-up.</li><li>If the first Treasure you play is a Spell Scroll, which gains and plays a Landing Party, that will make you topdeck your other Landing Parties, but not the one you just played (it triggers off the <em>next</em> time your first card played is a Treasure).</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1618,
+		name: 'Mapmaker',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Reaction'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Look at the top 4 cards of your deck. Put 2 into your hand and discard the rest.<hr>When any player gains a Victory card, you may play this from your hand.',
+		help: '<ul class="faq"><li>If you have fewer than four cards (after shuffling), you just look at what’s left.</li><li>You may play this when someone (including you) gains a Victory card due to buying it, or some other way.</li><li>When someone gains a Victory card, you can play as many Mapmakers as you have in your hand, including any you just got via the first Mapmaker.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1619,
+		name: 'Maroon',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Trash a card from your hand.<br><b>+2 Cards</b> per type it has (Action, Attack, etc.).',
+		help: '<ul class="faq"><li>Types are the words on the bottom banner of cards - Action, Attack, and so on. For example if you trash a Cage with Maroon, you’ll draw 4 cards, since it’s a Treasure and a Duration, 2 types.</li><li>If the trashed card has a Trait, or is Young Witch’s Bane, that won’t count as an extra type for Maroon.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1620,
+		name: 'Rope',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure', 'Duration'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b><img src="assets/Coin1.png" alt="1 coin"><br>+1 Buy</b><br>At the start of your next turn, <b>+1 Card</b> and you may trash a card from your hand.',
+		help: '<ul class="faq"><li>You draw a card first, then choose whether to trash a card.</li></ul>',
+		flags: { village: false, drawing: true, buyer: true, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1621,
+		name: 'Swamp Shacks',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+2 Actions<br>+1 Card</b> per 3 cards you have in play (round down).',
+		help: '<ul class="faq"><li>This counts the Swamp Shacks itself, and Duration cards played on previous turns that are still in play.</li><li>It counts Treasures if you have some in play, such as Treasure Duration cards, or due to Storyteller.</li><li>It does not count set aside cards, such as cards on a Quartermaster.</li><li>Round down the number of cards you draw; if you have 8 cards in play, you draw 2.</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1622,
+		name: 'Tools',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 4,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Gain a copy of a card anyone has in play.',
+		help: '<ul class="faq"><li>This can gain a copy of a card any player has in play; other players may for example have Duration cards in play.</li><li>Tools itself is in play, so you can gain a copy of that.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1623,
+		name: 'Buried Treasure',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure', 'Duration'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'At the start of your next turn, <b>+1 Buy</b> and <b>+<img src="assets/Coin3.png" alt="3 coins"></b>.<hr>When you gain this, play it.',
+		help: '<ul class="faq"><li>When you gain this, you have to play it; it’s not optional.</li></ul>',
+		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1624,
+		name: 'Crew',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+3 Cards</b><br>At the start of your next turn, put this onto your deck.',
+		help: '<ul class="faq"><li>Putting this onto your deck isn’t optional.</li></ul><ul class="rules"><li>If you play this with a Command variant such as Overlord, the stop-moving rule means that Crew can’t put itself onto your deck, and it isn’t waiting for anything to happen. So you’ll discard the Overlord from play during this turn’s Clean-up.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1625,
+		name: 'Cutthroat',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration', 'Attack'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Each other player discards down to 3 cards in hand.<br>The next time anyone gains a Treasure costing <img src="assets/Coin5.png" alt="5 coins"> or more, gain a Loot.',
+		help: '<ul class="faq"><li>Loot itself is a Treasure costing <img src="assets/Coin5.png" alt="5 coins"> or more, so a player gaining one will trigger Cutthroats.</li></ul><ul class="rules"><li>If you gain a Gold, that will trigger Cutthroats by all players (including ones that you already played). However, if the Gold gain causes you to play a Cutthroat (you gain one from Haggler and then play it with Rush), the Gold won’t trigger the Cutthroat you just played (it triggers off your <em>next</em> Treasure gain).</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1626,
+		name: 'Enlarge',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Now and at the start of your next turn: Trash a card from your hand, and gain one costing up to <img src="assets/Coin2.png" alt="2 coins"> more.',
+		help: '<ul class="faq"><li>Once you’ve played Enlarge, trashing a card at the start of your next turn is mandatory.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1627,
+		name: 'Figurine',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+2 Cards</b><br>You may discard an Action card for <b>+1 Buy</b> and <b>+<img src="assets/Coin1.png" alt="1 coin"></b>.',
+		help: '<ul class="faq"><li>This is a Treasure, and so is (typically) played in your Buy phase, but draws cards.</li><li>This means that usually if it draws you an Action card, that card won’t be useful that turn, except that Figurine itself lets you discard one Action card for +1 Buy and +<img src="assets/Coin1.png" alt="1 coin">.</li></ul>',
+		flags: { village: false, drawing: true, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1628,
+		name: 'First Mate',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Play any number of Action cards with the same name from your hand, then draw until you have 6 cards in hand.',
+		help: '<ul class="faq"><li>If you don’t have any Action cards to play, you’ll still draw up to 6.</li><li>If the Action card you play draws you another copy of itself, you can play that copy, and so on.</li><li>First Mate can play First Mates; keep careful track of which card you’re resolving, as you would with multiple Throne Rooms.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1629,
+		name: 'Frigate',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration', 'Attack'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin3.png" alt="3 coins"></b><br>Until the start of your next turn, each time another player plays an Action card, they discard down to 4 cards in hand afterwards.',
+		help: '<ul class="faq"><li>This applies each time another player plays an Action, until your next turn. That includes later on during your turn, if they manage to play an Action then (for example a Stowaway). They completely resolve playing the Action before discarding.</li></ul><ul class="rules"><li>An affected player can order this attack with other effects that trigger after playing an Action card. For example, they can first discard down to 4 cards in hand, and then draw a card from Fellowship of Scribes.</li><li>Unlike other Duration Attacks (such as Swamp Hag), Frigate does nothing at the start of your next turn. This means that if this attack won’t affect anyone (e.g. each other player blocks it with Moat), Frigate will be discarded from play during Clean-up.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1630,
+		name: 'Longship',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+2 Actions</b><br>At the start of your next turn, <b>+2 Cards</b>.',
+		help: '<ul class="faq"><li>Playing this gives you +2 Actions then, and +2 Cards at the start of your next turn.</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1631,
+		name: 'Mining Road',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Action<br>+1 Buy<br>+<img src="assets/Coin2.png" alt="2 coins"></b><br>Once this turn, when you gain a Treasure, you may play it.',
+		help: '<ul class="faq"><li>Playing the Treasure is optional.</li><li>This ability is cumulative; if you play two Mining Roads, then twice that turn you may play a Treasure when you gain one. However, two Mining Roads can’t play the same gained Treasure twice.</li><li>Mining Road applies to Treasures gained due to being bought, or gained other ways.</li><li>It works in your Action phase if you gain a Treasure then.</li></ul>',
+		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1632,
+		name: 'Pendant',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+<img src="assets/Coin1.png" alt="1 coin"></b> per differently named Treasure you have in play.',
+		help: '<ul class="faq"><li>This counts itself. For example if you had three Coppers, an Astrolabe played last turn, and the Pendant in play, it would make +<img src="assets/Coin3.png" alt="3 coins">.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1633,
+		name: 'Pickaxe',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b><img src="assets/Coin1.png" alt="1 coin"></b><br>Trash a card from your hand. If it costs <img src="assets/Coin3.png" alt="3 coins"> or more, gain a Loot to your hand.',
+		help: '<ul class="faq"><li>Trashing is mandatory, if you have any cards left in hand. Remember that you have to reveal the gained Loot.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1634,
+		name: 'Pilgrim',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+4 Cards</b><br>Put a card from your hand onto your deck.',
+		help: '<ul class="faq"><li>The card you put on top doesn’t have to be one of the 4 you just drew.</li></ul>',
+		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1635,
+		name: 'Quartermaster',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Duration'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'At the start of each of your turns for the rest of the game, choose one: Gain a card costing up to <img src="assets/Coin4.png" alt="4 coins">, setting it aside on this; or put a card from this into your hand.',
+		help: '<ul class="faq"><li>Quartermaster stays in play for the rest of the game.</li><li>Each turn you either gain a card and put it on the Quartermaster, or take one of the cards you’ve already gained with that Quartermaster and put it into your hand.</li><li>If you play two Quartermasters, they each have their own set of cards. However, if you Throne Room a Quartermaster, you just have one set of cards for it, and twice on each of your turns, either add one or take one.</li></ul><ul class="rules"><li>Cards that were gained and set aside on Quartermaster are still yours at the end of the game. So you can gain Estates and leave them set aside forever (effectively exiling them).</li><li>The card you gain is immediately set aside, and doesn’t visit your discard pile. So if you gain a Ghost Town, it won’t put itself into your hand.</li><li>Some cards will move a gained card when you gain it, without caring about whether it was going to the discard pile (e.g. Trail moves itself, and Trappers’ Lodge moves any gained card); these will let a card escape Quartermaster early.</li><li>If you use Throne Room on Overlord, and have it play 2 Quartermasters, there will be 2 sets of cards that cards are gained to. Overlord will stay in play forever, while Throne Room won’t.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1636,
+		name: 'Silver Mine',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Gain a Treasure costing less than this to your hand.',
+		help: '<ul class="faq"><li>This can gain Silver, but also other Treasures costing less than Silver Mine, when in the Supply: Gondola, Jewelled Egg, and so on.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1637,
+		name: 'Trickster',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action', 'Attack'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: 'Each other player gains a Curse.<br>Once this turn, when you discard a Treasure from play, you may set it aside. Put it in your hand at end of turn.',
+		help: '<ul class="faq"><li>This is cumulative; if you play two Tricksters, then you can set aside up to two Treasures you discard from play and put them into your hand at end of turn, after drawing.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: true },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
+		}
+	},
+	{
+		id: 1638,
+		name: 'Wealthy Village',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Action'],
+		cost: {
+			coin: 5,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b>+1 Card<br>+2 Actions</b><hr>When you gain this, if you have at least 3 differently named Treasures in play, gain a Loot.',
+		help: '<ul class="faq"><li>The 3 differently named Treasures can include Duration Treasures you played on a previous turn, and Loots themselves.</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1639,
+		name: 'Sack of Loot',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 6,
+			debt: 0,
+			potion: 0
+		},
+		text: '<b><img src="assets/Coin1.png" alt="1 coin"><br>+1 Buy</b><br>Gain a Loot.',
+		help: '',
+		flags: { village: false, drawing: false, buyer: true, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: true
+		}
+	},
+	{
+		id: 1640,
+		name: 'King’s Cache',
+		set: 'Plunder',
+		edition: [1],
+		cardType: ['Treasure'],
+		cost: {
+			coin: 7,
+			debt: 0,
+			potion: 0
+		},
+		text: 'You may play a Treasure from your hand 3 times.',
+		help: '<ul class="faq"><li>If you King’s Cache a King’s Cache, you will play three more Treasures three times each.</li><li>If you King’s Cache a Treasure-Duration card, King’s Cache will stay in play as long as that card does.</li></ul>',
+		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		setup: {
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			tavernMats: false, coffers: false, villagers: false, exile: false,
+			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8707,13 +9547,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+<img src="assets/Coin2.png" alt="2 coins"></b>. Reveal the top 3 cards of the Black Market deck. Play any number of Treasures from your hand. You may buy one of the revealed cards. Put the rest on the bottom of the Black Market deck in any order.<hr>Setup: Make a Black Market deck out of different unused Kingdom cards.',
-		help: '<ul class="faq"><li>Black Market allows you to Buy a card during the Action phase.</li><li>You can use <img src="assets/Coin.png" alt="coins"> provided by other Action cards played earlier in the Action phase and you can also play Treasure cards from your hand to pay the cost of the bought card.</li><li>The Treasure cards are played to the table in your play area, just as you would during the Buy phase.</li><li>You may play more Treasure cards than are required for the purchase; the extra <img src="assets/Coin.png" alt="coins"> from Action cards and Treasure cards are available to use during your Buy phase.</li><li>You may even play Treasure cards without Buying a card.</li><li>You may not reuse <img src="assets/Coin.png" alt="coins"> already spent during a turn.</li><li>A card bought during the Action phase does not count as a card bought in your Buy phase, so you do not need an Action card giving you +1 Buy to still buy a card during your normal Buy phase.</li><li>To use the Black Market Kingdom card, you must create a Black Market deck before starting the game. The Black Market deck is made up of Kingdom cards that are not in the Supply of the current game. The players should agree before the game which cards will be used to create the Black Market deck (for example, you could agree to use one of every Kingdom card you own that is not a part of the Supply).</li><li>It is recommended that the Black Market deck contain at least 15 Kingdom cards, with no duplicates.</li><li>All players can see which cards are placed in the Black Market deck before the game begins.</li><li>Take one of each selected Kingdom card, shuffle them together, and place the deck face down on the table where all players can reach it.</li><li>This deck is not a Supply pile and if it is emptied, it does not count towards the end game conditions.</li><li>If you play Black Market and the Black Market deck is empty, you cannot buy a card but you still get +<img src="assets/Coin2.png" alt="2 coins">.</li><li>If you play Black Market and choose not to buy one of the three cards from the Black Market deck, you still get +<img src="assets/Coin2.png" alt="2 coins">.</li></ul><ul class="rules"><li>Any setup instructions or “in games using this” rules that apply to cards in the Black Market deck are in effect, even if nobody ever gains (or even reveals) the relevant cards. For example, if Young Witch is in the Black Market deck, you add a Bane, and if Charlatan is there, Curses are Treasures for the whole game.</li><li>It is not necessary to include <em>every</em> unused Kingdom card; you may decide how many cards to include in the Black Market deck, and which ones, in any way.</li><li>Dominion Online creates a deck of up to 60 cards (less if both players have a free account). It does not include cards with an obvious setup that would give away what’s in the Black Market deck, such as Tournament or Baker.</li><li>On Dominion Online, the Black Market deck is shuffled after every card in it has been seen.</li><li>For piles with differently named cards in them (e.g. Knights or split piles), only one of each can be added to the Black Market deck.</li><li>Black Market does not give you an extra Buy phase; you are (usually) buying from the Black Market deck during your Action phase. So, for example, the cost of Peddler stays at <img src="assets/Coin8.png" alt="8 coins">, and cards you buy won’t count for Merchant Guild.</li><li>You cannot pay off <img src="assets/Debt.png" alt="debt"> while buying from the Black Market, and you cannot buy anything from the Black Market if you have <img src="assets/Debt.png" alt="debt">. You also cannot buy cards if it’s a Mission turn.</li><li>Buying and gaining a card from from the Black Market will count for anything that cares about cards that you bought (e.g.Haggler or Swamp Hag).</li><li>If gaining a card from the Black Market causes you to gain more cards (e.g. you gain a Border Village or a Stonemason), the cards you gain come from the Supply, and you can’t gain one of the other revealed cards.</li><li>The Black Market deck is not considered a “pile”, and cards from the Black Market deck don’t have a pile. This has several implications.<ul><li>You cannot exchange cards that come from the Black Market deck (e.g. with Trader or Changeling, or if they are Travellers or Vampire).</li><li>Cards from the Black Market deck cannot be returned to a pile or the Supply (with e.g. Way of the Horse or Swap), meaning that those cards will stay where they were.</li><li>The Gathering cards will not accumulate <img src="assets/VP.png" alt="victory points"> anywhere.</li></ul></li></ul>',
+		help: '<ul class="faq"><li>Black Market allows you to Buy a card during the Action phase.</li><li>You can use <img src="assets/Coin.png" alt="coins"> provided by other Action cards played earlier in the Action phase, and you can also play Treasure cards from your hand to pay the cost of the bought card.</li><li>The Treasure cards are played to the table in your play area, just as you would during the Buy phase.</li><li>You may play more Treasure cards than are required for the purchase; the extra <img src="assets/Coin.png" alt="coins"> from Action cards and Treasure cards are available to use during your Buy phase.</li><li>You may even play Treasure cards without Buying a card.</li><li>You may not reuse <img src="assets/Coin.png" alt="coins"> already spent during a turn.</li><li>A card bought during the Action phase does not count as a card bought in your Buy phase, so you do not need an Action card giving you +1 Buy to still buy a card during your normal Buy phase.</li><li>To use the Black Market Kingdom card, you must create a Black Market deck before starting the game. The Black Market deck is made up of Kingdom cards that are not in the Supply of the current game. The players should agree before the game which cards will be used to create the Black Market deck (for example, you could agree to use one of every Kingdom card you own that is not a part of the Supply).</li><li>It is recommended that the Black Market deck contain at least 15 Kingdom cards, with no duplicates.</li><li>All players can see which cards are placed in the Black Market deck before the game begins.</li><li>Take one of each selected Kingdom card, shuffle them together, and place the deck face down on the table where all players can reach it.</li><li>This deck is not a Supply pile and if it is emptied, it does not count towards the end game conditions.</li><li>If you play Black Market and the Black Market deck is empty, you cannot buy a card, but you still get +<img src="assets/Coin2.png" alt="2 coins">.</li><li>If you play Black Market and choose not to buy one of the three cards from the Black Market deck, you still get +<img src="assets/Coin2.png" alt="2 coins">.</li></ul><ul class="rules"><li>Any setup instructions or “in games using this” rules that apply to cards in the Black Market deck are in effect, even if nobody ever gains (or even reveals) the relevant cards. For example, if Young Witch is in the Black Market deck, you add a Bane, and if Charlatan is there, Curses are Treasures for the whole game.</li><li>It is not necessary to include <em>every</em> unused Kingdom card; you may decide how many cards to include in the Black Market deck, and which ones, in any way.</li><li>Dominion Online creates a deck of up to 60 cards (less if both players have a free account). It does not include cards with an obvious setup that would give away what’s in the Black Market deck, such as Tournament or Baker.</li><li>On Dominion Online, the Black Market deck is shuffled after every card in it has been seen.</li><li>For piles with differently named cards in them (e.g. Knights or split piles), only one of each can be added to the Black Market deck.</li><li>Black Market does not give you an extra Buy phase; you are (usually) buying from the Black Market deck during your Action phase. So, for example, the cost of Peddler stays at <img src="assets/Coin8.png" alt="8 coins">, and cards you buy won’t count for Merchant Guild.</li><li>You cannot pay off <img src="assets/Debt.png" alt="debt"> while buying from the Black Market, and you cannot buy anything from the Black Market if you have <img src="assets/Debt.png" alt="debt">. You also cannot buy cards if it’s a Mission turn.</li><li>Buying and gaining a card from the Black Market will count for anything that cares about cards that you bought (e.g.Haggler or Swamp Hag).</li><li>If gaining a card from the Black Market causes you to gain more cards (e.g. you gain a Border Village or a Stonemason), the cards you gain come from the Supply, and you can’t gain one of the other revealed cards.</li><li>The Black Market deck is not considered a “pile”, and cards from the Black Market deck don’t have a pile. This has several implications.<ul><li>You cannot exchange cards that come from the Black Market deck (e.g. with Trader or Changeling, or if they are Travellers or Vampire).</li><li>Cards from the Black Market deck cannot be returned to a pile or the Supply (with e.g. Way of the Horse or Swap), meaning that those cards will stay where they were.</li><li>The Gathering cards will not accumulate <img src="assets/VP.png" alt="victory points"> anywhere.</li></ul></li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8734,7 +9574,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8755,7 +9595,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8776,7 +9616,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8791,13 +9631,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: 'Reveal the top 5 cards of your deck. The player to your left chooses one. Discard that one and put the rest into your hand.',
-		help: '<ul class="faq"><li>If you do not have 5 cards in your deck, reveal as many as you can and shuffle your discard pile to reveal the rest.</li><li>The player to your left then chooses one of the revealed cards for you to discard and then you put the rest into your hand.</li><li>If you do not have enough cards left to reveal 5 cards, even after shuffling, reveal as many as you can. The opponent to your left still discards one card before you put the rest to your hand.</li></ul>',
+		help: '<ul class="faq"><li>If you do not have 5 cards in your deck, reveal as many as you can and shuffle your discard pile to reveal the rest.</li><li>The player to your left then chooses one of the revealed cards for you to discard, and then you put the rest into your hand.</li><li>If you do not have enough cards left to reveal 5 cards, even after shuffling, reveal as many as you can. The opponent to your left still discards one card before you put the rest to your hand.</li></ul>',
 		flags: { village: false, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8818,7 +9658,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8839,7 +9679,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8860,7 +9700,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8881,7 +9721,7 @@ export const CARDS: Card[] = [
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	},
 	{
@@ -8896,13 +9736,13 @@ export const CARDS: Card[] = [
 			potion: 0
 		},
 		text: '<b>+1 Card<br>+2 Actions</b><hr>At the start of Clean-up, if you have this and no more than one other Action card in play, you may put this onto your deck.',
-		help: '<ul class="faq"><li>When you play this, you draw a card and can play two more Actions this turn.</li><li>At the start of your Clean-up phase, before discarding anything and before drawing for next turn, if you have a Walled Village in play and no more than two Action cards in play (counting the Walled Village), you may put the Walled Village on top of your deck.</li><li>If the only cards you have in play are two Walled Villages, you may put either or both of them on top of your deck.</li><li>Walled Village has to be in play to be put on top of your deck.</li><li>Walled Village only checks how many Action cards are in play when its ability resolves; Action cards you played earlier this turn but which are no longer in play (such as Feast) are not counted, while Action cards still in play from previous turns (duration cards) are counted, as are Action cards that are in play now but may leave play after resolving Walled Village (such as Treasury).</li></ul><ul class="rules"><li>Walled Village’s ability doesn’t care about whether or not it actually helped you avoid terminal collision. If you play Walled Village and two cantrips, you can’t top-deck your Walled Village even though you got no real benefit out of it.</li><li>If you have 3+ Actions in play, but you remove some of them at the start of Clean-up (e.g. by topdecking Alchemist or using Improve), that will let you topdeck your Walled Village.</li></ul>',
-		flags: { village: false, drawing: false, buyer: false, trashing: false, cursing: false },
+		help: '<ul class="faq"><li>When you play this, you draw a card and can play two more Actions this turn.</li><li>At the start of your Clean-up phase, before discarding anything and before drawing for next turn, if you have a Walled Village in play and no more than two Action cards in play (counting the Walled Village), you may put the Walled Village on top of your deck.</li><li>If the only cards you have in play are two Walled Villages, you may put either or both of them on top of your deck.</li><li>Walled Village has to be in play to be put on top of your deck.</li><li>Walled Village only checks how many Action cards are in play when its ability resolves; Action cards you played earlier this turn but which are no longer in play (such as Feast) are not counted, while Action cards still in play from previous turns (duration cards) are counted, as are Action cards that are in play now but may leave play after resolving Walled Village (such as Treasury).</li></ul><ul class="rules"><li>Walled Village’s ability doesn’t care about whether it actually helped you avoid terminal collision. If you play Walled Village and two cantrips, you can’t top-deck your Walled Village even though you got no real benefit out of it.</li><li>If you have 3+ Actions in play, but you remove some of them at the start of Clean-up (e.g. by topdecking Alchemist or using Improve), that will let you topdeck your Walled Village.</li></ul>',
+		flags: { village: true, drawing: true, buyer: false, trashing: false, cursing: false },
 		setup: {
 			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
-			journey: false, minusOne: false, minusDraw: false
+			journey: false, minusOne: false, minusDraw: false, loot: false
 		}
 	}
 ]

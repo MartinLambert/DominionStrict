@@ -1,6 +1,6 @@
 body {
   font: 16px/1.3 Calibri;
-  background: #000;
+  background: #333;
   color: #FFF;
 }
 
@@ -15,10 +15,14 @@ button {
   font-size: 1.25em;
   line-height: 1.5;
   color: #FFF;
-  text-shadow: -1px -1px 0 #00000066;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
 }
 button:disabled {
   opacity: 0.6;
+}
+
+ul {
+  padding-inline-start: 1.25em;
 }
 
 /*# sourceMappingURL=styles.css.map */
