@@ -210,7 +210,7 @@ export class AppComponent implements OnInit {
 	updateOwned(): void {
 		this.owned.cards = this.dominion.cards.filter((card) => {
 			if (card.set === 'Promo')  return (this.selectedSets.includes('Promo') && this.selectedPromos.includes(card.name))
-			else if (card.edition.length > 1 || card.edition === [2]) return this.selectedSets.includes(card.set + '-2')
+			else if (card.edition.includes(2)) return this.selectedSets.includes(card.set + '-2')
 			else return (this.selectedSets.includes(card.set) || this.selectedSets.includes(card.set + '-1'))
 		})
 		this.owned.permanents = this.dominion.permanents.filter(card =>
@@ -231,7 +231,7 @@ export class AppComponent implements OnInit {
 			this.checkCard(card, setup)
 		if (this.selectedSets.includes('Dark Ages') && setup.numDarkAges > Math.random() * 10)
 			setup.shelters = true
-		if (this.selectedSets.includes('Prosperity') && setup.numProsperity > Math.random() * 10)
+		if ((this.selectedSets.includes('Prosperity-1') || (this.selectedSets.includes('Prosperity-2'))) && setup.numProsperity > Math.random() * 10)
 			setup.platCol = true
 		if (setup.bane) {
 			do
@@ -288,9 +288,9 @@ export class AppComponent implements OnInit {
 			setup.horse = true
 		if (card.cost.potion)
 			setup.potions = true
-		if (card.set.includes('Dark Ages'))
+		if (card.set === 'Dark Ages')
 			setup.numDarkAges++
-		if (card.set.includes('Prosperity'))
+		if (card.set === 'Prosperity')
 			setup.numProsperity++
 		if (card.cardType.includes('Fate')) {
 			setup.boon = true
