@@ -2914,7 +2914,7 @@ export const CARDS: Card[] = [
 		help: '<p>This card was added for the 2nd Edition of Prosperity</p><ul class="faq"><li>You trash a card no matter what; it’s okay if Investment was your last card in hand, you just fail to trash a card then.</li><li>Then you choose either to get +<img src="assets/Coin1.png" alt="1 coin"> or to trash Investment.</li><li>If you trash it, you reveal your hand and get +1<img src="assets/VP.png" alt="victory point"> per differently named Treasure there; for example if you reveal two Coppers and a Silver, you get +2<img src="assets/VP.png" alt="victory points">.</li><li>You can still play the revealed Treasures after resolving Investment.</li></ul><ul class="rules"><li>If you play the same Investment twice (e.g. with Crown) and trash it on the first play for <img src="assets/VP.png" alt="victory points">, then you can’t trash it on the second play for <img src="assets/VP.png" alt="victory points">.</li></ul>',
 		flags: { village: false, drawing: false, buyer: false, trashing: true, cursing: false },
 		setup: {
-			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: false,
+			spoils: false, ruins: false, horse: false, coins: false, debt: false, VP: true,
 			tavernMats: false, coffers: false, villagers: false, exile: false,
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
 			journey: false, minusOne: false, minusDraw: false, loot: false

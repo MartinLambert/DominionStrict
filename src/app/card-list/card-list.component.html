@@ -61,6 +61,7 @@
 	<span *ngIf="setup.exile"><img src="assets/Exile_mat.jpg">Exile Mats</span>
 	<span *ngIf="setup.favors"><img src="assets/Favors_mat.jpg">Favors Mats</span>
 	<span *ngIf="setup.bane"><span class="bane" style="background: transparent url('assets/cards/Cornucopia/Bane.jpg') center/contain no-repeat"><img src="assets/cards/{{ setup.baneChoice.set.replace(' ', '_') }}/{{ setup.baneChoice.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg"></span>Young Witch’s Bane</span>
+	<span *ngIf="setup.trait"><span class="bane" style="background: transparent url('assets/cards/permanents/{{ setup.traitCard.name }}.jpg') center/contain no-repeat"><img src="assets/cards/{{ setup.traitChoice.set.replace(' ', '_') }}/{{ setup.traitChoice.name.replace('’', '').replace('/', '').split(' ').join('_') }}.jpg"></span>{{ setup.traitCard.name }}</span>
 	<span *ngIf="setup.boon"><img src="assets/cards/Nocturne/Boon.jpg">Boon deck</span>
 	<span *ngIf="setup.hex"><img src="assets/cards/Nocturne/Hex.jpg">Hex deck</span>
 	<span *ngIf="setup.hex"><img src="assets/states.png">States</span>

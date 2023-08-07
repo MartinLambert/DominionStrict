@@ -2730,7 +2730,10 @@ export const PERMANENTS: Card[] = [
 			plusCard: false, plusAction: false, plusBuy: false, plusOne: false,
 			journey: false, minusOne: false, minusDraw: false, loot: true
 		}
-	},
+	}
+]
+
+export const TRAITS: Card[] = [
 	{
 		id: 1656,
 		name: 'Cheap',

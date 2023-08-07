@@ -4,4 +4,5 @@ export class Game {
 	cards: Card[] = []
 	permanents: Card[] = []
 	allies: Card[] = []
+	traits: Card[] = []
 }

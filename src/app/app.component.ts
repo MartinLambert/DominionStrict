@@ -4,7 +4,7 @@ import { Game } from './game'
 import { Card } from './card'
 import { Setup } from './setupclass'
 import { CARDS } from './cards'
-import { ALLIES, PERMANENTS } from './permanents'
+import { ALLIES, PERMANENTS, TRAITS } from './permanents'
 import { Options } from './optionsclass'
 import { optionValues } from './optionValues'
 
@@ -37,6 +37,7 @@ export class AppComponent implements OnInit {
 		this.dominion.cards = CARDS
 		this.dominion.permanents = PERMANENTS
 		this.dominion.allies = ALLIES
+		this.dominion.traits = TRAITS
 	}
 
 	randomize(): void {
@@ -110,6 +111,8 @@ export class AppComponent implements OnInit {
 				this.kingdom.cards.splice(i, 1)
 		})
 		newCard = this.addCard(this.kingdom.cards)
+		this.setup = new Setup()
+		this.doSetup(this.kingdom.cards, this.setup)
 		this.selectCard(newCard)
 	}
 
@@ -167,7 +170,7 @@ export class AppComponent implements OnInit {
 			if (card)
 				this.marketDraw.cards.push(card)
 		}
-		this.doSetup(this.marketDraw.cards, this.marketDrawSetup)
+		// this.doSetup(this.marketDraw.cards, this.marketDrawSetup)
 		this.marketState++
 	}
 	selectMarket(card: Card | null): void {
@@ -229,10 +232,20 @@ export class AppComponent implements OnInit {
 	doSetup(deck: Card[], setup: Setup): void {
 		for (const card of deck)
 			this.checkCard(card, setup)
+		// The more Dark Ages cards you have, the higher chance of using Shelters
 		if (this.selectedSets.includes('Dark Ages') && setup.numDarkAges > Math.random() * 10)
 			setup.shelters = true
+		// The more Prosperity cards you have, the higher chance of using Platinums and Colonies
 		if ((this.selectedSets.includes('Prosperity-1') || (this.selectedSets.includes('Prosperity-2'))) && setup.numProsperity > Math.random() * 10)
 			setup.platCol = true
+		// straight 33% chance of using Traits
+		if (this.selectedSets.includes('Plunder') && 34 > Math.random() * 100) {
+			setup.trait = true
+			setup.traitCard = this.dominion.traits[Math.floor(Math.random() * this.dominion.traits.length)]
+			do
+				setup.traitChoice = this.kingdom.cards[Math.floor(Math.random() * this.kingdom.cards.length)]
+			while (!setup.traitChoice.cardType.includes('Action') && !setup.traitChoice.cardType.includes('Treasure'))
+		}
 		if (setup.bane) {
 			do
 				setup.baneChoice = this.owned.cards[Math.floor(Math.random() * this.owned.cards.length)]

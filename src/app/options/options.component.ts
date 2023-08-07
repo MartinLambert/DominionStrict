@@ -14,8 +14,8 @@ export class OptionsComponent implements OnInit {
 	@Output() changePromos = new EventEmitter<string[]>()
 	@Output() changeOptions = new EventEmitter<Options>()
 
-	allSets: string[] = ['Dominion-1', 'Dominion-2', 'Intrigue-1', 'Intrigue-2', 'Seaside-1', 'Seaside-2', 'Alchemy', 'Prosperity-1', 'Prosperity-2', 'Cornucopia', 'Hinterlands-1', 'Hinterlands-2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Allies', 'Promo']
-	selectedSets: string[] = ['Dominion-2', 'Intrigue-2', 'Seaside-2', 'Alchemy', 'Prosperity-2', 'Cornucopia', 'Hinterlands-2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Promo']
+	// allSets: string[] = ['Dominion-1', 'Dominion-2', 'Intrigue-1', 'Intrigue-2', 'Seaside-1', 'Seaside-2', 'Alchemy', 'Prosperity-1', 'Prosperity-2', 'Cornucopia', 'Hinterlands-1', 'Hinterlands-2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Allies', 'Plunder', 'Promo']
+	selectedSets: string[] = ['Dominion-2', 'Intrigue-2', 'Seaside-2', 'Alchemy', 'Prosperity-2', 'Cornucopia', 'Hinterlands-2', 'Dark Ages', 'Guilds', 'Adventures', 'Empires', 'Nocturne', 'Renaissance', 'Menagerie', 'Allies', 'Plunder', 'Promo']
 	allPromos: string[] = ['Black Market', 'Captain', 'Church', 'Dismantle', 'Envoy', 'Governor', 'Prince', 'Sauna/Avanto', 'Stash', 'Summon', 'Walled Village']
 	selectedPromos: string[] = ['Black Market', 'Captain', 'Church', 'Dismantle', 'Envoy', 'Governor', 'Prince', 'Sauna/Avanto', 'Stash', 'Summon', 'Walled Village']
 	panelOpen = false

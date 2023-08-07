@@ -68,4 +68,7 @@ export class Setup {
 	market = false
 	favors = false
 	ally: Card = new Card()
+	trait: boolean = false
+	traitCard: Card = new Card()
+	traitChoice: Card = new Card()
 }
